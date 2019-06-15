@@ -1,7 +1,7 @@
 import json
 
 from django.core.files.storage import FileSystemStorage
-from django.http import JsonResponse, HttpResponse
+from django.http import HttpResponse
 from django.shortcuts import redirect, render
 
 from .forms import *
@@ -63,7 +63,7 @@ def get_all_items_lost(request):
 def get_all_items_found(request):
     lost = LostItems.objects.filter(status="Found")
     data = json.dumps([{
-        'img_path':lost1.img_path,
+        'img_path': lost1.img_path,
         'doc_id': lost1.real_doc_id,
         'doc_name': lost1.doc_name,
         'found_person_name': lost1.found_person_name,
@@ -72,6 +72,20 @@ def get_all_items_found(request):
         'owner_phone': lost1.owner_phone
     } for lost1 in lost])
     return HttpResponse(data)
+
+def get_all_items(request):
+    lost = LostItems.objects.all()
+    data = json.dumps([{
+        'img_path': lost1.img_path,
+        'doc_id': lost1.real_doc_id,
+        'doc_name': lost1.doc_name,
+        'found_person_name': lost1.found_person_name,
+        'found_person_phone': lost1.found_person_phone,
+        'owner_name': lost1.owner_name,
+        'owner_phone': lost1.owner_phone
+    } for lost1 in lost])
+    return HttpResponse(data)
+
 
 
 def handle_found_items_model_forms(request):
@@ -83,11 +97,16 @@ def handle_found_items_model_forms(request):
         form = FoundItemsForms(request.POST, request.FILES)
         # form.save()
         return render(request, 'ndaragisha.html', {'form': form})
+
+
 def handle_sent_messages(request):
     if request.method == "POST":
-        message = IncommingMessage()
+        message = IncomingMessage()
         message.email = request.POST.get('email')
         message.message = request.POST.get('message')
         message.subject = request.POST.get('subject')
         message.names = request.POST.get('names')
         message.save()
+        return redirect('/home/')
+    else:
+        return redirect('/auth/error/')

@@ -37,12 +37,17 @@
     <!-- error area start -->
     <div class="error-area ptb--100 text-center">
         <div class="container">
+          <div class="alert alert-danger .alert-dismissible">
+          <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+            <strong>Oops!</strong> {{message}}
+          </div>
             <div class="error-content">
                 <h2>500</h2>
-                <p>  Internal Server Error! You are accessing the website illegally or you are not logged in</p>
-                <a href="http://127.0.0.1:8000/">Back to Dashboard</a>
-                
+                <p>  We are sorry for that one please feel free to email us here helpme@ndaragisha.com</p>
+                <a href="{{url}}">Back to {{ where }}</a>
+
             </div>
+
         </div>
     </div>
     <!-- error area end -->

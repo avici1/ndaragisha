@@ -16,23 +16,30 @@ Including another URLconf
 from django.conf import settings
 from django.conf.urls.static import static
 from django.contrib import admin
-from django.urls import path
 from django.urls import include
+from django.urls import path
+
 from api.views import *
 from authentications.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('auth/error/', error_view),
+    path('', home_view),
     path('home/', home_view),
+    path('dashboards/', dashboards),
     path('accounts/', include('django.contrib.auth.urls')),
     path('auth/users/', user_view),
     path('api/handle_lost/', handle_lost_request),
     path('api/handle_found/', handle_found_items),
     path('api/get_lost/', get_all_items_lost),
     path('api/get_found/', get_all_items_found),
+    path('api/get_all/',get_all_items),
     path('api/load/lost/', get_all_items_lost),
-    path('api/handle_message/',handle_sent_messages)
+    path('api/contact_us/', handle_sent_messages),
+    path('api/auth/signup/', signup_view),
+    path('api/auth/process/signup/', custom_signup),
+    path('api/auth/process/login/', custom_login)
 
 ]
 if settings.DEBUG:

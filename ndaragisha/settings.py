@@ -121,4 +121,4 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR, 'ndaragisha/static'),
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'ndaragisha/static', 'media/%Y/%m/d')
 MEDIA_URL = '/media/'
-LOGIN_REDIRECT_URL = '/auth/user'
+LOGIN_REDIRECT_URL = '/auth/user/'

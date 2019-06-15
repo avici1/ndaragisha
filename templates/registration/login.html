@@ -45,12 +45,12 @@
 
         <div class="container-fluid">
             <div class="d-flex align-items-center">
-                <div class="site-logo mr-auto w-25"><a href="http://127.0.0.1:8000/">Ndaragisha</a></div>
+                <div class="site-logo mr-auto w-25"> {% comment %}<img  class="w-25" src="{% static 'images/loading.svg'%}" alt="Image">{% endcomment %}<a  href="http://127.0.0.1:8000/">        Ndaragisha</a></div>
 
                 <div class="mx-auto text-center">
                     <nav class="site-navigation position-relative text-right" role="navigation">
                         <ul class="site-menu main-menu js-clone-nav mx-auto d-none d-lg-block  m-0 p-0">
-                            <li><a href="#home-section" class="nav-link has-danger">Home</a></li>
+                            <li><a href="#home-section" class="nav-link has-success">Home</a></li>
                             <li><a href="#nataye-section" class="nav-link">Nataye</a></li>
                             <li><a href="#natoye-section" class="nav-link">Natoraguye</a></li>
 
@@ -63,7 +63,7 @@
                     <nav class="site-navigation position-relative text-right" role="navigation">
                         <ul class="site-menu main-menu site-menu-dark js-clone-nav mr-auto d-none d-lg-block m-0 p-0">
                             <li data-aos="fade-up" data-aos-delay="300"><a href="#contact-section"
-                                                                           class="btn btn-danger py-3 px-5 btn-pill"><span
+                                                                           class="btn btn-warning py-3 px-5 btn-pill"><span
                                     style="color: #d9edf7">Tuvugishe</span></a></li>
                         </ul>
                     </nav>
@@ -77,29 +77,33 @@
 
     <div class="intro-section" id="home-section">
 
-        <div class="slide-1" style="background-image: url('{% static 'images/hero_1.jpg' %}');"
+        <div class="slide-1" style="background-image: url('{% static 'images/header_94.jpg' %}');"
              data-stellar-background-ratio="0.5">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-12">
                         <div class="row align-items-center">
                             <div class="col-lg-6 mb-4">
-                                <h1 data-aos="fade-up" data-aos-delay="100">Koresha Ndaragisha, maze ubone ibyo wataye
+
+                                <div class="alert alert-warning .alert-dismissible">
+                                    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                                    <strong>Oops!</strong> {{ message }}
+                                </div>
+                                <h1 data-aos="fade-up" data-aos-delay="100" style="margin-top: 140px;">Koresha Ndaragisha, maze ubone ibyo wataye
                                     ndetse n' ibyatoraguwe</h1>
                                 <p class="mb-4" data-aos="fade-up" data-aos-delay="200">Ndaragisha ni urubuga ruri kuri
                                     web na android rufasha abantu kubona ibyo bataye babirangishije.</p>
-                                <p data-aos="fade-up" data-aos-delay="300"><a href="#nataye-section"
-                                                                              class="btn btn-danger py-3 px-5 btn-pill">Tugufashe
-                                    gushaka</a></p>
+                                <p data-aos="fade-up" data-aos-delay="300"><a href="http://127.0.0.1:8000/api/auth/signup/"
+                                                                              class="btn btn-warning py-3 px-5 btn-pill">Injira</a></p>
 
                             </div>
 
                             <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="500">
-                                <form  method="post" class="form-box">
+                                <form method="post" action="/api/auth/process/login/" class="form-box">
                                     {% csrf_token %}
-                                    <h3 class="h4 text-black mb-4">Login</h3>
+                                    <h3 class="h4 text-black mb-4">Login </h3>
                                     <div class="form-group">
-                                        <input type="text" name="username" class="form-control" placeholder="Username">
+                                        <input type="text" name="phone" class="form-control" placeholder="Username">
                                     </div>
                                     <div class="form-group">
                                         <input type="password" name="password" class="form-control"
@@ -107,8 +111,9 @@
                                     </div>
 
                                     <div class="form-group">
-                                        <input type="submit" class="btn btn-danger btn-pill" value="Login">
+                                        <input type="submit" class="btn btn-warning btn-pill" value="Login">
                                     </div>
+
                                 </form>
 
                             </div>
@@ -119,7 +124,7 @@
             </div>
         </div>
     </div>
-    <div class="site-section bg-image overlay" style="background-image: url('{% static 'images/hero_1.jpg' %}');">
+    <div class="site-section bg-image overlay" style="background-image: url('{% static 'images/header_94.jpg' %}');">
         <div class="container">
             <div class="row justify-content-center align-items-center">
                 <div class="col-md-8 text-center testimony">
@@ -155,35 +160,39 @@
                     <h2 class="section-title mb-3">Tuvugishe</h2>
                     <p class="mb-5">Ufite ikibazo cyangwa igiterezo twandikire hano </p>
 
-                    <form method="post" action="contact_us/" data-aos="fade">
+                    <form method="post" action="api/contact_us/" data-aos="fade">
+                        {% csrf_token %}
                         <div class="form-group row">
                             <div class="col-md-6 mb-3 mb-lg-0">
-                                <input name="names" id="names" required="" type="text" class="form-control" placeholder="Amazina">
+                                <input name="names" id="names" required="" type="text" class="form-control"
+                                       placeholder="Amazina">
                             </div>
                         </div>
 
                         <div class="form-group row">
                             <div class="col-md-12">
-                                <input name="subject" id="subject" required="" type="text" class="form-control" placeholder="Icyo Mushaka">
+                                <input name="subject" id="subject" required="" type="text" class="form-control"
+                                       placeholder="Icyo Mushaka">
                             </div>
                         </div>
 
                         <div class="form-group row">
                             <div class="col-md-12">
-                                <input name="email" id="email" required="" type="email" class="form-control" placeholder="Email">
+                                <input name="email" id="email" required="" type="email" class="form-control"
+                                       placeholder="Email">
                             </div>
                         </div>
-                     <div class="form-group row">
+                        <div class="form-group row">
                             <div class="col-md-12">
                             <textarea name="message" class="form-control" id="message" cols="30" rows="10"
-                                          placeholder="Andika mu buryo burambuye."></textarea>
+                                      placeholder="Andika mu buryo burambuye."></textarea>
                             </div>
                         </div>
 
                         <div class="form-group row">
                             <div class="col-md-6">
 
-                                <input type="submit" class="btn btn-danger py-3 px-5 btn-block btn-pill"
+                                <input type="submit" class="btn btn-warning py-3 px-5 btn-block btn-pill"
                                        value="Send Message">
                             </div>
                         </div>
@@ -210,15 +219,10 @@
                                 <input name="name" type="text" class="form-control" placeholder="Amazina">
                             </div>
                         </div>
-                         <div class="form-group row">
+                        <div class="form-group row">
                             <div class="col-md-6 mb-3 mb-lg-0">
-                               <select class=" form-control" name="id" id="options" >
-                                 <option> ID = 101010010101011101010101</option>
-                                 <option> ID = 101010010101011101010101</option>
-                                 <option> ID = 101010010101011101010101</option>
-                                 <option> ID = 101010010101011101010101</option>
-
-                               </select>
+                                <select class=" form-control" name="id" id="options">
+                                </select>
                             </div>
                         </div>
                         <div class="form-group row">
@@ -234,7 +238,7 @@
                         <div class="form-group row">
                             <div class="col-md-12">
                             <textarea name="desc" class="form-control" id="xsx" cols="30" rows="10"
-                                          placeholder="Ubusobanuro."></textarea>
+                                      placeholder="Ubusobanuro."></textarea>
                             </div>
                         </div>
                         {% comment %}<div class="form-group row">
@@ -249,7 +253,7 @@
                         <div class="form-group row">
                             <div class="col-md-6">
 
-                                <input type="submit" class="btn btn-danger py-3 px-5 btn-block btn-pill"
+                                <input type="submit" class="btn btn-warning py-3 px-5 btn-block btn-pill"
                                        value="Send Message">
                             </div>
                         </div>
@@ -306,7 +310,7 @@
                         <div class="form-group row">
                             <div class="col-md-6">
 
-                                <input type="submit" class="btn btn-danger py-3 px-5 btn-block btn-pill"
+                                <input type="submit" class="btn btn-warning py-3 px-5 btn-block btn-pill"
                                        value="Ahoreza">
                             </div>
                         </div>
@@ -343,7 +347,7 @@
                     <form action="#" class="footer-subscribe">
                         <div class="d-flex mb-5">
                             <input type="text" class="form-control rounded-0" placeholder="Email">
-                            <input type="submit" class="btn btn-danger rounded-0" value="Subscribe">
+                            <input type="submit" class="btn btn-warning rounded-0" value="Subscribe">
                         </div>
                     </form>
                 </div>
@@ -363,51 +367,52 @@
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         </p>
                     </div>
+                    <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 		    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 		    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
                 </div>
 
             </div>
         </div>
     </footer>
+    <!-- .site-wrap -->
+    <script>
+        function get_lost_items() {
+            $.getJSON("http://127.0.0.1:8000/api/load/lost", function (data) {
+                let option = '';
+                $.each(data, function (key, value) {
+                    option += '<option value= "' + value.doc_id + '">' + value.doc_id + '</option>';
+                });
+                $("#options").append(option)
+            })
+        }
+
+        function send_message() {
+            $.ajax({
+                url: 'http://127.0.0.1:8000/api/handle_message',
+                type: 'POST',
+                data: {'message': $('#message').val(), 'names': $('#names').val(), 'email': $('#email').val(),}
+            })
+        }
+
+        window.onload = function () {
+            get_lost_items();
+        };
+    </script>
+    <script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
+    <script src="{% static 'js/jquery-migrate-3.0.1.min.js' %}"></script>
+    <script src="{% static 'js/jquery-ui.js' %}"></script>
+    <script src="{% static 'js/popper.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/owl.carousel.min.js' %}"></script>
+    <script src="{% static 'js/jquery.stellar.min.js' %}"></script>
+    <script src="{% static 'js/jquery.countdown.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap-datepicker.min.js' %}"></script>
+    <script src="{% static 'js/jquery.easing.1.3.js' %}"></script>
+    <script src="{% static 'js/aos.js' %}"></script>
+    <script src="{% static 'js/jquery.fancybox.min.js' %}"></script>
+    <script src="{% static 'js/jquery.sticky.js' %}"></script>
 
 
-</div> <!-- .site-wrap -->
-<script>
-function get_lost_items() {
-    $.getJSON("http://127.0.0.1:8000/api/load/lost", function (data) {
-        let option = '';
-        $.each(data, function (key, value) {
-            option += '<option value= "'+value.doc_id+'">'+value.doc_id+'</option>';
-        });
-        $("#options").append(option)
-    })
-}
-function send_message(){
-  $.ajax({
-    url: 'http://127.0.0.1:8000/api/handle_message',
-    type: 'POST',
-    data : {'message':$('#message').val(),'names':$('#names').val(),'email':$('#email').val(),}
-  })
-}
-window.onload = function () {
-    get_lost_items();
-};
-</script>
-<script src="{% static 'js/jquery-3.3.1.min.js'%}"></script>
-<script src="{% static 'js/jquery-migrate-3.0.1.min.js'%}"></script>
-<script src="{% static 'js/jquery-ui.js'%}"></script>
-<script src="{% static 'js/popper.min.js'%}"></script>
-<script src="{% static 'js/bootstrap.min.js'%}"></script>
-<script src="{% static 'js/owl.carousel.min.js'%}"></script>
-<script src="{% static 'js/jquery.stellar.min.js'%}"></script>
-<script src="{% static 'js/jquery.countdown.min.js'%}"></script>
-<script src="{% static 'js/bootstrap-datepicker.min.js'%}"></script>
-<script src="{% static 'js/jquery.easing.1.3.js'%}"></script>
-<script src="{% static 'js/aos.js'%}"></script>
-<script src="{% static 'js/jquery.fancybox.min.js'%}"></script>
-<script src="{% static 'js/jquery.sticky.js'%}"></script>
-
-
-<script src="{% static 'js/main.js'%}"></script>
-
+    <script src="{% static 'js/main.js' %}"></script>
+</div>
 </body>
 </html>

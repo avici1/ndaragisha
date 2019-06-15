@@ -11,8 +11,8 @@ class LostItems(models.Model):
     fake_doc_id = models.CharField(default="empty", max_length=120)
     status = models.CharField(default="Not Found", max_length=120)
     img_path = models.CharField(default="Not found", max_length=100)
-    lost_desc = models.TextField(default="Empty",null=True)
-    found_desc = models.TextField(default="Empty",null=True)
+    lost_desc = models.TextField(default="Empty", null=True)
+    found_desc = models.TextField(default="Empty", null=True)
     found_person_name = models.CharField(default="empty", max_length=120)
     found_person_phone = models.CharField(default="empty", max_length=120)
 
@@ -22,9 +22,11 @@ class FoundItems(models.Model):
     found_desc = models.TextField()
     found_person_name = models.CharField(default="empty", max_length=120)
     found_person_phone = models.CharField(default="empty", max_length=120)
-class IncommingMessage(models.Model):
+
+
+class IncomingMessage(models.Model):
     names = models.CharField(default="empty", max_length=120)
     subject = models.CharField(default="empty", max_length=120)
     email = models.CharField(default="empty", max_length=120)
     message = models.TextField(null=True)
-    status = models.CharField(default="Responded", max_length=40)
+    status = models.CharField(default="Not Responded", max_length=40)
