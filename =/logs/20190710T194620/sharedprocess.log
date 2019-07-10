@@ -8,3 +8,10 @@
 [2019-07-10 19:46:44.700] [sharedprocess] [info] Scanned user extensions: 1
 [2019-07-10 19:46:56.312] [sharedprocess] [info] Installing extension: ms-python.python
 [2019-07-10 19:46:56.325] [sharedprocess] [info] Scanned user extensions: 1
+[2019-07-10 19:47:04.768] [sharedprocess] [info] Starting to clean up unused language packs.
+[2019-07-10 19:47:57.504] [sharedprocess] [info] Scanned user extensions: 1
+[2019-07-10 19:47:57.560] [sharedprocess] [info] Scanned system extensions: 72
+[2019-07-10 19:47:57.663] [sharedprocess] [info] Scanned user extensions: 1
+[2019-07-10 19:47:57.721] [sharedprocess] [info] Scanned system extensions: 72
+[2019-07-10 19:50:20.352] [sharedprocess] [error] Failed to install extension: ms-python.python 
+[2019-07-10 19:51:44.711] [sharedprocess] [info] Scanned user extensions: 1
