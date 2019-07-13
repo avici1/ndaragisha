@@ -51,3 +51,5 @@ fatal: no upstream configured for branch 'master'
 > git show :ndaragisha/urls.py
 > git check-ignore -v -z --stdin
 > git show :templates/registration/login.html
+> git show :ndaragisha/urls.py
+> git show :ndaragisha/settings.py

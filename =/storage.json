@@ -1380,5 +1380,19 @@
         }
     },
     "theme": "vs-dark",
-    "themeBackground": "#1e1e1e"
+    "themeBackground": "#1e1e1e",
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/gal1le0/development/native/ndaragisha",
+            "backupPath": "/home/gal1le0/development/native/ndaragisha/=/Backups/442832b6e0c91bbc8e68bb95977cf53f",
+            "uiState": {
+                "mode": 0,
+                "x": 0,
+                "y": 54,
+                "width": 1366,
+                "height": 690
+            }
+        },
+        "openedWindows": []
+    }
 }
