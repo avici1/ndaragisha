@@ -1,0 +1,57 @@
+User belongs to experiment group 'AlwaysDisplayTestExplorer - experiment'
+Starting Jedi Python language engine.
+##########Linting Output - pylint##########
+************* Module ndaragisha.urls
+22,0,warning,unused-wildcard-import:Unused import json from wildcard import
+22,0,warning,unused-wildcard-import:Unused import handle_found_items_model_forms from wildcard import
+22,0,warning,unused-wildcard-import:Unused import FileSystemStorage from wildcard import
+22,0,warning,unused-wildcard-import:Unused import HttpResponse from wildcard import
+22,0,warning,unused-wildcard-import:Unused import redirect from wildcard import
+22,0,warning,unused-wildcard-import:Unused import render from wildcard import
+22,0,warning,unused-wildcard-import:Unused import FoundItemsForms from wildcard import
+22,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+22,0,warning,unused-wildcard-import:Unused import LostItems from wildcard import
+22,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+22,0,warning,unused-wildcard-import:Unused import IncomingMessage from wildcard import
+22,0,warning,unused-wildcard-import:Unused import models from wildcard import
+23,0,warning,unused-wildcard-import:Unused import hashlib from wildcard import
+23,0,warning,unused-wildcard-import:Unused import ObjectDoesNotExist from wildcard import
+23,0,warning,unused-wildcard-import:Unused import ClientUsers from wildcard import
+
+--------------------------------------------------------------------
+Your code has been rated at -3.64/10 (previous run: -3.64/10, +0.00)
+
+##########Linting Output - pylint##########
+************* Module api.views
+32,11,error,no-member:Class 'LostItems' has no 'objects' member
+54,11,error,no-member:Class 'LostItems' has no 'objects' member
+64,11,error,no-member:Class 'LostItems' has no 'objects' member
+77,11,error,no-member:Class 'LostItems' has no 'objects' member
+7,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+7,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+7,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+-----------------------------------
+Your code has been rated at 6.52/10
+
+##########Linting Output - pylint##########
+************* Module ndaragisha.urls
+23,0,warning,unused-wildcard-import:Unused import json from wildcard import
+23,0,warning,unused-wildcard-import:Unused import handle_found_items_model_forms from wildcard import
+23,0,warning,unused-wildcard-import:Unused import FileSystemStorage from wildcard import
+23,0,warning,unused-wildcard-import:Unused import HttpResponse from wildcard import
+23,0,warning,unused-wildcard-import:Unused import redirect from wildcard import
+23,0,warning,unused-wildcard-import:Unused import render from wildcard import
+23,0,warning,unused-wildcard-import:Unused import FoundItemsForms from wildcard import
+23,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+23,0,warning,unused-wildcard-import:Unused import LostItems from wildcard import
+23,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+23,0,warning,unused-wildcard-import:Unused import IncomingMessage from wildcard import
+23,0,warning,unused-wildcard-import:Unused import models from wildcard import
+24,0,warning,unused-wildcard-import:Unused import hashlib from wildcard import
+24,0,warning,unused-wildcard-import:Unused import ObjectDoesNotExist from wildcard import
+24,0,warning,unused-wildcard-import:Unused import ClientUsers from wildcard import
+
+--------------------------------------------------------------------
+Your code has been rated at -3.64/10 (previous run: -3.64/10, +0.00)
+
