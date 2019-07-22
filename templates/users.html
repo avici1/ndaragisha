@@ -205,6 +205,14 @@
 
 
                     </div>
+                    <div class="col-md-7" id='tiles_found_but_not_ass'>
+
+
+                        <h2 class="section-title mb-3">Ibyonetse</h2>
+                        <p class="mb-5">Ibyabonetse bidafite nyirabyo </p>
+
+
+                    </div>
                 </div>
             </div>
         </div>
@@ -228,44 +236,7 @@
         </footer>
 
     </div>
-    <script type="text/javascript">
-        function load_tiles() {
-            $.getJSON('127.0.0.1:8000/api/get_found/', function (data) {
-                var tiles = '';
-                $.each(data, function (key, value) {
-                    tiles += '<div class="card col-md-6 mb-3 mb-lg-0" style="width: 18rem;">';
-                    tiles += '<img class="card-img-top" src="http://127.0.0.1:8000/' + value.img_path + '" alt="Card image cap">';
-                    tiles += '<div class="card-body">';
-                    tiles += '<h5 class="card-title">Card title</h5>';
-                    tiles += '<p class="card-text">Document with Id' + value.doc_id + '</p>';
-                    tiles += '</div>';
-                    tiles += '</div>';
 
-                });
-                $('#tiles_found').append(tiles);
-            });
-            function load_lost_tiles() {
-                $.getJSON('http://127.0.0.1:8000/api/get_lost/', function (data) {
-                    var tiles = '';
-                    $.each(data, function (key, value) {
-                        tiles += '<div style="padding-bottom:30px;">'
-                        tiles += '<div data-aos="fade-up" data-aos-delay="300" class="card" style="width: 18rem;">';
-                        tiles += '<img class="card-img-top" src="http://127.0.0.1:8000' + value.image_path + '" alt="Card image cap">';
-                        tiles += '<div class="card-body">';
-                        tiles += '<h5 class="card-title">Name :' + value.doc_name + '</h5>';
-                        tiles += '<p class="card-text">Document with Id' + value.doc_id + '</p>';
-                        tiles += '</div>';
-                        tiles += '</div>';
-                        tiles += '</div>';
-                    });
-                    $('#lost').append(tiles);
-                });
-            }
-            window.onload = function () {
-                load_tiles();
-            }
-        }
-    </script>
     <script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
     <script src="{% static 'js/jquery-migrate-3.0.1.min.js'%}"></script>
     <script src="{% static 'js/jquery-ui.js' %}"></script>
@@ -279,39 +250,41 @@
     <script src="{% static 'js/aos.js' %}"></script>
     <script src="{% static 'js/jquery.fancybox.min.js' %}"></script>
     <script src="{% static 'js/jquery.sticky.js' %}"></script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <script src="{% static 'js/main.js' %}"></script>
     <script type="text/javascript">
         function load_tiles() {
-            $.getJSON("http://127.0.0.1:8000/api/get_found/", function (data) {
+            $.getJSON('http://127.0.0.1:8000/api/get_found/', function (data) {
                 var tiles = '';
                 $.each(data, function (key, value) {
-                    tiles += '<div style="padding-bottom:30px;">'
-                    tiles += '<div data-aos="fade-up" data-aos-delay="300" class="card" style="width: 18rem;">';
+                    tiles += '<div class="card col-md-6 mb-3 mb-lg-0" style="width: 18rem;">';
                     tiles += '<img class="card-img-top" src="http://127.0.0.1:8000' + value.img_path + '" alt="Card image cap">';
                     tiles += '<div class="card-body">';
-                    tiles += '<h5 class="card-title">Amakuru ku cyangobwa: '+value.doc_name+'</h5>';
-                    tiles += '<p class="card-text">Nomero :' + value.doc_id + '</p>';
+                    tiles += '<h5 class="card-title">Card title</h5>';
+                    tiles += '<p class="card-text">Document with Id' + value.doc_id + '</p>';
                     tiles += '</div>';
                     tiles += '</div>';
-                    tiles += '</div>';
-
 
                 });
-                $("#tiles_found").append(tiles)
-            })
+                $('#tiles_found').append(tiles);
+            });
+
+        }
+        function load__found__but_tiles() {
+            $.getJSON('http://127.0.0.1:8000/api/fd_not_as/', function (data) {
+                var tiles = '';
+                $.each(data, function (key, value) {
+                    tiles += '<div class="card col-md-6 mb-3 mb-lg-0" style="width: 18rem;">';
+                    tiles += '<img class="card-img-top" src="http://127.0.0.1:8000' + value.found_doc_img + '" alt="Card image cap">';
+                    tiles += '<div class="card-body">';
+                    tiles += '<h5 class="card-title">Card title</h5>';
+                    tiles += '<p class="card-text">Document with Id' + value.found_doc_id + '</p>';
+                    tiles += '<a href="http://127.0.0.1:8000/"class="nav-link btn-sm btn-warning">View</a>';
+                    tiles += '</div>';
+                    tiles += '</div>';
+
+                });
+                $('#tiles_found_but_not_ass').append(tiles);
+            });
 
         }
         function load_lost_tiles() {
@@ -322,22 +295,24 @@
                     tiles += '<div data-aos="fade-up" data-aos-delay="300" class="card" style="width: 18rem;">';
                     tiles += '<img class="card-img-top" src="http://127.0.0.1:8000' + value.image_path + '" alt="Card image cap">';
                     tiles += '<div class="card-body">';
-                    tiles += '<h5 class="card-title">Ubwoko :' + value.doc_name + '</h5>';
-                    tiles += '<p class="card-text">Nomero :' + value.doc_id + '</p>';
+                    tiles += '<h5 class="card-title">Name :' + value.doc_name + '</h5>';
+                    tiles += '<p class="card-text">Document with Id' + value.doc_id + '</p>';
                     tiles += '</div>';
                     tiles += '</div>';
                     tiles += '</div>';
                 });
-                $('#tiles_lost').append(tiles);
+                $('#lost').append(tiles);
             });
         }
         window.onload = function () {
             load_tiles();
             load_lost_tiles();
+            load__found__but_tiles();
+            //  load__found__but_tiles();
         }
+
     </script>
 
-    <script src="{% static 'js/main.js' %}"></script>
-
-
 </body>
+
+</html>

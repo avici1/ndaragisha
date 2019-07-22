@@ -5,3 +5,4 @@ from .models import *
 admin.site.register(LostItems)
 admin.site.register(FoundItems)
 admin.site.register(IncomingMessage)
+admin.site.register(FoundButNotAssigned)

@@ -40,7 +40,8 @@ urlpatterns = [
     path('api/contact_us/', handle_sent_messages),
     path('api/auth/signup/', signup_view),
     path('api/auth/process/signup/', custom_signup),
-    path('api/auth/process/login/', custom_login)
+    path('api/auth/process/login/', custom_login),
+    path('api/fd_not_as/',load_found_not_assined)
 
 ]
 if settings.DEBUG:

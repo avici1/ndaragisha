@@ -38,3 +38,10 @@ class IncomingMessage(models.Model):
     email = models.CharField(default="empty", max_length=120)
     message = models.TextField(null=True)
     status = models.CharField(default="Not Responded", max_length=40)
+class FoundButNotAssigned(models.Model):
+    found_person = models.CharField(default="empty",max_length=120)
+    found_person_id = models.CharField(default="empty",max_length=12)
+    found_doc_id = models.CharField(default="empty",max_length=23)
+    found_doc_type = models.CharField(default="empty",max_length=40)
+    found_person_phone = models.CharField(default="empty",max_length=50)
+    found_doc_img = models.CharField(default="empty",max_length=120)
