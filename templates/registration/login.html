@@ -41,7 +41,7 @@
                         <nav class="site-navigation position-relative text-right" role="navigation">
                             <ul class="site-menu main-menu js-clone-nav mx-auto d-none d-lg-block  m-0 p-0">
                                 <li><a href="#nataye-section" class="nav-link">Nataye</a></li>
-                                <li><a href="#natoye-section" class="nav-link">Natoraguye</a></li>
+                                <li><a href="#Natoraguye-section" class="nav-link">Natoraguye</a></li>
                                 <li><a href="#contact-section" class="nav-link">Tuvugishe</a></li>
 
 
@@ -89,7 +89,7 @@
                             </div>
 
                             <div class="d-none d-lg-block col-lg-6 ml-auto" data-aos="fade-up" data-aos-delay="500">
-                                
+
                                 <form class="form-box" method="post" action="/api/handle_lost/" data-aos="fade"
                                     enctype="multipart/form-data">
                                     <h3>Nataye</h3>
@@ -201,43 +201,55 @@
 
 
 
-        <!-- natoye us -->
+        <!-- Natoraguye us -->
 
-        <div class="site-section bg-light" id="natoye-section">
+        <div class="site-section bg-light" id="Natoraguye-section">
             <div class="container">
 
                 <div class="row justify-content-center">
                     <div class="col-lg-6">
 
 
-                        <h2 class="section-title mb-3">Natoye</h2>
+                        <h2 class="section-title mb-3">Natoraguye</h2>
                         <p class="mb-5">Injiza amakuru yibyo watoye </p>
 
                         <form method="post" action="/api/handle_found/" data-aos="fade" enctype="multipart/form-data">
                             {%csrf_token%}
                             <div class="form-group row">
                                 <div class="col-md-8 mb-3 mb-lg-0">
-                                    <input required="true" name="name" type="text" class="form-control" placeholder="Amazina">
+                                    <input required="true" name="name" type="text" class="form-control"
+                                        placeholder="Amazina">
+                                </div>
+
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-md-8 mb-3 mb-lg-0">
+                                    <input required="true" name="natId" type="text" class="form-control"
+                                        placeholder="Nomero y'indangamuntu">
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <div class="col-md-8 mb-3 mb-lg-0">
-                                    <input required="true" name="district" type="text" class="form-control" placeholder="Akarere">
+                                    <input required="true" name="district" type="text" class="form-control"
+                                        placeholder="Akarere">
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <div class="col-md-8 mb-3 mb-lg-0">
-                                    <input required="true" name="sector" type="text" class="form-control" placeholder="Umurenge">
+                                    <input required="true" name="sector" type="text" class="form-control"
+                                        placeholder="Umurenge">
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <div class="col-md-8 mb-3 mb-lg-0">
-                                    <input required="true" name="cell" type="text" class="form-control" placeholder="Akagari">
+                                    <input required="true" name="cell" type="text" class="form-control"
+                                        placeholder="Akagari">
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <div class="col-md-8 mb-3 mb-lg-0">
-                                    <input required="true" name="umudugudu" type="text" class="form-control" placeholder="Umudugudu">
+                                    <input required="true" name="umudugudu" type="text" class="form-control"
+                                        placeholder="Umudugudu">
                                 </div>
                             </div>
                             <div class="form-group row">
@@ -251,6 +263,8 @@
                                         <option value="icyangobwa cy'ubwishingizi">icyangobwa cy'ubwishingizi</option>
                                         <option value="icyangobwa cy'umunyeshuri">icyangobwa cy'umunyeshuri</option>
                                         <option value="icyangobwa cy'akazi">icyangobwa cy'akazi</option>
+                                        <option value="Icyemezo">Icyemezo</option>
+                                        <option value="Ipuracye">Ipuracye</option>
                                     </select>
                                 </div>
                             </div>
@@ -267,16 +281,15 @@
                                 </div>
                             </div>
                             <div class="form-group row">
-                                    <div class="col-md-8 mb-3 mb-lg-0">
-                                        <select required="true" class=" form-control" name="id" id="_id">
-                                            <option value="">Nomero y'icyangombwa</option>
-                                        </select>
-                                    </div>
+                                <div class="col-md-8 mb-3 mb-lg-0">
+                                    <input required="true" name="id" id="Id" type="text" class="form-control"
+                                    placeholder="Nomero y'icyatoraguwe">
                                 </div>
+                            </div>
                             <div class="form-group row">
                                 <div class="col-md-8">
-                                    <textarea required="true" name="desc" class="form-control" id="xsx" cols="30" rows="5"
-                                        placeholder="Ubusobanuro." style="resize: none;"></textarea>
+                                    <textarea required="true" name="desc" class="form-control" id="xsx" cols="30"
+                                        rows="5" placeholder="Ubusobanuro." style="resize: none;"></textarea>
                                 </div>
                             </div>
 
@@ -302,27 +315,32 @@
 
                             <div class="form-group row">
                                 <div class="col-md-8 mb-3 mb-lg-0">
-                                    <input required="true" name="names" type="text" class="form-control" placeholder="Amazina">
+                                    <input required="true" name="names" type="text" class="form-control"
+                                        placeholder="Amazina">
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <div class="col-md-8 mb-3 mb-lg-0">
-                                    <input required="true" name="district" type="text" class="form-control" placeholder="Akarere">
+                                    <input required="true" name="natId" type="text" class="form-control"
+                                        placeholder="Nomero y'indangamuntu">
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <div class="col-md-8 mb-3 mb-lg-0">
-                                    <input required="true" name="sector" type="text" class="form-control" placeholder="Umurenge">
+                                    <input required="true" name="sector" type="text" class="form-control"
+                                        placeholder="Umurenge">
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <div class="col-md-8 mb-3 mb-lg-0">
-                                    <input required="true" name="cell" type="text" class="form-control" placeholder="Akagari">
+                                    <input required="true" name="cell" type="text" class="form-control"
+                                        placeholder="Akagari">
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <div class="col-md-8 mb-3 mb-lg-0">
-                                    <input required="true" name="umudugudu" type="text" class="form-control" placeholder="Umudugudu">
+                                    <input required="true" name="umudugudu" type="text" class="form-control"
+                                        placeholder="Umudugudu">
                                 </div>
                             </div>
 
@@ -330,7 +348,7 @@
 
                             <div class="form-group row">
                                 <div class="col-md-8 mb-3 mb-lg-0">
-                                    <select required="true" class=" form-control" name="doc_name" >
+                                    <select required="true" class=" form-control" name="doc_name">
                                         <option value="">Hitamo ubwoko bw'icyangobwa</option>
                                         <option value="icyangobwa cy'ubutaka">icyangobwa cy'ubutaka</option>
                                         <option value="icyangobwa cyo kubaka">icyangobwa cyo kubaka</option>
@@ -339,6 +357,8 @@
                                         <option value="icyangobwa cy'ubwishingizi">icyangobwa cy'ubwishingizi</option>
                                         <option value="icyangobwa cy'umunyeshuri">icyangobwa cy'umunyeshuri</option>
                                         <option value="icyangobwa cy'akazi">icyangobwa cy'akazi</option>
+                                        <option value="Icyemezo">Icyemezo</option>
+                                        <option value="Ipuracye">Ipuracye</option>
                                     </select>
                                 </div>
                             </div>
@@ -352,7 +372,8 @@
 
                             <div class="form-group row">
                                 <div class="col-md-8">
-                                    <input required="true" name="phone" type="number" class="form-control" placeholder="telefone">
+                                    <input required="true" name="phone" type="number" class="form-control"
+                                        placeholder="telefone">
                                 </div>
                             </div>
 
@@ -371,7 +392,8 @@
 
 
                         <h2 class="section-title mb-3">Tuvugishe</h2>
-                        <p class="mb-5">Ufite ikibazo cyangwa igiterezo twandikire hano </p>
+                        <p class="mb-5">Ufite ikibazo cyangwa igiterezo twandikire hano cyangwa uduhamagare kuri
+                            0788902758 </p>
 
                         <form method="post" action="api/contact_us/" data-aos="fade">
                             {%csrf_token%}

@@ -3,7 +3,7 @@ import json
 from django.core.files.storage import FileSystemStorage
 from django.http import HttpResponse
 from django.shortcuts import redirect, render
-
+from django.core.mail import send_mail,send_mass_mail
 from .forms import *
 from .models import *
 
@@ -43,6 +43,7 @@ def handle_found_items(request):
         lost.found_umudugudu = request.POST.get("umudugudu")
         lost.found_district = request.POST.get("district")
         lost.found_sector = request.POST.get("sector")
+        lost.found_person_id = request.POST.get("natId")
         lost.fake_doc_id = doc_id
         lost.status = "Found"
         item_name = request.FILES['image']

@@ -17,6 +17,7 @@ class LostItems(models.Model):
     img_path = models.CharField(default="Not found", max_length=100)
     lost_desc = models.TextField(default="Empty", null=True)
     found_desc = models.TextField(default="Empty", null=True)
+    found_person_id = models.TextField(default="empty", null=True)
     found_person_name = models.CharField(default="empty", max_length=120)
     found_person_phone = models.CharField(default="empty", max_length=120)
     found_district = models.CharField(default="empty",max_length=40)

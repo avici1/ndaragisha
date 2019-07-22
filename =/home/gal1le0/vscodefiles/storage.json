@@ -813,7 +813,8 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal"
+                        "label": "&&Split Terminal",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1363,5 +1364,19 @@
         }
     },
     "theme": "vs-dark",
-    "themeBackground": "#272822"
+    "themeBackground": "#272822",
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/gal1le0/development/native/ndaragisha",
+            "backupPath": "/home/gal1le0/development/native/ndaragisha/=/home/gal1le0/vscodefiles/Backups/442832b6e0c91bbc8e68bb95977cf53f",
+            "uiState": {
+                "mode": 0,
+                "x": 0,
+                "y": 54,
+                "width": 1366,
+                "height": 690
+            }
+        },
+        "openedWindows": []
+    }
 }

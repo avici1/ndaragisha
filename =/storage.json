@@ -829,7 +829,8 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal"
+                        "label": "&&Split Terminal",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -983,10 +984,6 @@
                 "label": "Ctrl+Shift+T",
                 "userSettingsLabel": "ctrl+shift+t"
             },
-            "workbench.action.openRecent": {
-                "label": "Ctrl+R",
-                "userSettingsLabel": "ctrl+r"
-            },
             "workbench.action.files.save": {
                 "label": "Ctrl+S",
                 "userSettingsLabel": "ctrl+s"
@@ -1019,8 +1016,9 @@
                 "userSettingsLabel": "ctrl+k ctrl+t"
             },
             "workbench.action.closeActiveEditor": {
-                "label": "Ctrl+W",
-                "userSettingsLabel": "ctrl+w"
+                "label": "Ctrl+K Ctrl+DownArrow",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k ctrl+down"
             },
             "workbench.action.closeFolder": {
                 "label": "Ctrl+K F",
@@ -1028,8 +1026,8 @@
                 "userSettingsLabel": "ctrl+k f"
             },
             "workbench.action.closeWindow": {
-                "label": "Ctrl+W",
-                "userSettingsLabel": "ctrl+w"
+                "label": "Ctrl+Shift+W",
+                "userSettingsLabel": "ctrl+shift+w"
             },
             "workbench.action.quit": {
                 "label": "Ctrl+Q",
@@ -1072,12 +1070,12 @@
                 "userSettingsLabel": "ctrl+shift+h"
             },
             "editor.action.commentLine": {
-                "label": "Ctrl+/",
-                "userSettingsLabel": "ctrl+/"
+                "label": "Ctrl+Shift+/",
+                "userSettingsLabel": "ctrl+shift+/"
             },
             "editor.action.blockComment": {
-                "label": "Ctrl+Shift+A",
-                "userSettingsLabel": "ctrl+shift+a"
+                "label": "Ctrl+Shift+/",
+                "userSettingsLabel": "ctrl+shift+/"
             },
             "editor.emmet.action.expandAbbreviation": {
                 "label": "Tab",
@@ -1100,16 +1098,16 @@
                 "userSettingsLabel": "ctrl+shift+alt+up"
             },
             "editor.action.copyLinesDownAction": {
-                "label": "Ctrl+Shift+Alt+Down",
-                "userSettingsLabel": "ctrl+shift+alt+down"
+                "label": "Ctrl+Shift+D",
+                "userSettingsLabel": "ctrl+shift+d"
             },
             "editor.action.moveLinesUpAction": {
-                "label": "Alt+Up",
-                "userSettingsLabel": "alt+up"
+                "label": "Ctrl+Shift+Up",
+                "userSettingsLabel": "ctrl+shift+up"
             },
             "editor.action.moveLinesDownAction": {
-                "label": "Alt+Down",
-                "userSettingsLabel": "alt+down"
+                "label": "Ctrl+Shift+Down",
+                "userSettingsLabel": "ctrl+shift+down"
             },
             "editor.action.insertCursorAbove": {
                 "label": "Shift+Alt+Up",
@@ -1120,16 +1118,16 @@
                 "userSettingsLabel": "shift+alt+down"
             },
             "editor.action.insertCursorAtEndOfEachLineSelected": {
-                "label": "Shift+Alt+I",
-                "userSettingsLabel": "shift+alt+i"
+                "label": "Ctrl+Shift+L",
+                "userSettingsLabel": "ctrl+shift+l"
             },
             "editor.action.addSelectionToNextFindMatch": {
                 "label": "Ctrl+D",
                 "userSettingsLabel": "ctrl+d"
             },
             "editor.action.selectHighlights": {
-                "label": "Ctrl+Shift+L",
-                "userSettingsLabel": "ctrl+shift+l"
+                "label": "Alt+F3",
+                "userSettingsLabel": "alt+f3"
             },
             "workbench.action.showCommands": {
                 "label": "Ctrl+Shift+P",
@@ -1140,13 +1138,13 @@
                 "userSettingsLabel": "f11"
             },
             "workbench.action.toggleZenMode": {
-                "label": "Ctrl+K Z",
-                "isNative": false,
-                "userSettingsLabel": "ctrl+k z"
+                "label": "Shift+F11",
+                "userSettingsLabel": "shift+f11"
             },
             "workbench.action.toggleSidebarVisibility": {
-                "label": "Ctrl+B",
-                "userSettingsLabel": "ctrl+b"
+                "label": "Ctrl+K Ctrl+B",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k ctrl+b"
             },
             "workbench.action.togglePanel": {
                 "label": "Ctrl+J",
@@ -1166,8 +1164,8 @@
                 "userSettingsLabel": "ctrl+numpad0"
             },
             "workbench.action.toggleEditorGroupLayout": {
-                "label": "Shift+Alt+0",
-                "userSettingsLabel": "shift+alt+0"
+                "label": "Shift+Alt+8",
+                "userSettingsLabel": "shift+alt+8"
             },
             "workbench.view.explorer": {
                 "label": "Ctrl+Shift+E",
@@ -1207,12 +1205,12 @@
                 "userSettingsLabel": "alt+z"
             },
             "workbench.action.navigateBack": {
-                "label": "Ctrl+Alt+-",
-                "userSettingsLabel": "ctrl+alt+-"
+                "label": "Alt+-",
+                "userSettingsLabel": "alt+-"
             },
             "workbench.action.navigateForward": {
-                "label": "Ctrl+Shift+-",
-                "userSettingsLabel": "ctrl+shift+-"
+                "label": "Shift+Alt+-",
+                "userSettingsLabel": "shift+alt+-"
             },
             "workbench.action.navigateToLastEditLocation": {
                 "label": "Ctrl+K Ctrl+Q",
@@ -1265,27 +1263,21 @@
                 "isNative": false,
                 "userSettingsLabel": "ctrl+k ctrl+right"
             },
-            "workbench.action.focusAboveGroup": {
-                "label": "Ctrl+K Ctrl+UpArrow",
-                "isNative": false,
-                "userSettingsLabel": "ctrl+k ctrl+up"
-            },
-            "workbench.action.focusBelowGroup": {
-                "label": "Ctrl+K Ctrl+DownArrow",
-                "isNative": false,
-                "userSettingsLabel": "ctrl+k ctrl+down"
-            },
             "workbench.action.quickOpen": {
-                "label": "Ctrl+P",
-                "userSettingsLabel": "ctrl+p"
+                "label": "Ctrl+E",
+                "userSettingsLabel": "ctrl+e"
             },
             "workbench.action.showAllSymbols": {
-                "label": "Ctrl+T",
-                "userSettingsLabel": "ctrl+t"
+                "label": "Ctrl+Shift+R",
+                "userSettingsLabel": "ctrl+shift+r"
             },
             "workbench.action.gotoSymbol": {
-                "label": "Ctrl+Shift+O",
-                "userSettingsLabel": "ctrl+shift+o"
+                "label": "Ctrl+;",
+                "userSettingsLabel": "ctrl+;"
+            },
+            "editor.action.goToDeclaration": {
+                "label": "F12",
+                "userSettingsLabel": "f12"
             },
             "editor.action.goToImplementation": {
                 "label": "Ctrl+F12",
@@ -1296,8 +1288,8 @@
                 "userSettingsLabel": "ctrl+g"
             },
             "editor.action.jumpToBracket": {
-                "label": "Ctrl+Shift+\\",
-                "userSettingsLabel": "ctrl+shift+\\"
+                "label": "Ctrl+M",
+                "userSettingsLabel": "ctrl+m"
             },
             "editor.action.marker.nextInFiles": {
                 "label": "F8",
@@ -1338,10 +1330,6 @@
             "workbench.action.debug.stepInto": {
                 "label": "F11",
                 "userSettingsLabel": "f11"
-            },
-            "workbench.action.debug.stepOut": {
-                "label": "Shift+F11",
-                "userSettingsLabel": "shift+f11"
             },
             "workbench.action.debug.continue": {
                 "label": "F5",

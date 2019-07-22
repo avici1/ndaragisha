@@ -1,0 +1,1 @@
+[2019-07-19 10:12:54.747] [renderer1] [warning] UNRESPONSIVE extension host, 'AllenLawrence.auto-mongodb' took 100% of 5099.638ms, saved PROFILE here: '/tmp/exthost-f1f455.cpuprofile' [{"id":"AllenLawrence.auto-mongodb","total":5090767,"percentage":100},{"id":"gc","total":6403,"percentage":0}]

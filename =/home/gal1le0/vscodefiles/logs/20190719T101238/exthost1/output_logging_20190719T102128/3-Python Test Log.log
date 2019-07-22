@@ -1,0 +1,1012 @@
+nose.config: INFO: Ignoring files matching ['^\\.', '^_', '^setup\\.py$']
+nose.plugins.manager: DEBUG: Configuring plugins
+nose.plugins.manager: DEBUG: Plugins enabled: [<nose.plugins.capture.Capture object at 0x7f5393554f28>, <nose.plugins.logcapture.LogCapture object at 0x7f5393566748>, <nose.plugins.deprecated.Deprecated object at 0x7f53934fb6a0>, <nose.plugins.skip.Skip object at 0x7f53934c2f28>, <nose.plugins.collect.CollectOnly object at 0x7f53934532b0>]
+nose.core: DEBUG: configured Config(addPaths=True, args=(), configSection='nosetests', debug=None, debugLog=None, env={}, exclude=None, files=[], firstPackageWins=False, getTestCaseNamesCompat=False, ignoreFiles=[re.compile('^\\.'), re.compile('^_'), re.compile('^setup\\.py$')], ignoreFilesDefaultStrings=['^\\.', '^_', '^setup\\.py$'], include=None, includeExe=False, logStream=<_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>, loggingConfig=None, options=<Values at 0x7f5393453cc0: {'version': False, 'showPlugins': False, 'verbosity': 4, 'files': None, 'where': None, 'py3where': None, 'testMatch': '(?:^|[\\b_\\./-])[Tt]est', 'testNames': None, 'debug': None, 'debugLog': None, 'loggingConfig': None, 'ignoreFiles': [], 'exclude': [], 'include': [], 'stopOnError': False, 'addPaths': True, 'includeExe': False, 'traverseNamespace': False, 'firstPackageWins': False, 'byteCompile': True, 'attr': None, 'eval_attr': None, 'capture': True, 'logcapture': True, 'logcapture_format': '%(name)s: %(levelname)s: %(message)s', 'logcapture_datefmt': None, 'logcapture_filters': None, 'logcapture_clear': False, 'logcapture_level': 'NOTSET', 'enable_plugin_coverage': None, 'cover_packages': None, 'cover_erase': None, 'cover_tests': None, 'cover_min_percentage': None, 'cover_inclusive': None, 'cover_html': None, 'cover_html_dir': 'cover', 'cover_branches': None, 'cover_xml': None, 'cover_xml_file': 'coverage.xml', 'debugBoth': False, 'debugFailures': False, 'debugErrors': False, 'noDeprecated': False, 'enable_plugin_doctest': None, 'doctest_tests': None, 'doctestExtension': None, 'doctest_result_var': None, 'doctestFixtures': None, 'doctestOptions': None, 'enable_plugin_isolation': None, 'detailedErrors': None, 'noSkip': False, 'enable_plugin_id': None, 'testIdFile': '.noseids', 'failed': False, 'multiprocess_workers': 0, 'multiprocess_timeout': 10, 'multiprocess_restartworker': False, 'enable_plugin_xunit': None, 'xunit_file': 'nosetests.xml', 'xunit_testsuite_name': 'nosetests', 'enable_plugin_allmodules': None, 'collect_only': True}>, parser=<optparse.OptionParser object at 0x7f539405c5c0>, parserClass=<class 'optparse.OptionParser'>, plugins=<nose.plugins.manager.DefaultPluginManager object at 0x7f53941308d0>, py3where=(), runOnInit=True, srcDirs=('lib', 'src'), stopOnError=False, stream=<_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>, testMatch=re.compile('(?:^|[\\b_\\./-])[Tt]est'), testMatchPat='(?:^|[\\b_\\./-])[Tt]est', testNames=['='], traverseNamespace=False, verbosity=4, where=(), worker=False, workingDir='/home/gal1le0/development/native/ndaragisha')
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha
+nose.plugins.collect: DEBUG: Preparing test loader
+nose.core: DEBUG: test loader is <nose.loader.TestLoader object at 0x7f5393453e10>
+nose.core: DEBUG: defaultTest .
+nose.core: DEBUG: Test names are ['=']
+nose.core: DEBUG: createTests called with None
+nose.loader: DEBUG: load from = (None)
+nose.selector: DEBUG: Test name = resolved to file =, module None, call None
+nose.selector: DEBUG: Final resolution of test name =: file /home/gal1le0/development/native/ndaragisha/= module None call None
+nose.plugins.collect: DEBUG: TestSuite([<nose.suite.LazySuite tests=generator (139996929380928)>])
+nose.plugins.collect: DEBUG: Add test <nose.suite.LazySuite tests=generator (139996929380928)>
+nose.core: DEBUG: runTests called
+nose.suite: DEBUG: precache is []
+nose.loader: DEBUG: load from dir /home/gal1le0/development/native/ndaragisha/=
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha/=
+nose.importer: DEBUG: insert /home/gal1le0/development/native/ndaragisha/= into sys.path
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/Backups? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/Cache? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/CachedData? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/CachedExtensions? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Cookies? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Cookies-journal? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/GPUCache? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Network Persistent State? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/User? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/blob_storage? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/home? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/languagepacks.json? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/logs? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/machineid? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/rapid_render.json? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/storage.json? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/webrtc_event_logs? False
+nose.importer: DEBUG: Remove path /home/gal1le0/development/native/ndaragisha/=
+nose.suite: DEBUG: precache is []
+
+----------------------------------------------------------------------
+Ran 0 tests in 0.006s
+
+OK
+nose.config: INFO: Ignoring files matching ['^\\.', '^_', '^setup\\.py$']
+nose.plugins.manager: DEBUG: Configuring plugins
+nose.plugins.manager: DEBUG: Plugins enabled: [<nose.plugins.capture.Capture object at 0x7f8d7d2b0e80>, <nose.plugins.logcapture.LogCapture object at 0x7f8d7d2c26a0>, <nose.plugins.deprecated.Deprecated object at 0x7f8d7d2c2908>, <nose.plugins.skip.Skip object at 0x7f8d7d21ee10>, <nose.plugins.collect.CollectOnly object at 0x7f8d7d21ef28>]
+nose.core: DEBUG: configured Config(addPaths=True, args=(), configSection='nosetests', debug=None, debugLog=None, env={}, exclude=None, files=[], firstPackageWins=False, getTestCaseNamesCompat=False, ignoreFiles=[re.compile('^\\.'), re.compile('^_'), re.compile('^setup\\.py$')], ignoreFilesDefaultStrings=['^\\.', '^_', '^setup\\.py$'], include=None, includeExe=False, logStream=<_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>, loggingConfig=None, options=<Values at 0x7f8d7d1afb70: {'version': False, 'showPlugins': False, 'verbosity': 4, 'files': None, 'where': None, 'py3where': None, 'testMatch': '(?:^|[\\b_\\./-])[Tt]est', 'testNames': None, 'debug': None, 'debugLog': None, 'loggingConfig': None, 'ignoreFiles': [], 'exclude': [], 'include': [], 'stopOnError': False, 'addPaths': True, 'includeExe': False, 'traverseNamespace': False, 'firstPackageWins': False, 'byteCompile': True, 'attr': None, 'eval_attr': None, 'capture': True, 'logcapture': True, 'logcapture_format': '%(name)s: %(levelname)s: %(message)s', 'logcapture_datefmt': None, 'logcapture_filters': None, 'logcapture_clear': False, 'logcapture_level': 'NOTSET', 'enable_plugin_coverage': None, 'cover_packages': None, 'cover_erase': None, 'cover_tests': None, 'cover_min_percentage': None, 'cover_inclusive': None, 'cover_html': None, 'cover_html_dir': 'cover', 'cover_branches': None, 'cover_xml': None, 'cover_xml_file': 'coverage.xml', 'debugBoth': False, 'debugFailures': False, 'debugErrors': False, 'noDeprecated': False, 'enable_plugin_doctest': None, 'doctest_tests': None, 'doctestExtension': None, 'doctest_result_var': None, 'doctestFixtures': None, 'doctestOptions': None, 'enable_plugin_isolation': None, 'detailedErrors': None, 'noSkip': False, 'enable_plugin_id': None, 'testIdFile': '.noseids', 'failed': False, 'multiprocess_workers': 0, 'multiprocess_timeout': 10, 'multiprocess_restartworker': False, 'enable_plugin_xunit': None, 'xunit_file': 'nosetests.xml', 'xunit_testsuite_name': 'nosetests', 'enable_plugin_allmodules': None, 'collect_only': True}>, parser=<optparse.OptionParser object at 0x7f8d7ddb85c0>, parserClass=<class 'optparse.OptionParser'>, plugins=<nose.plugins.manager.DefaultPluginManager object at 0x7f8d7de8c8d0>, py3where=(), runOnInit=True, srcDirs=('lib', 'src'), stopOnError=False, stream=<_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>, testMatch=re.compile('(?:^|[\\b_\\./-])[Tt]est'), testMatchPat='(?:^|[\\b_\\./-])[Tt]est', testNames=['='], traverseNamespace=False, verbosity=4, where=(), worker=False, workingDir='/home/gal1le0/development/native/ndaragisha')
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha
+nose.plugins.collect: DEBUG: Preparing test loader
+nose.core: DEBUG: test loader is <nose.loader.TestLoader object at 0x7f8d7d8a09e8>
+nose.core: DEBUG: defaultTest .
+nose.core: DEBUG: Test names are ['=']
+nose.core: DEBUG: createTests called with None
+nose.loader: DEBUG: load from = (None)
+nose.selector: DEBUG: Test name = resolved to file =, module None, call None
+nose.selector: DEBUG: Final resolution of test name =: file /home/gal1le0/development/native/ndaragisha/= module None call None
+nose.plugins.collect: DEBUG: TestSuite([<nose.suite.LazySuite tests=generator (140245666037712)>])
+nose.plugins.collect: DEBUG: Add test <nose.suite.LazySuite tests=generator (140245666037712)>
+nose.core: DEBUG: runTests called
+nose.suite: DEBUG: precache is []
+nose.loader: DEBUG: load from dir /home/gal1le0/development/native/ndaragisha/=
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha/=
+nose.importer: DEBUG: insert /home/gal1le0/development/native/ndaragisha/= into sys.path
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/Backups? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/Cache? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/CachedData? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/CachedExtensions? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Cookies? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Cookies-journal? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/GPUCache? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Network Persistent State? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/User? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/blob_storage? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/home? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/languagepacks.json? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/logs? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/machineid? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/rapid_render.json? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/storage.json? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/webrtc_event_logs? False
+nose.importer: DEBUG: Remove path /home/gal1le0/development/native/ndaragisha/=
+nose.suite: DEBUG: precache is []
+
+----------------------------------------------------------------------
+Ran 0 tests in 0.004s
+
+OK
+nose.config: INFO: Ignoring files matching ['^\\.', '^_', '^setup\\.py$']
+nose.plugins.manager: DEBUG: Configuring plugins
+nose.plugins.manager: DEBUG: Plugins enabled: [<nose.plugins.capture.Capture object at 0x7f1d7a166eb8>, <nose.plugins.logcapture.LogCapture object at 0x7f1d7a1786d8>, <nose.plugins.deprecated.Deprecated object at 0x7f1d7a10e5f8>, <nose.plugins.skip.Skip object at 0x7f1d7a0d4e80>, <nose.plugins.collect.CollectOnly object at 0x7f1d7a065208>]
+nose.core: DEBUG: configured Config(addPaths=True, args=(), configSection='nosetests', debug=None, debugLog=None, env={}, exclude=None, files=[], firstPackageWins=False, getTestCaseNamesCompat=False, ignoreFiles=[re.compile('^\\.'), re.compile('^_'), re.compile('^setup\\.py$')], ignoreFilesDefaultStrings=['^\\.', '^_', '^setup\\.py$'], include=None, includeExe=False, logStream=<_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>, loggingConfig=None, options=<Values at 0x7f1d7a065c18: {'version': False, 'showPlugins': False, 'verbosity': 4, 'files': None, 'where': None, 'py3where': None, 'testMatch': '(?:^|[\\b_\\./-])[Tt]est', 'testNames': None, 'debug': None, 'debugLog': None, 'loggingConfig': None, 'ignoreFiles': [], 'exclude': [], 'include': [], 'stopOnError': False, 'addPaths': True, 'includeExe': False, 'traverseNamespace': False, 'firstPackageWins': False, 'byteCompile': True, 'attr': None, 'eval_attr': None, 'capture': True, 'logcapture': True, 'logcapture_format': '%(name)s: %(levelname)s: %(message)s', 'logcapture_datefmt': None, 'logcapture_filters': None, 'logcapture_clear': False, 'logcapture_level': 'NOTSET', 'enable_plugin_coverage': None, 'cover_packages': None, 'cover_erase': None, 'cover_tests': None, 'cover_min_percentage': None, 'cover_inclusive': None, 'cover_html': None, 'cover_html_dir': 'cover', 'cover_branches': None, 'cover_xml': None, 'cover_xml_file': 'coverage.xml', 'debugBoth': False, 'debugFailures': False, 'debugErrors': False, 'noDeprecated': False, 'enable_plugin_doctest': None, 'doctest_tests': None, 'doctestExtension': None, 'doctest_result_var': None, 'doctestFixtures': None, 'doctestOptions': None, 'enable_plugin_isolation': None, 'detailedErrors': None, 'noSkip': False, 'enable_plugin_id': None, 'testIdFile': '.noseids', 'failed': False, 'multiprocess_workers': 0, 'multiprocess_timeout': 10, 'multiprocess_restartworker': False, 'enable_plugin_xunit': None, 'xunit_file': 'nosetests.xml', 'xunit_testsuite_name': 'nosetests', 'enable_plugin_allmodules': None, 'collect_only': True}>, parser=<optparse.OptionParser object at 0x7f1d7ac2e5c0>, parserClass=<class 'optparse.OptionParser'>, plugins=<nose.plugins.manager.DefaultPluginManager object at 0x7f1d7ad028d0>, py3where=(), runOnInit=True, srcDirs=('lib', 'src'), stopOnError=False, stream=<_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>, testMatch=re.compile('(?:^|[\\b_\\./-])[Tt]est'), testMatchPat='(?:^|[\\b_\\./-])[Tt]est', testNames=['='], traverseNamespace=False, verbosity=4, where=(), worker=False, workingDir='/home/gal1le0/development/native/ndaragisha')
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha
+nose.plugins.collect: DEBUG: Preparing test loader
+nose.core: DEBUG: test loader is <nose.loader.TestLoader object at 0x7f1d7a065d68>
+nose.core: DEBUG: defaultTest .
+nose.core: DEBUG: Test names are ['=']
+nose.core: DEBUG: createTests called with None
+nose.loader: DEBUG: load from = (None)
+nose.selector: DEBUG: Test name = resolved to file =, module None, call None
+nose.selector: DEBUG: Final resolution of test name =: file /home/gal1le0/development/native/ndaragisha/= module None call None
+nose.plugins.collect: DEBUG: TestSuite([<nose.suite.LazySuite tests=generator (139764577595744)>])
+nose.plugins.collect: DEBUG: Add test <nose.suite.LazySuite tests=generator (139764577595744)>
+nose.core: DEBUG: runTests called
+nose.suite: DEBUG: precache is []
+nose.loader: DEBUG: load from dir /home/gal1le0/development/native/ndaragisha/=
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha/=
+nose.importer: DEBUG: insert /home/gal1le0/development/native/ndaragisha/= into sys.path
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/Backups? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/Cache? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/CachedData? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/CachedExtensions? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Cookies? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Cookies-journal? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/GPUCache? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Network Persistent State? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/User? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/blob_storage? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/home? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/languagepacks.json? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/logs? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/machineid? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/rapid_render.json? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/storage.json? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/webrtc_event_logs? False
+nose.importer: DEBUG: Remove path /home/gal1le0/development/native/ndaragisha/=
+nose.suite: DEBUG: precache is []
+
+----------------------------------------------------------------------
+Ran 0 tests in 0.005s
+
+OK
+nose.config: INFO: Ignoring files matching ['^\\.', '^_', '^setup\\.py$']
+nose.plugins.manager: DEBUG: Configuring plugins
+nose.plugins.manager: DEBUG: Plugins enabled: [<nose.plugins.capture.Capture object at 0x7f943ee31f28>, <nose.plugins.logcapture.LogCapture object at 0x7f943ee43748>, <nose.plugins.deprecated.Deprecated object at 0x7f943edd86a0>, <nose.plugins.skip.Skip object at 0x7f943ed9fda0>, <nose.plugins.collect.CollectOnly object at 0x7f943ed30278>]
+nose.core: DEBUG: configured Config(addPaths=True, args=(), configSection='nosetests', debug=None, debugLog=None, env={}, exclude=None, files=[], firstPackageWins=False, getTestCaseNamesCompat=False, ignoreFiles=[re.compile('^\\.'), re.compile('^_'), re.compile('^setup\\.py$')], ignoreFilesDefaultStrings=['^\\.', '^_', '^setup\\.py$'], include=None, includeExe=False, logStream=<_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>, loggingConfig=None, options=<Values at 0x7f943ed30c88: {'version': False, 'showPlugins': False, 'verbosity': 4, 'files': None, 'where': None, 'py3where': None, 'testMatch': '(?:^|[\\b_\\./-])[Tt]est', 'testNames': None, 'debug': None, 'debugLog': None, 'loggingConfig': None, 'ignoreFiles': [], 'exclude': [], 'include': [], 'stopOnError': False, 'addPaths': True, 'includeExe': False, 'traverseNamespace': False, 'firstPackageWins': False, 'byteCompile': True, 'attr': None, 'eval_attr': None, 'capture': True, 'logcapture': True, 'logcapture_format': '%(name)s: %(levelname)s: %(message)s', 'logcapture_datefmt': None, 'logcapture_filters': None, 'logcapture_clear': False, 'logcapture_level': 'NOTSET', 'enable_plugin_coverage': None, 'cover_packages': None, 'cover_erase': None, 'cover_tests': None, 'cover_min_percentage': None, 'cover_inclusive': None, 'cover_html': None, 'cover_html_dir': 'cover', 'cover_branches': None, 'cover_xml': None, 'cover_xml_file': 'coverage.xml', 'debugBoth': False, 'debugFailures': False, 'debugErrors': False, 'noDeprecated': False, 'enable_plugin_doctest': None, 'doctest_tests': None, 'doctestExtension': None, 'doctest_result_var': None, 'doctestFixtures': None, 'doctestOptions': None, 'enable_plugin_isolation': None, 'detailedErrors': None, 'noSkip': False, 'enable_plugin_id': None, 'testIdFile': '.noseids', 'failed': False, 'multiprocess_workers': 0, 'multiprocess_timeout': 10, 'multiprocess_restartworker': False, 'enable_plugin_xunit': None, 'xunit_file': 'nosetests.xml', 'xunit_testsuite_name': 'nosetests', 'enable_plugin_allmodules': None, 'collect_only': True}>, parser=<optparse.OptionParser object at 0x7f943f90a5c0>, parserClass=<class 'optparse.OptionParser'>, plugins=<nose.plugins.manager.DefaultPluginManager object at 0x7f943f9de8d0>, py3where=(), runOnInit=True, srcDirs=('lib', 'src'), stopOnError=False, stream=<_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>, testMatch=re.compile('(?:^|[\\b_\\./-])[Tt]est'), testMatchPat='(?:^|[\\b_\\./-])[Tt]est', testNames=['='], traverseNamespace=False, verbosity=4, where=(), worker=False, workingDir='/home/gal1le0/development/native/ndaragisha')
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha
+nose.plugins.collect: DEBUG: Preparing test loader
+nose.core: DEBUG: test loader is <nose.loader.TestLoader object at 0x7f943ed30dd8>
+nose.core: DEBUG: defaultTest .
+nose.core: DEBUG: Test names are ['=']
+nose.core: DEBUG: createTests called with None
+nose.loader: DEBUG: load from = (None)
+nose.selector: DEBUG: Test name = resolved to file =, module None, call None
+nose.selector: DEBUG: Final resolution of test name =: file /home/gal1le0/development/native/ndaragisha/= module None call None
+nose.plugins.collect: DEBUG: TestSuite([<nose.suite.LazySuite tests=generator (140274685485576)>])
+nose.plugins.collect: DEBUG: Add test <nose.suite.LazySuite tests=generator (140274685485576)>
+nose.core: DEBUG: runTests called
+nose.suite: DEBUG: precache is []
+nose.loader: DEBUG: load from dir /home/gal1le0/development/native/ndaragisha/=
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha/=
+nose.importer: DEBUG: insert /home/gal1le0/development/native/ndaragisha/= into sys.path
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/Backups? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/Cache? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/CachedData? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/CachedExtensions? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Cookies? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Cookies-journal? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/GPUCache? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Network Persistent State? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/User? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/blob_storage? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/home? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/languagepacks.json? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/logs? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/machineid? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/rapid_render.json? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/storage.json? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/webrtc_event_logs? False
+nose.importer: DEBUG: Remove path /home/gal1le0/development/native/ndaragisha/=
+nose.suite: DEBUG: precache is []
+
+----------------------------------------------------------------------
+Ran 0 tests in 0.003s
+
+OK
+nose.config: INFO: Ignoring files matching ['^\\.', '^_', '^setup\\.py$']
+nose.plugins.manager: DEBUG: Configuring plugins
+nose.plugins.manager: DEBUG: Plugins enabled: [<nose.plugins.capture.Capture object at 0x7f341cd59f98>, <nose.plugins.logcapture.LogCapture object at 0x7f341cd6b7b8>, <nose.plugins.deprecated.Deprecated object at 0x7f341cd00710>, <nose.plugins.skip.Skip object at 0x7f341ccc7f98>, <nose.plugins.collect.CollectOnly object at 0x7f341d389a20>]
+nose.core: DEBUG: configured Config(addPaths=True, args=(), configSection='nosetests', debug=None, debugLog=None, env={}, exclude=None, files=[], firstPackageWins=False, getTestCaseNamesCompat=False, ignoreFiles=[re.compile('^\\.'), re.compile('^_'), re.compile('^setup\\.py$')], ignoreFilesDefaultStrings=['^\\.', '^_', '^setup\\.py$'], include=None, includeExe=False, logStream=<_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>, loggingConfig=None, options=<Values at 0x7f341cc54cf8: {'version': False, 'showPlugins': False, 'verbosity': 4, 'files': None, 'where': None, 'py3where': None, 'testMatch': '(?:^|[\\b_\\./-])[Tt]est', 'testNames': None, 'debug': None, 'debugLog': None, 'loggingConfig': None, 'ignoreFiles': [], 'exclude': [], 'include': [], 'stopOnError': False, 'addPaths': True, 'includeExe': False, 'traverseNamespace': False, 'firstPackageWins': False, 'byteCompile': True, 'attr': None, 'eval_attr': None, 'capture': True, 'logcapture': True, 'logcapture_format': '%(name)s: %(levelname)s: %(message)s', 'logcapture_datefmt': None, 'logcapture_filters': None, 'logcapture_clear': False, 'logcapture_level': 'NOTSET', 'enable_plugin_coverage': None, 'cover_packages': None, 'cover_erase': None, 'cover_tests': None, 'cover_min_percentage': None, 'cover_inclusive': None, 'cover_html': None, 'cover_html_dir': 'cover', 'cover_branches': None, 'cover_xml': None, 'cover_xml_file': 'coverage.xml', 'debugBoth': False, 'debugFailures': False, 'debugErrors': False, 'noDeprecated': False, 'enable_plugin_doctest': None, 'doctest_tests': None, 'doctestExtension': None, 'doctest_result_var': None, 'doctestFixtures': None, 'doctestOptions': None, 'enable_plugin_isolation': None, 'detailedErrors': None, 'noSkip': False, 'enable_plugin_id': None, 'testIdFile': '.noseids', 'failed': False, 'multiprocess_workers': 0, 'multiprocess_timeout': 10, 'multiprocess_restartworker': False, 'enable_plugin_xunit': None, 'xunit_file': 'nosetests.xml', 'xunit_testsuite_name': 'nosetests', 'enable_plugin_allmodules': None, 'collect_only': True}>, parser=<optparse.OptionParser object at 0x7f341d8615c0>, parserClass=<class 'optparse.OptionParser'>, plugins=<nose.plugins.manager.DefaultPluginManager object at 0x7f341d9358d0>, py3where=(), runOnInit=True, srcDirs=('lib', 'src'), stopOnError=False, stream=<_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>, testMatch=re.compile('(?:^|[\\b_\\./-])[Tt]est'), testMatchPat='(?:^|[\\b_\\./-])[Tt]est', testNames=['='], traverseNamespace=False, verbosity=4, where=(), worker=False, workingDir='/home/gal1le0/development/native/ndaragisha')
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha
+nose.plugins.collect: DEBUG: Preparing test loader
+nose.core: DEBUG: test loader is <nose.loader.TestLoader object at 0x7f341cc54d30>
+nose.core: DEBUG: defaultTest .
+nose.core: DEBUG: Test names are ['=']
+nose.core: DEBUG: createTests called with None
+nose.loader: DEBUG: load from = (None)
+nose.selector: DEBUG: Test name = resolved to file =, module None, call None
+nose.selector: DEBUG: Final resolution of test name =: file /home/gal1le0/development/native/ndaragisha/= module None call None
+nose.plugins.collect: DEBUG: TestSuite([<nose.suite.LazySuite tests=generator (139861797315136)>])
+nose.plugins.collect: DEBUG: Add test <nose.suite.LazySuite tests=generator (139861797315136)>
+nose.core: DEBUG: runTests called
+nose.suite: DEBUG: precache is []
+nose.loader: DEBUG: load from dir /home/gal1le0/development/native/ndaragisha/=
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha/=
+nose.importer: DEBUG: insert /home/gal1le0/development/native/ndaragisha/= into sys.path
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/Backups? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/Cache? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/CachedData? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/CachedExtensions? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Cookies? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Cookies-journal? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/GPUCache? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Network Persistent State? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/User? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/blob_storage? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/home? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/languagepacks.json? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/logs? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/machineid? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/rapid_render.json? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/storage.json? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/webrtc_event_logs? False
+nose.importer: DEBUG: Remove path /home/gal1le0/development/native/ndaragisha/=
+nose.suite: DEBUG: precache is []
+
+----------------------------------------------------------------------
+Ran 0 tests in 0.004s
+
+OK
+nose.config: INFO: Ignoring files matching ['^\\.', '^_', '^setup\\.py$']
+nose.plugins.manager: DEBUG: Configuring plugins
+nose.plugins.manager: DEBUG: Plugins enabled: [<nose.plugins.capture.Capture object at 0x7f7246fc2eb8>, <nose.plugins.logcapture.LogCapture object at 0x7f7246fd46d8>, <nose.plugins.deprecated.Deprecated object at 0x7f7246f69630>, <nose.plugins.skip.Skip object at 0x7f7246f30e80>, <nose.plugins.collect.CollectOnly object at 0x7f7246ec11d0>]
+nose.core: DEBUG: configured Config(addPaths=True, args=(), configSection='nosetests', debug=None, debugLog=None, env={}, exclude=None, files=[], firstPackageWins=False, getTestCaseNamesCompat=False, ignoreFiles=[re.compile('^\\.'), re.compile('^_'), re.compile('^setup\\.py$')], ignoreFilesDefaultStrings=['^\\.', '^_', '^setup\\.py$'], include=None, includeExe=False, logStream=<_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>, loggingConfig=None, options=<Values at 0x7f7246ec1be0: {'version': False, 'showPlugins': False, 'verbosity': 4, 'files': None, 'where': None, 'py3where': None, 'testMatch': '(?:^|[\\b_\\./-])[Tt]est', 'testNames': None, 'debug': None, 'debugLog': None, 'loggingConfig': None, 'ignoreFiles': [], 'exclude': [], 'include': [], 'stopOnError': False, 'addPaths': True, 'includeExe': False, 'traverseNamespace': False, 'firstPackageWins': False, 'byteCompile': True, 'attr': None, 'eval_attr': None, 'capture': True, 'logcapture': True, 'logcapture_format': '%(name)s: %(levelname)s: %(message)s', 'logcapture_datefmt': None, 'logcapture_filters': None, 'logcapture_clear': False, 'logcapture_level': 'NOTSET', 'enable_plugin_coverage': None, 'cover_packages': None, 'cover_erase': None, 'cover_tests': None, 'cover_min_percentage': None, 'cover_inclusive': None, 'cover_html': None, 'cover_html_dir': 'cover', 'cover_branches': None, 'cover_xml': None, 'cover_xml_file': 'coverage.xml', 'debugBoth': False, 'debugFailures': False, 'debugErrors': False, 'noDeprecated': False, 'enable_plugin_doctest': None, 'doctest_tests': None, 'doctestExtension': None, 'doctest_result_var': None, 'doctestFixtures': None, 'doctestOptions': None, 'enable_plugin_isolation': None, 'detailedErrors': None, 'noSkip': False, 'enable_plugin_id': None, 'testIdFile': '.noseids', 'failed': False, 'multiprocess_workers': 0, 'multiprocess_timeout': 10, 'multiprocess_restartworker': False, 'enable_plugin_xunit': None, 'xunit_file': 'nosetests.xml', 'xunit_testsuite_name': 'nosetests', 'enable_plugin_allmodules': None, 'collect_only': True}>, parser=<optparse.OptionParser object at 0x7f7247a9b5c0>, parserClass=<class 'optparse.OptionParser'>, plugins=<nose.plugins.manager.DefaultPluginManager object at 0x7f7247b6f8d0>, py3where=(), runOnInit=True, srcDirs=('lib', 'src'), stopOnError=False, stream=<_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>, testMatch=re.compile('(?:^|[\\b_\\./-])[Tt]est'), testMatchPat='(?:^|[\\b_\\./-])[Tt]est', testNames=['='], traverseNamespace=False, verbosity=4, where=(), worker=False, workingDir='/home/gal1le0/development/native/ndaragisha')
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha
+nose.plugins.collect: DEBUG: Preparing test loader
+nose.core: DEBUG: test loader is <nose.loader.TestLoader object at 0x7f7246ec1d30>
+nose.core: DEBUG: defaultTest .
+nose.core: DEBUG: Test names are ['=']
+nose.core: DEBUG: createTests called with None
+nose.loader: DEBUG: load from = (None)
+nose.selector: DEBUG: Test name = resolved to file =, module None, call None
+nose.selector: DEBUG: Final resolution of test name =: file /home/gal1le0/development/native/ndaragisha/= module None call None
+nose.plugins.collect: DEBUG: TestSuite([<nose.suite.LazySuite tests=generator (140128798232528)>])
+nose.plugins.collect: DEBUG: Add test <nose.suite.LazySuite tests=generator (140128798232528)>
+nose.core: DEBUG: runTests called
+nose.suite: DEBUG: precache is []
+nose.loader: DEBUG: load from dir /home/gal1le0/development/native/ndaragisha/=
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha/=
+nose.importer: DEBUG: insert /home/gal1le0/development/native/ndaragisha/= into sys.path
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/Backups? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/Cache? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/CachedData? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/CachedExtensions? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Cookies? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Cookies-journal? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/GPUCache? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Network Persistent State? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/User? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/blob_storage? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/home? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/languagepacks.json? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/logs? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/machineid? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/rapid_render.json? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/storage.json? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/webrtc_event_logs? False
+nose.importer: DEBUG: Remove path /home/gal1le0/development/native/ndaragisha/=
+nose.suite: DEBUG: precache is []
+
+----------------------------------------------------------------------
+Ran 0 tests in 0.003s
+
+OK
+nose.config: INFO: Ignoring files matching ['^\\.', '^_', '^setup\\.py$']
+nose.plugins.manager: DEBUG: Configuring plugins
+nose.plugins.manager: DEBUG: Plugins enabled: [<nose.plugins.capture.Capture object at 0x7f7a37a8feb8>, <nose.plugins.logcapture.LogCapture object at 0x7f7a37aa16d8>, <nose.plugins.deprecated.Deprecated object at 0x7f7a37a375f8>, <nose.plugins.skip.Skip object at 0x7f7a379fde80>, <nose.plugins.collect.CollectOnly object at 0x7f7a3798e240>]
+nose.core: DEBUG: configured Config(addPaths=True, args=(), configSection='nosetests', debug=None, debugLog=None, env={}, exclude=None, files=[], firstPackageWins=False, getTestCaseNamesCompat=False, ignoreFiles=[re.compile('^\\.'), re.compile('^_'), re.compile('^setup\\.py$')], ignoreFilesDefaultStrings=['^\\.', '^_', '^setup\\.py$'], include=None, includeExe=False, logStream=<_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>, loggingConfig=None, options=<Values at 0x7f7a3798ec50: {'version': False, 'showPlugins': False, 'verbosity': 4, 'files': None, 'where': None, 'py3where': None, 'testMatch': '(?:^|[\\b_\\./-])[Tt]est', 'testNames': None, 'debug': None, 'debugLog': None, 'loggingConfig': None, 'ignoreFiles': [], 'exclude': [], 'include': [], 'stopOnError': False, 'addPaths': True, 'includeExe': False, 'traverseNamespace': False, 'firstPackageWins': False, 'byteCompile': True, 'attr': None, 'eval_attr': None, 'capture': True, 'logcapture': True, 'logcapture_format': '%(name)s: %(levelname)s: %(message)s', 'logcapture_datefmt': None, 'logcapture_filters': None, 'logcapture_clear': False, 'logcapture_level': 'NOTSET', 'enable_plugin_coverage': None, 'cover_packages': None, 'cover_erase': None, 'cover_tests': None, 'cover_min_percentage': None, 'cover_inclusive': None, 'cover_html': None, 'cover_html_dir': 'cover', 'cover_branches': None, 'cover_xml': None, 'cover_xml_file': 'coverage.xml', 'debugBoth': False, 'debugFailures': False, 'debugErrors': False, 'noDeprecated': False, 'enable_plugin_doctest': None, 'doctest_tests': None, 'doctestExtension': None, 'doctest_result_var': None, 'doctestFixtures': None, 'doctestOptions': None, 'enable_plugin_isolation': None, 'detailedErrors': None, 'noSkip': False, 'enable_plugin_id': None, 'testIdFile': '.noseids', 'failed': False, 'multiprocess_workers': 0, 'multiprocess_timeout': 10, 'multiprocess_restartworker': False, 'enable_plugin_xunit': None, 'xunit_file': 'nosetests.xml', 'xunit_testsuite_name': 'nosetests', 'enable_plugin_allmodules': None, 'collect_only': True}>, parser=<optparse.OptionParser object at 0x7f7a385685c0>, parserClass=<class 'optparse.OptionParser'>, plugins=<nose.plugins.manager.DefaultPluginManager object at 0x7f7a3863c8d0>, py3where=(), runOnInit=True, srcDirs=('lib', 'src'), stopOnError=False, stream=<_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>, testMatch=re.compile('(?:^|[\\b_\\./-])[Tt]est'), testMatchPat='(?:^|[\\b_\\./-])[Tt]est', testNames=['='], traverseNamespace=False, verbosity=4, where=(), worker=False, workingDir='/home/gal1le0/development/native/ndaragisha')
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha
+nose.plugins.collect: DEBUG: Preparing test loader
+nose.core: DEBUG: test loader is <nose.loader.TestLoader object at 0x7f7a3798ed68>
+nose.core: DEBUG: defaultTest .
+nose.core: DEBUG: Test names are ['=']
+nose.core: DEBUG: createTests called with None
+nose.loader: DEBUG: load from = (None)
+nose.selector: DEBUG: Test name = resolved to file =, module None, call None
+nose.selector: DEBUG: Final resolution of test name =: file /home/gal1le0/development/native/ndaragisha/= module None call None
+nose.plugins.collect: DEBUG: TestSuite([<nose.suite.LazySuite tests=generator (140162895085976)>])
+nose.plugins.collect: DEBUG: Add test <nose.suite.LazySuite tests=generator (140162895085976)>
+nose.core: DEBUG: runTests called
+nose.suite: DEBUG: precache is []
+nose.loader: DEBUG: load from dir /home/gal1le0/development/native/ndaragisha/=
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha/=
+nose.importer: DEBUG: insert /home/gal1le0/development/native/ndaragisha/= into sys.path
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/Backups? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/Cache? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/CachedData? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/CachedExtensions? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Cookies? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Cookies-journal? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/GPUCache? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Network Persistent State? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/User? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/blob_storage? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/home? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/languagepacks.json? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/logs? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/machineid? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/rapid_render.json? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/storage.json? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/webrtc_event_logs? False
+nose.importer: DEBUG: Remove path /home/gal1le0/development/native/ndaragisha/=
+nose.suite: DEBUG: precache is []
+
+----------------------------------------------------------------------
+Ran 0 tests in 0.004s
+
+OK
+nose.config: INFO: Ignoring files matching ['^\\.', '^_', '^setup\\.py$']
+nose.plugins.manager: DEBUG: Configuring plugins
+nose.plugins.manager: DEBUG: Plugins enabled: [<nose.plugins.capture.Capture object at 0x7f6df9896f60>, <nose.plugins.logcapture.LogCapture object at 0x7f6df98a8780>, <nose.plugins.deprecated.Deprecated object at 0x7f6df983d6d8>, <nose.plugins.skip.Skip object at 0x7f6df9804f60>, <nose.plugins.collect.CollectOnly object at 0x7f6df9791320>]
+nose.core: DEBUG: configured Config(addPaths=True, args=(), configSection='nosetests', debug=None, debugLog=None, env={}, exclude=None, files=[], firstPackageWins=False, getTestCaseNamesCompat=False, ignoreFiles=[re.compile('^\\.'), re.compile('^_'), re.compile('^setup\\.py$')], ignoreFilesDefaultStrings=['^\\.', '^_', '^setup\\.py$'], include=None, includeExe=False, logStream=<_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>, loggingConfig=None, options=<Values at 0x7f6df9791d30: {'version': False, 'showPlugins': False, 'verbosity': 4, 'files': None, 'where': None, 'py3where': None, 'testMatch': '(?:^|[\\b_\\./-])[Tt]est', 'testNames': None, 'debug': None, 'debugLog': None, 'loggingConfig': None, 'ignoreFiles': [], 'exclude': [], 'include': [], 'stopOnError': False, 'addPaths': True, 'includeExe': False, 'traverseNamespace': False, 'firstPackageWins': False, 'byteCompile': True, 'attr': None, 'eval_attr': None, 'capture': True, 'logcapture': True, 'logcapture_format': '%(name)s: %(levelname)s: %(message)s', 'logcapture_datefmt': None, 'logcapture_filters': None, 'logcapture_clear': False, 'logcapture_level': 'NOTSET', 'enable_plugin_coverage': None, 'cover_packages': None, 'cover_erase': None, 'cover_tests': None, 'cover_min_percentage': None, 'cover_inclusive': None, 'cover_html': None, 'cover_html_dir': 'cover', 'cover_branches': None, 'cover_xml': None, 'cover_xml_file': 'coverage.xml', 'debugBoth': False, 'debugFailures': False, 'debugErrors': False, 'noDeprecated': False, 'enable_plugin_doctest': None, 'doctest_tests': None, 'doctestExtension': None, 'doctest_result_var': None, 'doctestFixtures': None, 'doctestOptions': None, 'enable_plugin_isolation': None, 'detailedErrors': None, 'noSkip': False, 'enable_plugin_id': None, 'testIdFile': '.noseids', 'failed': False, 'multiprocess_workers': 0, 'multiprocess_timeout': 10, 'multiprocess_restartworker': False, 'enable_plugin_xunit': None, 'xunit_file': 'nosetests.xml', 'xunit_testsuite_name': 'nosetests', 'enable_plugin_allmodules': None, 'collect_only': True}>, parser=<optparse.OptionParser object at 0x7f6dfa32f5c0>, parserClass=<class 'optparse.OptionParser'>, plugins=<nose.plugins.manager.DefaultPluginManager object at 0x7f6dfa4038d0>, py3where=(), runOnInit=True, srcDirs=('lib', 'src'), stopOnError=False, stream=<_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>, testMatch=re.compile('(?:^|[\\b_\\./-])[Tt]est'), testMatchPat='(?:^|[\\b_\\./-])[Tt]est', testNames=['='], traverseNamespace=False, verbosity=4, where=(), worker=False, workingDir='/home/gal1le0/development/native/ndaragisha')
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha
+nose.plugins.collect: DEBUG: Preparing test loader
+nose.core: DEBUG: test loader is <nose.loader.TestLoader object at 0x7f6df9791e80>
+nose.core: DEBUG: defaultTest .
+nose.core: DEBUG: Test names are ['=']
+nose.core: DEBUG: createTests called with None
+nose.loader: DEBUG: load from = (None)
+nose.selector: DEBUG: Test name = resolved to file =, module None, call None
+nose.selector: DEBUG: Final resolution of test name =: file /home/gal1le0/development/native/ndaragisha/= module None call None
+nose.plugins.collect: DEBUG: TestSuite([<nose.suite.LazySuite tests=generator (140110313218736)>])
+nose.plugins.collect: DEBUG: Add test <nose.suite.LazySuite tests=generator (140110313218736)>
+nose.core: DEBUG: runTests called
+nose.suite: DEBUG: precache is []
+nose.loader: DEBUG: load from dir /home/gal1le0/development/native/ndaragisha/=
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha/=
+nose.importer: DEBUG: insert /home/gal1le0/development/native/ndaragisha/= into sys.path
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/Backups? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/Cache? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/CachedData? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/CachedExtensions? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Cookies? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Cookies-journal? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/GPUCache? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Network Persistent State? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/User? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/blob_storage? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/home? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/languagepacks.json? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/logs? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/machineid? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/rapid_render.json? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/storage.json? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/webrtc_event_logs? False
+nose.importer: DEBUG: Remove path /home/gal1le0/development/native/ndaragisha/=
+nose.suite: DEBUG: precache is []
+
+----------------------------------------------------------------------
+Ran 0 tests in 0.004s
+
+OK
+nose.config: INFO: Ignoring files matching ['^\\.', '^_', '^setup\\.py$']
+nose.plugins.manager: DEBUG: Configuring plugins
+nose.plugins.manager: DEBUG: Plugins enabled: [<nose.plugins.capture.Capture object at 0x7f7130136eb8>, <nose.plugins.logcapture.LogCapture object at 0x7f71301486d8>, <nose.plugins.deprecated.Deprecated object at 0x7f71300dd630>, <nose.plugins.skip.Skip object at 0x7f71300a4e80>, <nose.plugins.collect.CollectOnly object at 0x7f7130035240>]
+nose.core: DEBUG: configured Config(addPaths=True, args=(), configSection='nosetests', debug=None, debugLog=None, env={}, exclude=None, files=[], firstPackageWins=False, getTestCaseNamesCompat=False, ignoreFiles=[re.compile('^\\.'), re.compile('^_'), re.compile('^setup\\.py$')], ignoreFilesDefaultStrings=['^\\.', '^_', '^setup\\.py$'], include=None, includeExe=False, logStream=<_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>, loggingConfig=None, options=<Values at 0x7f7130035c18: {'version': False, 'showPlugins': False, 'verbosity': 4, 'files': None, 'where': None, 'py3where': None, 'testMatch': '(?:^|[\\b_\\./-])[Tt]est', 'testNames': None, 'debug': None, 'debugLog': None, 'loggingConfig': None, 'ignoreFiles': [], 'exclude': [], 'include': [], 'stopOnError': False, 'addPaths': True, 'includeExe': False, 'traverseNamespace': False, 'firstPackageWins': False, 'byteCompile': True, 'attr': None, 'eval_attr': None, 'capture': True, 'logcapture': True, 'logcapture_format': '%(name)s: %(levelname)s: %(message)s', 'logcapture_datefmt': None, 'logcapture_filters': None, 'logcapture_clear': False, 'logcapture_level': 'NOTSET', 'enable_plugin_coverage': None, 'cover_packages': None, 'cover_erase': None, 'cover_tests': None, 'cover_min_percentage': None, 'cover_inclusive': None, 'cover_html': None, 'cover_html_dir': 'cover', 'cover_branches': None, 'cover_xml': None, 'cover_xml_file': 'coverage.xml', 'debugBoth': False, 'debugFailures': False, 'debugErrors': False, 'noDeprecated': False, 'enable_plugin_doctest': None, 'doctest_tests': None, 'doctestExtension': None, 'doctest_result_var': None, 'doctestFixtures': None, 'doctestOptions': None, 'enable_plugin_isolation': None, 'detailedErrors': None, 'noSkip': False, 'enable_plugin_id': None, 'testIdFile': '.noseids', 'failed': False, 'multiprocess_workers': 0, 'multiprocess_timeout': 10, 'multiprocess_restartworker': False, 'enable_plugin_xunit': None, 'xunit_file': 'nosetests.xml', 'xunit_testsuite_name': 'nosetests', 'enable_plugin_allmodules': None, 'collect_only': True}>, parser=<optparse.OptionParser object at 0x7f7130bfe5c0>, parserClass=<class 'optparse.OptionParser'>, plugins=<nose.plugins.manager.DefaultPluginManager object at 0x7f7130cd28d0>, py3where=(), runOnInit=True, srcDirs=('lib', 'src'), stopOnError=False, stream=<_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>, testMatch=re.compile('(?:^|[\\b_\\./-])[Tt]est'), testMatchPat='(?:^|[\\b_\\./-])[Tt]est', testNames=['='], traverseNamespace=False, verbosity=4, where=(), worker=False, workingDir='/home/gal1le0/development/native/ndaragisha')
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha
+nose.plugins.collect: DEBUG: Preparing test loader
+nose.core: DEBUG: test loader is <nose.loader.TestLoader object at 0x7f7130035da0>
+nose.core: DEBUG: defaultTest .
+nose.core: DEBUG: Test names are ['=']
+nose.core: DEBUG: createTests called with None
+nose.loader: DEBUG: load from = (None)
+nose.selector: DEBUG: Test name = resolved to file =, module None, call None
+nose.selector: DEBUG: Final resolution of test name =: file /home/gal1le0/development/native/ndaragisha/= module None call None
+nose.plugins.collect: DEBUG: TestSuite([<nose.suite.LazySuite tests=generator (140124113158384)>])
+nose.plugins.collect: DEBUG: Add test <nose.suite.LazySuite tests=generator (140124113158384)>
+nose.core: DEBUG: runTests called
+nose.suite: DEBUG: precache is []
+nose.loader: DEBUG: load from dir /home/gal1le0/development/native/ndaragisha/=
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha/=
+nose.importer: DEBUG: insert /home/gal1le0/development/native/ndaragisha/= into sys.path
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/Backups? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/Cache? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/CachedData? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/CachedExtensions? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Cookies? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Cookies-journal? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/GPUCache? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Network Persistent State? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/User? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/blob_storage? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/home? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/languagepacks.json? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/logs? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/machineid? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/rapid_render.json? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/storage.json? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/webrtc_event_logs? False
+nose.importer: DEBUG: Remove path /home/gal1le0/development/native/ndaragisha/=
+nose.suite: DEBUG: precache is []
+
+----------------------------------------------------------------------
+Ran 0 tests in 0.003s
+
+OK
+nose.config: INFO: Ignoring files matching ['^\\.', '^_', '^setup\\.py$']
+nose.plugins.manager: DEBUG: Configuring plugins
+nose.plugins.manager: DEBUG: Plugins enabled: [<nose.plugins.capture.Capture object at 0x7f66c8f32f28>, <nose.plugins.logcapture.LogCapture object at 0x7f66c8f44748>, <nose.plugins.deprecated.Deprecated object at 0x7f66c8ed9668>, <nose.plugins.skip.Skip object at 0x7f66c8ea0da0>, <nose.plugins.collect.CollectOnly object at 0x7f66c8e2d320>]
+nose.core: DEBUG: configured Config(addPaths=True, args=(), configSection='nosetests', debug=None, debugLog=None, env={}, exclude=None, files=[], firstPackageWins=False, getTestCaseNamesCompat=False, ignoreFiles=[re.compile('^\\.'), re.compile('^_'), re.compile('^setup\\.py$')], ignoreFilesDefaultStrings=['^\\.', '^_', '^setup\\.py$'], include=None, includeExe=False, logStream=<_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>, loggingConfig=None, options=<Values at 0x7f66c8e2dd30: {'version': False, 'showPlugins': False, 'verbosity': 4, 'files': None, 'where': None, 'py3where': None, 'testMatch': '(?:^|[\\b_\\./-])[Tt]est', 'testNames': None, 'debug': None, 'debugLog': None, 'loggingConfig': None, 'ignoreFiles': [], 'exclude': [], 'include': [], 'stopOnError': False, 'addPaths': True, 'includeExe': False, 'traverseNamespace': False, 'firstPackageWins': False, 'byteCompile': True, 'attr': None, 'eval_attr': None, 'capture': True, 'logcapture': True, 'logcapture_format': '%(name)s: %(levelname)s: %(message)s', 'logcapture_datefmt': None, 'logcapture_filters': None, 'logcapture_clear': False, 'logcapture_level': 'NOTSET', 'enable_plugin_coverage': None, 'cover_packages': None, 'cover_erase': None, 'cover_tests': None, 'cover_min_percentage': None, 'cover_inclusive': None, 'cover_html': None, 'cover_html_dir': 'cover', 'cover_branches': None, 'cover_xml': None, 'cover_xml_file': 'coverage.xml', 'debugBoth': False, 'debugFailures': False, 'debugErrors': False, 'noDeprecated': False, 'enable_plugin_doctest': None, 'doctest_tests': None, 'doctestExtension': None, 'doctest_result_var': None, 'doctestFixtures': None, 'doctestOptions': None, 'enable_plugin_isolation': None, 'detailedErrors': None, 'noSkip': False, 'enable_plugin_id': None, 'testIdFile': '.noseids', 'failed': False, 'multiprocess_workers': 0, 'multiprocess_timeout': 10, 'multiprocess_restartworker': False, 'enable_plugin_xunit': None, 'xunit_file': 'nosetests.xml', 'xunit_testsuite_name': 'nosetests', 'enable_plugin_allmodules': None, 'collect_only': True}>, parser=<optparse.OptionParser object at 0x7f66c9a87320>, parserClass=<class 'optparse.OptionParser'>, plugins=<nose.plugins.manager.DefaultPluginManager object at 0x7f66c9532a20>, py3where=(), runOnInit=True, srcDirs=('lib', 'src'), stopOnError=False, stream=<_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>, testMatch=re.compile('(?:^|[\\b_\\./-])[Tt]est'), testMatchPat='(?:^|[\\b_\\./-])[Tt]est', testNames=['='], traverseNamespace=False, verbosity=4, where=(), worker=False, workingDir='/home/gal1le0/development/native/ndaragisha')
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha
+nose.plugins.collect: DEBUG: Preparing test loader
+nose.core: DEBUG: test loader is <nose.loader.TestLoader object at 0x7f66c8e2de80>
+nose.core: DEBUG: defaultTest .
+nose.core: DEBUG: Test names are ['=']
+nose.core: DEBUG: createTests called with None
+nose.loader: DEBUG: load from = (None)
+nose.selector: DEBUG: Test name = resolved to file =, module None, call None
+nose.selector: DEBUG: Final resolution of test name =: file /home/gal1le0/development/native/ndaragisha/= module None call None
+nose.plugins.collect: DEBUG: TestSuite([<nose.suite.LazySuite tests=generator (140079433294512)>])
+nose.plugins.collect: DEBUG: Add test <nose.suite.LazySuite tests=generator (140079433294512)>
+nose.core: DEBUG: runTests called
+nose.suite: DEBUG: precache is []
+nose.loader: DEBUG: load from dir /home/gal1le0/development/native/ndaragisha/=
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha/=
+nose.importer: DEBUG: insert /home/gal1le0/development/native/ndaragisha/= into sys.path
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/Backups? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/Cache? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/CachedData? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/CachedExtensions? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Cookies? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Cookies-journal? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/GPUCache? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Network Persistent State? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/User? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/blob_storage? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/home? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/languagepacks.json? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/logs? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/machineid? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/rapid_render.json? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/storage.json? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/webrtc_event_logs? False
+nose.importer: DEBUG: Remove path /home/gal1le0/development/native/ndaragisha/=
+nose.suite: DEBUG: precache is []
+
+----------------------------------------------------------------------
+Ran 0 tests in 0.004s
+
+OK
+nose.config: INFO: Ignoring files matching ['^\\.', '^_', '^setup\\.py$']
+nose.plugins.manager: DEBUG: Configuring plugins
+nose.plugins.manager: DEBUG: Plugins enabled: [<nose.plugins.capture.Capture object at 0x7fa2422e3ef0>, <nose.plugins.logcapture.LogCapture object at 0x7fa2422f5710>, <nose.plugins.deprecated.Deprecated object at 0x7fa24228a630>, <nose.plugins.skip.Skip object at 0x7fa242251e80>, <nose.plugins.collect.CollectOnly object at 0x7fa2421e2278>]
+nose.core: DEBUG: configured Config(addPaths=True, args=(), configSection='nosetests', debug=None, debugLog=None, env={}, exclude=None, files=[], firstPackageWins=False, getTestCaseNamesCompat=False, ignoreFiles=[re.compile('^\\.'), re.compile('^_'), re.compile('^setup\\.py$')], ignoreFilesDefaultStrings=['^\\.', '^_', '^setup\\.py$'], include=None, includeExe=False, logStream=<_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>, loggingConfig=None, options=<Values at 0x7fa2421e2c50: {'version': False, 'showPlugins': False, 'verbosity': 4, 'files': None, 'where': None, 'py3where': None, 'testMatch': '(?:^|[\\b_\\./-])[Tt]est', 'testNames': None, 'debug': None, 'debugLog': None, 'loggingConfig': None, 'ignoreFiles': [], 'exclude': [], 'include': [], 'stopOnError': False, 'addPaths': True, 'includeExe': False, 'traverseNamespace': False, 'firstPackageWins': False, 'byteCompile': True, 'attr': None, 'eval_attr': None, 'capture': True, 'logcapture': True, 'logcapture_format': '%(name)s: %(levelname)s: %(message)s', 'logcapture_datefmt': None, 'logcapture_filters': None, 'logcapture_clear': False, 'logcapture_level': 'NOTSET', 'enable_plugin_coverage': None, 'cover_packages': None, 'cover_erase': None, 'cover_tests': None, 'cover_min_percentage': None, 'cover_inclusive': None, 'cover_html': None, 'cover_html_dir': 'cover', 'cover_branches': None, 'cover_xml': None, 'cover_xml_file': 'coverage.xml', 'debugBoth': False, 'debugFailures': False, 'debugErrors': False, 'noDeprecated': False, 'enable_plugin_doctest': None, 'doctest_tests': None, 'doctestExtension': None, 'doctest_result_var': None, 'doctestFixtures': None, 'doctestOptions': None, 'enable_plugin_isolation': None, 'detailedErrors': None, 'noSkip': False, 'enable_plugin_id': None, 'testIdFile': '.noseids', 'failed': False, 'multiprocess_workers': 0, 'multiprocess_timeout': 10, 'multiprocess_restartworker': False, 'enable_plugin_xunit': None, 'xunit_file': 'nosetests.xml', 'xunit_testsuite_name': 'nosetests', 'enable_plugin_allmodules': None, 'collect_only': True}>, parser=<optparse.OptionParser object at 0x7fa242dbc5c0>, parserClass=<class 'optparse.OptionParser'>, plugins=<nose.plugins.manager.DefaultPluginManager object at 0x7fa242e908d0>, py3where=(), runOnInit=True, srcDirs=('lib', 'src'), stopOnError=False, stream=<_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>, testMatch=re.compile('(?:^|[\\b_\\./-])[Tt]est'), testMatchPat='(?:^|[\\b_\\./-])[Tt]est', testNames=['='], traverseNamespace=False, verbosity=4, where=(), worker=False, workingDir='/home/gal1le0/development/native/ndaragisha')
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha
+nose.plugins.collect: DEBUG: Preparing test loader
+nose.core: DEBUG: test loader is <nose.loader.TestLoader object at 0x7fa2421e2d68>
+nose.core: DEBUG: defaultTest .
+nose.core: DEBUG: Test names are ['=']
+nose.core: DEBUG: createTests called with None
+nose.loader: DEBUG: load from = (None)
+nose.selector: DEBUG: Test name = resolved to file =, module None, call None
+nose.selector: DEBUG: Final resolution of test name =: file /home/gal1le0/development/native/ndaragisha/= module None call None
+nose.plugins.collect: DEBUG: TestSuite([<nose.suite.LazySuite tests=generator (140334870282648)>])
+nose.plugins.collect: DEBUG: Add test <nose.suite.LazySuite tests=generator (140334870282648)>
+nose.core: DEBUG: runTests called
+nose.suite: DEBUG: precache is []
+nose.loader: DEBUG: load from dir /home/gal1le0/development/native/ndaragisha/=
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha/=
+nose.importer: DEBUG: insert /home/gal1le0/development/native/ndaragisha/= into sys.path
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/Backups? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/Cache? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/CachedData? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/CachedExtensions? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Cookies? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Cookies-journal? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/GPUCache? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Network Persistent State? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/User? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/blob_storage? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/home? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/languagepacks.json? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/logs? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/machineid? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/rapid_render.json? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/storage.json? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/webrtc_event_logs? False
+nose.importer: DEBUG: Remove path /home/gal1le0/development/native/ndaragisha/=
+nose.suite: DEBUG: precache is []
+
+----------------------------------------------------------------------
+Ran 0 tests in 0.004s
+
+OK
+nose.config: INFO: Ignoring files matching ['^\\.', '^_', '^setup\\.py$']
+nose.plugins.manager: DEBUG: Configuring plugins
+nose.plugins.manager: DEBUG: Plugins enabled: [<nose.plugins.capture.Capture object at 0x7f7303057f28>, <nose.plugins.logcapture.LogCapture object at 0x7f7303069748>, <nose.plugins.deprecated.Deprecated object at 0x7f7302ffe6a0>, <nose.plugins.skip.Skip object at 0x7f7302fc5f28>, <nose.plugins.collect.CollectOnly object at 0x7f7302f522e8>]
+nose.core: DEBUG: configured Config(addPaths=True, args=(), configSection='nosetests', debug=None, debugLog=None, env={}, exclude=None, files=[], firstPackageWins=False, getTestCaseNamesCompat=False, ignoreFiles=[re.compile('^\\.'), re.compile('^_'), re.compile('^setup\\.py$')], ignoreFilesDefaultStrings=['^\\.', '^_', '^setup\\.py$'], include=None, includeExe=False, logStream=<_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>, loggingConfig=None, options=<Values at 0x7f7302f52cc0: {'version': False, 'showPlugins': False, 'verbosity': 4, 'files': None, 'where': None, 'py3where': None, 'testMatch': '(?:^|[\\b_\\./-])[Tt]est', 'testNames': None, 'debug': None, 'debugLog': None, 'loggingConfig': None, 'ignoreFiles': [], 'exclude': [], 'include': [], 'stopOnError': False, 'addPaths': True, 'includeExe': False, 'traverseNamespace': False, 'firstPackageWins': False, 'byteCompile': True, 'attr': None, 'eval_attr': None, 'capture': True, 'logcapture': True, 'logcapture_format': '%(name)s: %(levelname)s: %(message)s', 'logcapture_datefmt': None, 'logcapture_filters': None, 'logcapture_clear': False, 'logcapture_level': 'NOTSET', 'enable_plugin_coverage': None, 'cover_packages': None, 'cover_erase': None, 'cover_tests': None, 'cover_min_percentage': None, 'cover_inclusive': None, 'cover_html': None, 'cover_html_dir': 'cover', 'cover_branches': None, 'cover_xml': None, 'cover_xml_file': 'coverage.xml', 'debugBoth': False, 'debugFailures': False, 'debugErrors': False, 'noDeprecated': False, 'enable_plugin_doctest': None, 'doctest_tests': None, 'doctestExtension': None, 'doctest_result_var': None, 'doctestFixtures': None, 'doctestOptions': None, 'enable_plugin_isolation': None, 'detailedErrors': None, 'noSkip': False, 'enable_plugin_id': None, 'testIdFile': '.noseids', 'failed': False, 'multiprocess_workers': 0, 'multiprocess_timeout': 10, 'multiprocess_restartworker': False, 'enable_plugin_xunit': None, 'xunit_file': 'nosetests.xml', 'xunit_testsuite_name': 'nosetests', 'enable_plugin_allmodules': None, 'collect_only': True}>, parser=<optparse.OptionParser object at 0x7f7303b5f5c0>, parserClass=<class 'optparse.OptionParser'>, plugins=<nose.plugins.manager.DefaultPluginManager object at 0x7f7303c338d0>, py3where=(), runOnInit=True, srcDirs=('lib', 'src'), stopOnError=False, stream=<_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>, testMatch=re.compile('(?:^|[\\b_\\./-])[Tt]est'), testMatchPat='(?:^|[\\b_\\./-])[Tt]est', testNames=['='], traverseNamespace=False, verbosity=4, where=(), worker=False, workingDir='/home/gal1le0/development/native/ndaragisha')
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha
+nose.plugins.collect: DEBUG: Preparing test loader
+nose.core: DEBUG: test loader is <nose.loader.TestLoader object at 0x7f7302f52d68>
+nose.core: DEBUG: defaultTest .
+nose.core: DEBUG: Test names are ['=']
+nose.core: DEBUG: createTests called with None
+nose.loader: DEBUG: load from = (None)
+nose.selector: DEBUG: Test name = resolved to file =, module None, call None
+nose.selector: DEBUG: Final resolution of test name =: file /home/gal1le0/development/native/ndaragisha/= module None call None
+nose.plugins.collect: DEBUG: TestSuite([<nose.suite.LazySuite tests=generator (140131947184536)>])
+nose.plugins.collect: DEBUG: Add test <nose.suite.LazySuite tests=generator (140131947184536)>
+nose.core: DEBUG: runTests called
+nose.suite: DEBUG: precache is []
+nose.loader: DEBUG: load from dir /home/gal1le0/development/native/ndaragisha/=
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha/=
+nose.importer: DEBUG: insert /home/gal1le0/development/native/ndaragisha/= into sys.path
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/Backups? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/Cache? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/CachedData? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/CachedExtensions? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Cookies? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Cookies-journal? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/GPUCache? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Network Persistent State? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/User? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/blob_storage? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/home? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/languagepacks.json? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/logs? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/machineid? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/rapid_render.json? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/storage.json? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/webrtc_event_logs? False
+nose.importer: DEBUG: Remove path /home/gal1le0/development/native/ndaragisha/=
+nose.suite: DEBUG: precache is []
+
+----------------------------------------------------------------------
+Ran 0 tests in 0.003s
+
+OK
+nose.config: INFO: Ignoring files matching ['^\\.', '^_', '^setup\\.py$']
+nose.plugins.manager: DEBUG: Configuring plugins
+nose.plugins.manager: DEBUG: Plugins enabled: [<nose.plugins.capture.Capture object at 0x7f9856aaaf28>, <nose.plugins.logcapture.LogCapture object at 0x7f9856abc748>, <nose.plugins.deprecated.Deprecated object at 0x7f9856a516a0>, <nose.plugins.skip.Skip object at 0x7f9856a18f28>, <nose.plugins.collect.CollectOnly object at 0x7f98569a52e8>]
+nose.core: DEBUG: configured Config(addPaths=True, args=(), configSection='nosetests', debug=None, debugLog=None, env={}, exclude=None, files=[], firstPackageWins=False, getTestCaseNamesCompat=False, ignoreFiles=[re.compile('^\\.'), re.compile('^_'), re.compile('^setup\\.py$')], ignoreFilesDefaultStrings=['^\\.', '^_', '^setup\\.py$'], include=None, includeExe=False, logStream=<_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>, loggingConfig=None, options=<Values at 0x7f98569a5cf8: {'version': False, 'showPlugins': False, 'verbosity': 4, 'files': None, 'where': None, 'py3where': None, 'testMatch': '(?:^|[\\b_\\./-])[Tt]est', 'testNames': None, 'debug': None, 'debugLog': None, 'loggingConfig': None, 'ignoreFiles': [], 'exclude': [], 'include': [], 'stopOnError': False, 'addPaths': True, 'includeExe': False, 'traverseNamespace': False, 'firstPackageWins': False, 'byteCompile': True, 'attr': None, 'eval_attr': None, 'capture': True, 'logcapture': True, 'logcapture_format': '%(name)s: %(levelname)s: %(message)s', 'logcapture_datefmt': None, 'logcapture_filters': None, 'logcapture_clear': False, 'logcapture_level': 'NOTSET', 'enable_plugin_coverage': None, 'cover_packages': None, 'cover_erase': None, 'cover_tests': None, 'cover_min_percentage': None, 'cover_inclusive': None, 'cover_html': None, 'cover_html_dir': 'cover', 'cover_branches': None, 'cover_xml': None, 'cover_xml_file': 'coverage.xml', 'debugBoth': False, 'debugFailures': False, 'debugErrors': False, 'noDeprecated': False, 'enable_plugin_doctest': None, 'doctest_tests': None, 'doctestExtension': None, 'doctest_result_var': None, 'doctestFixtures': None, 'doctestOptions': None, 'enable_plugin_isolation': None, 'detailedErrors': None, 'noSkip': False, 'enable_plugin_id': None, 'testIdFile': '.noseids', 'failed': False, 'multiprocess_workers': 0, 'multiprocess_timeout': 10, 'multiprocess_restartworker': False, 'enable_plugin_xunit': None, 'xunit_file': 'nosetests.xml', 'xunit_testsuite_name': 'nosetests', 'enable_plugin_allmodules': None, 'collect_only': True}>, parser=<optparse.OptionParser object at 0x7f98575725c0>, parserClass=<class 'optparse.OptionParser'>, plugins=<nose.plugins.manager.DefaultPluginManager object at 0x7f98576468d0>, py3where=(), runOnInit=True, srcDirs=('lib', 'src'), stopOnError=False, stream=<_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>, testMatch=re.compile('(?:^|[\\b_\\./-])[Tt]est'), testMatchPat='(?:^|[\\b_\\./-])[Tt]est', testNames=['='], traverseNamespace=False, verbosity=4, where=(), worker=False, workingDir='/home/gal1le0/development/native/ndaragisha')
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha
+nose.plugins.collect: DEBUG: Preparing test loader
+nose.core: DEBUG: test loader is <nose.loader.TestLoader object at 0x7f98569a5d30>
+nose.core: DEBUG: defaultTest .
+nose.core: DEBUG: Test names are ['=']
+nose.core: DEBUG: createTests called with None
+nose.loader: DEBUG: load from = (None)
+nose.selector: DEBUG: Test name = resolved to file =, module None, call None
+nose.selector: DEBUG: Final resolution of test name =: file /home/gal1le0/development/native/ndaragisha/= module None call None
+nose.plugins.collect: DEBUG: TestSuite([<nose.suite.LazySuite tests=generator (140292264309312)>])
+nose.plugins.collect: DEBUG: Add test <nose.suite.LazySuite tests=generator (140292264309312)>
+nose.core: DEBUG: runTests called
+nose.suite: DEBUG: precache is []
+nose.loader: DEBUG: load from dir /home/gal1le0/development/native/ndaragisha/=
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha/=
+nose.importer: DEBUG: insert /home/gal1le0/development/native/ndaragisha/= into sys.path
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/Backups? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/Cache? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/CachedData? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/CachedExtensions? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Cookies? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Cookies-journal? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/GPUCache? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Network Persistent State? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/User? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/blob_storage? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/home? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/languagepacks.json? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/logs? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/machineid? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/rapid_render.json? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/storage.json? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/webrtc_event_logs? False
+nose.importer: DEBUG: Remove path /home/gal1le0/development/native/ndaragisha/=
+nose.suite: DEBUG: precache is []
+
+----------------------------------------------------------------------
+Ran 0 tests in 0.003s
+
+OK
+nose.config: INFO: Ignoring files matching ['^\\.', '^_', '^setup\\.py$']
+nose.plugins.manager: DEBUG: Configuring plugins
+nose.plugins.manager: DEBUG: Plugins enabled: [<nose.plugins.capture.Capture object at 0x7f0dbf9e2eb8>, <nose.plugins.logcapture.LogCapture object at 0x7f0dbf9f46d8>, <nose.plugins.deprecated.Deprecated object at 0x7f0dbf98a5f8>, <nose.plugins.skip.Skip object at 0x7f0dbf950e80>, <nose.plugins.collect.CollectOnly object at 0x7f0dbf8e1198>]
+nose.core: DEBUG: configured Config(addPaths=True, args=(), configSection='nosetests', debug=None, debugLog=None, env={}, exclude=None, files=[], firstPackageWins=False, getTestCaseNamesCompat=False, ignoreFiles=[re.compile('^\\.'), re.compile('^_'), re.compile('^setup\\.py$')], ignoreFilesDefaultStrings=['^\\.', '^_', '^setup\\.py$'], include=None, includeExe=False, logStream=<_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>, loggingConfig=None, options=<Values at 0x7f0dbf8e1ba8: {'version': False, 'showPlugins': False, 'verbosity': 4, 'files': None, 'where': None, 'py3where': None, 'testMatch': '(?:^|[\\b_\\./-])[Tt]est', 'testNames': None, 'debug': None, 'debugLog': None, 'loggingConfig': None, 'ignoreFiles': [], 'exclude': [], 'include': [], 'stopOnError': False, 'addPaths': True, 'includeExe': False, 'traverseNamespace': False, 'firstPackageWins': False, 'byteCompile': True, 'attr': None, 'eval_attr': None, 'capture': True, 'logcapture': True, 'logcapture_format': '%(name)s: %(levelname)s: %(message)s', 'logcapture_datefmt': None, 'logcapture_filters': None, 'logcapture_clear': False, 'logcapture_level': 'NOTSET', 'enable_plugin_coverage': None, 'cover_packages': None, 'cover_erase': None, 'cover_tests': None, 'cover_min_percentage': None, 'cover_inclusive': None, 'cover_html': None, 'cover_html_dir': 'cover', 'cover_branches': None, 'cover_xml': None, 'cover_xml_file': 'coverage.xml', 'debugBoth': False, 'debugFailures': False, 'debugErrors': False, 'noDeprecated': False, 'enable_plugin_doctest': None, 'doctest_tests': None, 'doctestExtension': None, 'doctest_result_var': None, 'doctestFixtures': None, 'doctestOptions': None, 'enable_plugin_isolation': None, 'detailedErrors': None, 'noSkip': False, 'enable_plugin_id': None, 'testIdFile': '.noseids', 'failed': False, 'multiprocess_workers': 0, 'multiprocess_timeout': 10, 'multiprocess_restartworker': False, 'enable_plugin_xunit': None, 'xunit_file': 'nosetests.xml', 'xunit_testsuite_name': 'nosetests', 'enable_plugin_allmodules': None, 'collect_only': True}>, parser=<optparse.OptionParser object at 0x7f0dc04bb5c0>, parserClass=<class 'optparse.OptionParser'>, plugins=<nose.plugins.manager.DefaultPluginManager object at 0x7f0dc058f8d0>, py3where=(), runOnInit=True, srcDirs=('lib', 'src'), stopOnError=False, stream=<_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>, testMatch=re.compile('(?:^|[\\b_\\./-])[Tt]est'), testMatchPat='(?:^|[\\b_\\./-])[Tt]est', testNames=['='], traverseNamespace=False, verbosity=4, where=(), worker=False, workingDir='/home/gal1le0/development/native/ndaragisha')
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha
+nose.plugins.collect: DEBUG: Preparing test loader
+nose.core: DEBUG: test loader is <nose.loader.TestLoader object at 0x7f0dbf8e1cc0>
+nose.core: DEBUG: defaultTest .
+nose.core: DEBUG: Test names are ['=']
+nose.core: DEBUG: createTests called with None
+nose.loader: DEBUG: load from = (None)
+nose.selector: DEBUG: Test name = resolved to file =, module None, call None
+nose.selector: DEBUG: Final resolution of test name =: file /home/gal1le0/development/native/ndaragisha/= module None call None
+nose.plugins.collect: DEBUG: TestSuite([<nose.suite.LazySuite tests=generator (139697024663792)>])
+nose.plugins.collect: DEBUG: Add test <nose.suite.LazySuite tests=generator (139697024663792)>
+nose.core: DEBUG: runTests called
+nose.suite: DEBUG: precache is []
+nose.loader: DEBUG: load from dir /home/gal1le0/development/native/ndaragisha/=
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha/=
+nose.importer: DEBUG: insert /home/gal1le0/development/native/ndaragisha/= into sys.path
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/Backups? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/Cache? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/CachedData? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/CachedExtensions? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Cookies? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Cookies-journal? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/GPUCache? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Network Persistent State? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/User? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/blob_storage? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/home? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/languagepacks.json? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/logs? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/machineid? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/rapid_render.json? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/storage.json? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/webrtc_event_logs? False
+nose.importer: DEBUG: Remove path /home/gal1le0/development/native/ndaragisha/=
+nose.suite: DEBUG: precache is []
+
+----------------------------------------------------------------------
+Ran 0 tests in 0.003s
+
+OK
+nose.config: INFO: Ignoring files matching ['^\\.', '^_', '^setup\\.py$']
+nose.plugins.manager: DEBUG: Configuring plugins
+nose.plugins.manager: DEBUG: Plugins enabled: [<nose.plugins.capture.Capture object at 0x7fa864a42f28>, <nose.plugins.logcapture.LogCapture object at 0x7fa864a54748>, <nose.plugins.deprecated.Deprecated object at 0x7fa8649e96a0>, <nose.plugins.skip.Skip object at 0x7fa8649b0f28>, <nose.plugins.collect.CollectOnly object at 0x7fa864941240>]
+nose.core: DEBUG: configured Config(addPaths=True, args=(), configSection='nosetests', debug=None, debugLog=None, env={}, exclude=None, files=[], firstPackageWins=False, getTestCaseNamesCompat=False, ignoreFiles=[re.compile('^\\.'), re.compile('^_'), re.compile('^setup\\.py$')], ignoreFilesDefaultStrings=['^\\.', '^_', '^setup\\.py$'], include=None, includeExe=False, logStream=<_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>, loggingConfig=None, options=<Values at 0x7fa864941c50: {'version': False, 'showPlugins': False, 'verbosity': 4, 'files': None, 'where': None, 'py3where': None, 'testMatch': '(?:^|[\\b_\\./-])[Tt]est', 'testNames': None, 'debug': None, 'debugLog': None, 'loggingConfig': None, 'ignoreFiles': [], 'exclude': [], 'include': [], 'stopOnError': False, 'addPaths': True, 'includeExe': False, 'traverseNamespace': False, 'firstPackageWins': False, 'byteCompile': True, 'attr': None, 'eval_attr': None, 'capture': True, 'logcapture': True, 'logcapture_format': '%(name)s: %(levelname)s: %(message)s', 'logcapture_datefmt': None, 'logcapture_filters': None, 'logcapture_clear': False, 'logcapture_level': 'NOTSET', 'enable_plugin_coverage': None, 'cover_packages': None, 'cover_erase': None, 'cover_tests': None, 'cover_min_percentage': None, 'cover_inclusive': None, 'cover_html': None, 'cover_html_dir': 'cover', 'cover_branches': None, 'cover_xml': None, 'cover_xml_file': 'coverage.xml', 'debugBoth': False, 'debugFailures': False, 'debugErrors': False, 'noDeprecated': False, 'enable_plugin_doctest': None, 'doctest_tests': None, 'doctestExtension': None, 'doctest_result_var': None, 'doctestFixtures': None, 'doctestOptions': None, 'enable_plugin_isolation': None, 'detailedErrors': None, 'noSkip': False, 'enable_plugin_id': None, 'testIdFile': '.noseids', 'failed': False, 'multiprocess_workers': 0, 'multiprocess_timeout': 10, 'multiprocess_restartworker': False, 'enable_plugin_xunit': None, 'xunit_file': 'nosetests.xml', 'xunit_testsuite_name': 'nosetests', 'enable_plugin_allmodules': None, 'collect_only': True}>, parser=<optparse.OptionParser object at 0x7fa86554a5c0>, parserClass=<class 'optparse.OptionParser'>, plugins=<nose.plugins.manager.DefaultPluginManager object at 0x7fa86561e8d0>, py3where=(), runOnInit=True, srcDirs=('lib', 'src'), stopOnError=False, stream=<_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>, testMatch=re.compile('(?:^|[\\b_\\./-])[Tt]est'), testMatchPat='(?:^|[\\b_\\./-])[Tt]est', testNames=['='], traverseNamespace=False, verbosity=4, where=(), worker=False, workingDir='/home/gal1le0/development/native/ndaragisha')
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha
+nose.plugins.collect: DEBUG: Preparing test loader
+nose.core: DEBUG: test loader is <nose.loader.TestLoader object at 0x7fa864941da0>
+nose.core: DEBUG: defaultTest .
+nose.core: DEBUG: Test names are ['=']
+nose.core: DEBUG: createTests called with None
+nose.loader: DEBUG: load from = (None)
+nose.selector: DEBUG: Test name = resolved to file =, module None, call None
+nose.selector: DEBUG: Final resolution of test name =: file /home/gal1le0/development/native/ndaragisha/= module None call None
+nose.plugins.collect: DEBUG: TestSuite([<nose.suite.LazySuite tests=generator (140361218240920)>])
+nose.plugins.collect: DEBUG: Add test <nose.suite.LazySuite tests=generator (140361218240920)>
+nose.core: DEBUG: runTests called
+nose.suite: DEBUG: precache is []
+nose.loader: DEBUG: load from dir /home/gal1le0/development/native/ndaragisha/=
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha/=
+nose.importer: DEBUG: insert /home/gal1le0/development/native/ndaragisha/= into sys.path
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/Backups? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/Cache? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/CachedData? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/CachedExtensions? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Cookies? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Cookies-journal? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/GPUCache? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Network Persistent State? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/User? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/blob_storage? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/home? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/languagepacks.json? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/logs? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/machineid? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/rapid_render.json? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/storage.json? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/webrtc_event_logs? False
+nose.importer: DEBUG: Remove path /home/gal1le0/development/native/ndaragisha/=
+nose.suite: DEBUG: precache is []
+
+----------------------------------------------------------------------
+Ran 0 tests in 0.004s
+
+OK
+nose.config: INFO: Ignoring files matching ['^\\.', '^_', '^setup\\.py$']
+nose.plugins.manager: DEBUG: Configuring plugins
+nose.plugins.manager: DEBUG: Plugins enabled: [<nose.plugins.capture.Capture object at 0x7f70c3453f28>, <nose.plugins.logcapture.LogCapture object at 0x7f70c3465748>, <nose.plugins.deprecated.Deprecated object at 0x7f70c33fa668>, <nose.plugins.skip.Skip object at 0x7f70c33c1da0>, <nose.plugins.collect.CollectOnly object at 0x7f70c3352208>]
+nose.core: DEBUG: configured Config(addPaths=True, args=(), configSection='nosetests', debug=None, debugLog=None, env={}, exclude=None, files=[], firstPackageWins=False, getTestCaseNamesCompat=False, ignoreFiles=[re.compile('^\\.'), re.compile('^_'), re.compile('^setup\\.py$')], ignoreFilesDefaultStrings=['^\\.', '^_', '^setup\\.py$'], include=None, includeExe=False, logStream=<_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>, loggingConfig=None, options=<Values at 0x7f70c3352c18: {'version': False, 'showPlugins': False, 'verbosity': 4, 'files': None, 'where': None, 'py3where': None, 'testMatch': '(?:^|[\\b_\\./-])[Tt]est', 'testNames': None, 'debug': None, 'debugLog': None, 'loggingConfig': None, 'ignoreFiles': [], 'exclude': [], 'include': [], 'stopOnError': False, 'addPaths': True, 'includeExe': False, 'traverseNamespace': False, 'firstPackageWins': False, 'byteCompile': True, 'attr': None, 'eval_attr': None, 'capture': True, 'logcapture': True, 'logcapture_format': '%(name)s: %(levelname)s: %(message)s', 'logcapture_datefmt': None, 'logcapture_filters': None, 'logcapture_clear': False, 'logcapture_level': 'NOTSET', 'enable_plugin_coverage': None, 'cover_packages': None, 'cover_erase': None, 'cover_tests': None, 'cover_min_percentage': None, 'cover_inclusive': None, 'cover_html': None, 'cover_html_dir': 'cover', 'cover_branches': None, 'cover_xml': None, 'cover_xml_file': 'coverage.xml', 'debugBoth': False, 'debugFailures': False, 'debugErrors': False, 'noDeprecated': False, 'enable_plugin_doctest': None, 'doctest_tests': None, 'doctestExtension': None, 'doctest_result_var': None, 'doctestFixtures': None, 'doctestOptions': None, 'enable_plugin_isolation': None, 'detailedErrors': None, 'noSkip': False, 'enable_plugin_id': None, 'testIdFile': '.noseids', 'failed': False, 'multiprocess_workers': 0, 'multiprocess_timeout': 10, 'multiprocess_restartworker': False, 'enable_plugin_xunit': None, 'xunit_file': 'nosetests.xml', 'xunit_testsuite_name': 'nosetests', 'enable_plugin_allmodules': None, 'collect_only': True}>, parser=<optparse.OptionParser object at 0x7f70c3f2c5c0>, parserClass=<class 'optparse.OptionParser'>, plugins=<nose.plugins.manager.DefaultPluginManager object at 0x7f70c40008d0>, py3where=(), runOnInit=True, srcDirs=('lib', 'src'), stopOnError=False, stream=<_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>, testMatch=re.compile('(?:^|[\\b_\\./-])[Tt]est'), testMatchPat='(?:^|[\\b_\\./-])[Tt]est', testNames=['='], traverseNamespace=False, verbosity=4, where=(), worker=False, workingDir='/home/gal1le0/development/native/ndaragisha')
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha
+nose.plugins.collect: DEBUG: Preparing test loader
+nose.core: DEBUG: test loader is <nose.loader.TestLoader object at 0x7f70c3352d68>
+nose.core: DEBUG: defaultTest .
+nose.core: DEBUG: Test names are ['=']
+nose.core: DEBUG: createTests called with None
+nose.loader: DEBUG: load from = (None)
+nose.selector: DEBUG: Test name = resolved to file =, module None, call None
+nose.selector: DEBUG: Final resolution of test name =: file /home/gal1le0/development/native/ndaragisha/= module None call None
+nose.plugins.collect: DEBUG: TestSuite([<nose.suite.LazySuite tests=generator (140122287686040)>])
+nose.plugins.collect: DEBUG: Add test <nose.suite.LazySuite tests=generator (140122287686040)>
+nose.core: DEBUG: runTests called
+nose.suite: DEBUG: precache is []
+nose.loader: DEBUG: load from dir /home/gal1le0/development/native/ndaragisha/=
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha/=
+nose.importer: DEBUG: insert /home/gal1le0/development/native/ndaragisha/= into sys.path
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/Backups? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/Cache? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/CachedData? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/CachedExtensions? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Cookies? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Cookies-journal? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/GPUCache? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Network Persistent State? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/User? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/blob_storage? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/home? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/languagepacks.json? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/logs? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/machineid? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/rapid_render.json? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/storage.json? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/webrtc_event_logs? False
+nose.importer: DEBUG: Remove path /home/gal1le0/development/native/ndaragisha/=
+nose.suite: DEBUG: precache is []
+
+----------------------------------------------------------------------
+Ran 0 tests in 0.003s
+
+OK
+nose.config: INFO: Ignoring files matching ['^\\.', '^_', '^setup\\.py$']
+nose.plugins.manager: DEBUG: Configuring plugins
+nose.plugins.manager: DEBUG: Plugins enabled: [<nose.plugins.capture.Capture object at 0x7fbd7e2fff60>, <nose.plugins.logcapture.LogCapture object at 0x7fbd7e311780>, <nose.plugins.deprecated.Deprecated object at 0x7fbd7e2a66a0>, <nose.plugins.skip.Skip object at 0x7fbd7e26df28>, <nose.plugins.collect.CollectOnly object at 0x7fbd7e1fe278>]
+nose.core: DEBUG: configured Config(addPaths=True, args=(), configSection='nosetests', debug=None, debugLog=None, env={}, exclude=None, files=[], firstPackageWins=False, getTestCaseNamesCompat=False, ignoreFiles=[re.compile('^\\.'), re.compile('^_'), re.compile('^setup\\.py$')], ignoreFilesDefaultStrings=['^\\.', '^_', '^setup\\.py$'], include=None, includeExe=False, logStream=<_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>, loggingConfig=None, options=<Values at 0x7fbd7e1fec88: {'version': False, 'showPlugins': False, 'verbosity': 4, 'files': None, 'where': None, 'py3where': None, 'testMatch': '(?:^|[\\b_\\./-])[Tt]est', 'testNames': None, 'debug': None, 'debugLog': None, 'loggingConfig': None, 'ignoreFiles': [], 'exclude': [], 'include': [], 'stopOnError': False, 'addPaths': True, 'includeExe': False, 'traverseNamespace': False, 'firstPackageWins': False, 'byteCompile': True, 'attr': None, 'eval_attr': None, 'capture': True, 'logcapture': True, 'logcapture_format': '%(name)s: %(levelname)s: %(message)s', 'logcapture_datefmt': None, 'logcapture_filters': None, 'logcapture_clear': False, 'logcapture_level': 'NOTSET', 'enable_plugin_coverage': None, 'cover_packages': None, 'cover_erase': None, 'cover_tests': None, 'cover_min_percentage': None, 'cover_inclusive': None, 'cover_html': None, 'cover_html_dir': 'cover', 'cover_branches': None, 'cover_xml': None, 'cover_xml_file': 'coverage.xml', 'debugBoth': False, 'debugFailures': False, 'debugErrors': False, 'noDeprecated': False, 'enable_plugin_doctest': None, 'doctest_tests': None, 'doctestExtension': None, 'doctest_result_var': None, 'doctestFixtures': None, 'doctestOptions': None, 'enable_plugin_isolation': None, 'detailedErrors': None, 'noSkip': False, 'enable_plugin_id': None, 'testIdFile': '.noseids', 'failed': False, 'multiprocess_workers': 0, 'multiprocess_timeout': 10, 'multiprocess_restartworker': False, 'enable_plugin_xunit': None, 'xunit_file': 'nosetests.xml', 'xunit_testsuite_name': 'nosetests', 'enable_plugin_allmodules': None, 'collect_only': True}>, parser=<optparse.OptionParser object at 0x7fbd7ee075c0>, parserClass=<class 'optparse.OptionParser'>, plugins=<nose.plugins.manager.DefaultPluginManager object at 0x7fbd7eedb8d0>, py3where=(), runOnInit=True, srcDirs=('lib', 'src'), stopOnError=False, stream=<_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>, testMatch=re.compile('(?:^|[\\b_\\./-])[Tt]est'), testMatchPat='(?:^|[\\b_\\./-])[Tt]est', testNames=['='], traverseNamespace=False, verbosity=4, where=(), worker=False, workingDir='/home/gal1le0/development/native/ndaragisha')
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha
+nose.plugins.collect: DEBUG: Preparing test loader
+nose.core: DEBUG: test loader is <nose.loader.TestLoader object at 0x7fbd7e1feda0>
+nose.core: DEBUG: defaultTest .
+nose.core: DEBUG: Test names are ['=']
+nose.core: DEBUG: createTests called with None
+nose.loader: DEBUG: load from = (None)
+nose.selector: DEBUG: Test name = resolved to file =, module None, call None
+nose.selector: DEBUG: Final resolution of test name =: file /home/gal1le0/development/native/ndaragisha/= module None call None
+nose.plugins.collect: DEBUG: TestSuite([<nose.suite.LazySuite tests=generator (140451841147288)>])
+nose.plugins.collect: DEBUG: Add test <nose.suite.LazySuite tests=generator (140451841147288)>
+nose.core: DEBUG: runTests called
+nose.suite: DEBUG: precache is []
+nose.loader: DEBUG: load from dir /home/gal1le0/development/native/ndaragisha/=
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha/=
+nose.importer: DEBUG: insert /home/gal1le0/development/native/ndaragisha/= into sys.path
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/Backups? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/Cache? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/CachedData? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/CachedExtensions? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Cookies? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Cookies-journal? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/GPUCache? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Network Persistent State? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/User? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/blob_storage? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/home? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/languagepacks.json? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/logs? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/machineid? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/rapid_render.json? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/storage.json? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/webrtc_event_logs? False
+nose.importer: DEBUG: Remove path /home/gal1le0/development/native/ndaragisha/=
+nose.suite: DEBUG: precache is []
+
+----------------------------------------------------------------------
+Ran 0 tests in 0.003s
+
+OK
+nose.config: INFO: Ignoring files matching ['^\\.', '^_', '^setup\\.py$']
+nose.plugins.manager: DEBUG: Configuring plugins
+nose.plugins.manager: DEBUG: Plugins enabled: [<nose.plugins.capture.Capture object at 0x7f3af61bbf28>, <nose.plugins.logcapture.LogCapture object at 0x7f3af61cd748>, <nose.plugins.deprecated.Deprecated object at 0x7f3af6162668>, <nose.plugins.skip.Skip object at 0x7f3af6129c18>, <nose.plugins.collect.CollectOnly object at 0x7f3af6129fd0>]
+nose.core: DEBUG: configured Config(addPaths=True, args=(), configSection='nosetests', debug=None, debugLog=None, env={}, exclude=None, files=[], firstPackageWins=False, getTestCaseNamesCompat=False, ignoreFiles=[re.compile('^\\.'), re.compile('^_'), re.compile('^setup\\.py$')], ignoreFilesDefaultStrings=['^\\.', '^_', '^setup\\.py$'], include=None, includeExe=False, logStream=<_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>, loggingConfig=None, options=<Values at 0x7f3af60bac88: {'version': False, 'showPlugins': False, 'verbosity': 4, 'files': None, 'where': None, 'py3where': None, 'testMatch': '(?:^|[\\b_\\./-])[Tt]est', 'testNames': None, 'debug': None, 'debugLog': None, 'loggingConfig': None, 'ignoreFiles': [], 'exclude': [], 'include': [], 'stopOnError': False, 'addPaths': True, 'includeExe': False, 'traverseNamespace': False, 'firstPackageWins': False, 'byteCompile': True, 'attr': None, 'eval_attr': None, 'capture': True, 'logcapture': True, 'logcapture_format': '%(name)s: %(levelname)s: %(message)s', 'logcapture_datefmt': None, 'logcapture_filters': None, 'logcapture_clear': False, 'logcapture_level': 'NOTSET', 'enable_plugin_coverage': None, 'cover_packages': None, 'cover_erase': None, 'cover_tests': None, 'cover_min_percentage': None, 'cover_inclusive': None, 'cover_html': None, 'cover_html_dir': 'cover', 'cover_branches': None, 'cover_xml': None, 'cover_xml_file': 'coverage.xml', 'debugBoth': False, 'debugFailures': False, 'debugErrors': False, 'noDeprecated': False, 'enable_plugin_doctest': None, 'doctest_tests': None, 'doctestExtension': None, 'doctest_result_var': None, 'doctestFixtures': None, 'doctestOptions': None, 'enable_plugin_isolation': None, 'detailedErrors': None, 'noSkip': False, 'enable_plugin_id': None, 'testIdFile': '.noseids', 'failed': False, 'multiprocess_workers': 0, 'multiprocess_timeout': 10, 'multiprocess_restartworker': False, 'enable_plugin_xunit': None, 'xunit_file': 'nosetests.xml', 'xunit_testsuite_name': 'nosetests', 'enable_plugin_allmodules': None, 'collect_only': True}>, parser=<optparse.OptionParser object at 0x7f3af6c945c0>, parserClass=<class 'optparse.OptionParser'>, plugins=<nose.plugins.manager.DefaultPluginManager object at 0x7f3af6d688d0>, py3where=(), runOnInit=True, srcDirs=('lib', 'src'), stopOnError=False, stream=<_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>, testMatch=re.compile('(?:^|[\\b_\\./-])[Tt]est'), testMatchPat='(?:^|[\\b_\\./-])[Tt]est', testNames=['='], traverseNamespace=False, verbosity=4, where=(), worker=False, workingDir='/home/gal1le0/development/native/ndaragisha')
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha
+nose.plugins.collect: DEBUG: Preparing test loader
+nose.core: DEBUG: test loader is <nose.loader.TestLoader object at 0x7f3af60badd8>
+nose.core: DEBUG: defaultTest .
+nose.core: DEBUG: Test names are ['=']
+nose.core: DEBUG: createTests called with None
+nose.loader: DEBUG: load from = (None)
+nose.selector: DEBUG: Test name = resolved to file =, module None, call None
+nose.selector: DEBUG: Final resolution of test name =: file /home/gal1le0/development/native/ndaragisha/= module None call None
+nose.plugins.collect: DEBUG: TestSuite([<nose.suite.LazySuite tests=generator (139891212370440)>])
+nose.plugins.collect: DEBUG: Add test <nose.suite.LazySuite tests=generator (139891212370440)>
+nose.core: DEBUG: runTests called
+nose.suite: DEBUG: precache is []
+nose.loader: DEBUG: load from dir /home/gal1le0/development/native/ndaragisha/=
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha/=
+nose.importer: DEBUG: insert /home/gal1le0/development/native/ndaragisha/= into sys.path
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/Backups? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/Cache? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/CachedData? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/CachedExtensions? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Cookies? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Cookies-journal? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/GPUCache? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Network Persistent State? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/User? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/blob_storage? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/home? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/languagepacks.json? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/logs? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/machineid? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/rapid_render.json? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/storage.json? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/webrtc_event_logs? False
+nose.importer: DEBUG: Remove path /home/gal1le0/development/native/ndaragisha/=
+nose.suite: DEBUG: precache is []
+
+----------------------------------------------------------------------
+Ran 0 tests in 0.003s
+
+OK
+nose.config: INFO: Ignoring files matching ['^\\.', '^_', '^setup\\.py$']
+nose.plugins.manager: DEBUG: Configuring plugins
+nose.plugins.manager: DEBUG: Plugins enabled: [<nose.plugins.capture.Capture object at 0x7f113229ee48>, <nose.plugins.logcapture.LogCapture object at 0x7f11322ad668>, <nose.plugins.deprecated.Deprecated object at 0x7f11322465c0>, <nose.plugins.skip.Skip object at 0x7f113220ce48>, <nose.plugins.collect.CollectOnly object at 0x7f113219d208>]
+nose.core: DEBUG: configured Config(addPaths=True, args=(), configSection='nosetests', debug=None, debugLog=None, env={}, exclude=None, files=[], firstPackageWins=False, getTestCaseNamesCompat=False, ignoreFiles=[re.compile('^\\.'), re.compile('^_'), re.compile('^setup\\.py$')], ignoreFilesDefaultStrings=['^\\.', '^_', '^setup\\.py$'], include=None, includeExe=False, logStream=<_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>, loggingConfig=None, options=<Values at 0x7f113219dbe0: {'version': False, 'showPlugins': False, 'verbosity': 4, 'files': None, 'where': None, 'py3where': None, 'testMatch': '(?:^|[\\b_\\./-])[Tt]est', 'testNames': None, 'debug': None, 'debugLog': None, 'loggingConfig': None, 'ignoreFiles': [], 'exclude': [], 'include': [], 'stopOnError': False, 'addPaths': True, 'includeExe': False, 'traverseNamespace': False, 'firstPackageWins': False, 'byteCompile': True, 'attr': None, 'eval_attr': None, 'capture': True, 'logcapture': True, 'logcapture_format': '%(name)s: %(levelname)s: %(message)s', 'logcapture_datefmt': None, 'logcapture_filters': None, 'logcapture_clear': False, 'logcapture_level': 'NOTSET', 'enable_plugin_coverage': None, 'cover_packages': None, 'cover_erase': None, 'cover_tests': None, 'cover_min_percentage': None, 'cover_inclusive': None, 'cover_html': None, 'cover_html_dir': 'cover', 'cover_branches': None, 'cover_xml': None, 'cover_xml_file': 'coverage.xml', 'debugBoth': False, 'debugFailures': False, 'debugErrors': False, 'noDeprecated': False, 'enable_plugin_doctest': None, 'doctest_tests': None, 'doctestExtension': None, 'doctest_result_var': None, 'doctestFixtures': None, 'doctestOptions': None, 'enable_plugin_isolation': None, 'detailedErrors': None, 'noSkip': False, 'enable_plugin_id': None, 'testIdFile': '.noseids', 'failed': False, 'multiprocess_workers': 0, 'multiprocess_timeout': 10, 'multiprocess_restartworker': False, 'enable_plugin_xunit': None, 'xunit_file': 'nosetests.xml', 'xunit_testsuite_name': 'nosetests', 'enable_plugin_allmodules': None, 'collect_only': True}>, parser=<optparse.OptionParser object at 0x7f1132da65c0>, parserClass=<class 'optparse.OptionParser'>, plugins=<nose.plugins.manager.DefaultPluginManager object at 0x7f1132e7a8d0>, py3where=(), runOnInit=True, srcDirs=('lib', 'src'), stopOnError=False, stream=<_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>, testMatch=re.compile('(?:^|[\\b_\\./-])[Tt]est'), testMatchPat='(?:^|[\\b_\\./-])[Tt]est', testNames=['='], traverseNamespace=False, verbosity=4, where=(), worker=False, workingDir='/home/gal1le0/development/native/ndaragisha')
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha
+nose.plugins.collect: DEBUG: Preparing test loader
+nose.core: DEBUG: test loader is <nose.loader.TestLoader object at 0x7f113219dcf8>
+nose.core: DEBUG: defaultTest .
+nose.core: DEBUG: Test names are ['=']
+nose.core: DEBUG: createTests called with None
+nose.loader: DEBUG: load from = (None)
+nose.selector: DEBUG: Test name = resolved to file =, module None, call None
+nose.selector: DEBUG: Final resolution of test name =: file /home/gal1le0/development/native/ndaragisha/= module None call None
+nose.plugins.collect: DEBUG: TestSuite([<nose.suite.LazySuite tests=generator (139711831326960)>])
+nose.plugins.collect: DEBUG: Add test <nose.suite.LazySuite tests=generator (139711831326960)>
+nose.core: DEBUG: runTests called
+nose.suite: DEBUG: precache is []
+nose.loader: DEBUG: load from dir /home/gal1le0/development/native/ndaragisha/=
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha/=
+nose.importer: DEBUG: insert /home/gal1le0/development/native/ndaragisha/= into sys.path
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/Backups? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/Cache? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/CachedData? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/CachedExtensions? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Cookies? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Cookies-journal? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/GPUCache? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Network Persistent State? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/User? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/blob_storage? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/home? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/languagepacks.json? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/logs? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/machineid? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/rapid_render.json? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/storage.json? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/webrtc_event_logs? False
+nose.importer: DEBUG: Remove path /home/gal1le0/development/native/ndaragisha/=
+nose.suite: DEBUG: precache is []
+
+----------------------------------------------------------------------
+Ran 0 tests in 0.003s
+
+OK
+nose.config: INFO: Ignoring files matching ['^\\.', '^_', '^setup\\.py$']
+nose.plugins.manager: DEBUG: Configuring plugins
+nose.plugins.manager: DEBUG: Plugins enabled: [<nose.plugins.capture.Capture object at 0x7f3044f6fe80>, <nose.plugins.logcapture.LogCapture object at 0x7f3044f816a0>, <nose.plugins.deprecated.Deprecated object at 0x7f3044f175f8>, <nose.plugins.skip.Skip object at 0x7f3044edde80>, <nose.plugins.collect.CollectOnly object at 0x7f3044e6e198>]
+nose.core: DEBUG: configured Config(addPaths=True, args=(), configSection='nosetests', debug=None, debugLog=None, env={}, exclude=None, files=[], firstPackageWins=False, getTestCaseNamesCompat=False, ignoreFiles=[re.compile('^\\.'), re.compile('^_'), re.compile('^setup\\.py$')], ignoreFilesDefaultStrings=['^\\.', '^_', '^setup\\.py$'], include=None, includeExe=False, logStream=<_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>, loggingConfig=None, options=<Values at 0x7f3044f4c1d0: {'version': False, 'showPlugins': False, 'verbosity': 4, 'files': None, 'where': None, 'py3where': None, 'testMatch': '(?:^|[\\b_\\./-])[Tt]est', 'testNames': None, 'debug': None, 'debugLog': None, 'loggingConfig': None, 'ignoreFiles': [], 'exclude': [], 'include': [], 'stopOnError': False, 'addPaths': True, 'includeExe': False, 'traverseNamespace': False, 'firstPackageWins': False, 'byteCompile': True, 'attr': None, 'eval_attr': None, 'capture': True, 'logcapture': True, 'logcapture_format': '%(name)s: %(levelname)s: %(message)s', 'logcapture_datefmt': None, 'logcapture_filters': None, 'logcapture_clear': False, 'logcapture_level': 'NOTSET', 'enable_plugin_coverage': None, 'cover_packages': None, 'cover_erase': None, 'cover_tests': None, 'cover_min_percentage': None, 'cover_inclusive': None, 'cover_html': None, 'cover_html_dir': 'cover', 'cover_branches': None, 'cover_xml': None, 'cover_xml_file': 'coverage.xml', 'debugBoth': False, 'debugFailures': False, 'debugErrors': False, 'noDeprecated': False, 'enable_plugin_doctest': None, 'doctest_tests': None, 'doctestExtension': None, 'doctest_result_var': None, 'doctestFixtures': None, 'doctestOptions': None, 'enable_plugin_isolation': None, 'detailedErrors': None, 'noSkip': False, 'enable_plugin_id': None, 'testIdFile': '.noseids', 'failed': False, 'multiprocess_workers': 0, 'multiprocess_timeout': 10, 'multiprocess_restartworker': False, 'enable_plugin_xunit': None, 'xunit_file': 'nosetests.xml', 'xunit_testsuite_name': 'nosetests', 'enable_plugin_allmodules': None, 'collect_only': True}>, parser=<optparse.OptionParser object at 0x7f3045a485c0>, parserClass=<class 'optparse.OptionParser'>, plugins=<nose.plugins.manager.DefaultPluginManager object at 0x7f3045b1c8d0>, py3where=(), runOnInit=True, srcDirs=('lib', 'src'), stopOnError=False, stream=<_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>, testMatch=re.compile('(?:^|[\\b_\\./-])[Tt]est'), testMatchPat='(?:^|[\\b_\\./-])[Tt]est', testNames=['='], traverseNamespace=False, verbosity=4, where=(), worker=False, workingDir='/home/gal1le0/development/native/ndaragisha')
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha
+nose.plugins.collect: DEBUG: Preparing test loader
+nose.core: DEBUG: test loader is <nose.loader.TestLoader object at 0x7f3044e6ecc0>
+nose.core: DEBUG: defaultTest .
+nose.core: DEBUG: Test names are ['=']
+nose.core: DEBUG: createTests called with None
+nose.loader: DEBUG: load from = (None)
+nose.selector: DEBUG: Test name = resolved to file =, module None, call None
+nose.selector: DEBUG: Final resolution of test name =: file /home/gal1le0/development/native/ndaragisha/= module None call None
+nose.plugins.collect: DEBUG: TestSuite([<nose.suite.LazySuite tests=generator (139845290742000)>])
+nose.plugins.collect: DEBUG: Add test <nose.suite.LazySuite tests=generator (139845290742000)>
+nose.core: DEBUG: runTests called
+nose.suite: DEBUG: precache is []
+nose.loader: DEBUG: load from dir /home/gal1le0/development/native/ndaragisha/=
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha/=
+nose.importer: DEBUG: insert /home/gal1le0/development/native/ndaragisha/= into sys.path
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/Backups? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/Cache? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/CachedData? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/CachedExtensions? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Cookies? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Cookies-journal? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/GPUCache? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Network Persistent State? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/User? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/blob_storage? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/home? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/languagepacks.json? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/logs? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/machineid? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/rapid_render.json? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/storage.json? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/webrtc_event_logs? False
+nose.importer: DEBUG: Remove path /home/gal1le0/development/native/ndaragisha/=
+nose.suite: DEBUG: precache is []
+
+----------------------------------------------------------------------
+Ran 0 tests in 0.003s
+
+OK
+nose.config: INFO: Ignoring files matching ['^\\.', '^_', '^setup\\.py$']
+nose.plugins.manager: DEBUG: Configuring plugins
+nose.plugins.manager: DEBUG: Plugins enabled: [<nose.plugins.capture.Capture object at 0x7f32cad52e10>, <nose.plugins.logcapture.LogCapture object at 0x7f32cad61630>, <nose.plugins.deprecated.Deprecated object at 0x7f32cacfa5f8>, <nose.plugins.skip.Skip object at 0x7f32cacc0dd8>, <nose.plugins.collect.CollectOnly object at 0x7f32cacc0eb8>]
+nose.core: DEBUG: configured Config(addPaths=True, args=(), configSection='nosetests', debug=None, debugLog=None, env={}, exclude=None, files=[], firstPackageWins=False, getTestCaseNamesCompat=False, ignoreFiles=[re.compile('^\\.'), re.compile('^_'), re.compile('^setup\\.py$')], ignoreFilesDefaultStrings=['^\\.', '^_', '^setup\\.py$'], include=None, includeExe=False, logStream=<_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>, loggingConfig=None, options=<Values at 0x7f32cac51b70: {'version': False, 'showPlugins': False, 'verbosity': 4, 'files': None, 'where': None, 'py3where': None, 'testMatch': '(?:^|[\\b_\\./-])[Tt]est', 'testNames': None, 'debug': None, 'debugLog': None, 'loggingConfig': None, 'ignoreFiles': [], 'exclude': [], 'include': [], 'stopOnError': False, 'addPaths': True, 'includeExe': False, 'traverseNamespace': False, 'firstPackageWins': False, 'byteCompile': True, 'attr': None, 'eval_attr': None, 'capture': True, 'logcapture': True, 'logcapture_format': '%(name)s: %(levelname)s: %(message)s', 'logcapture_datefmt': None, 'logcapture_filters': None, 'logcapture_clear': False, 'logcapture_level': 'NOTSET', 'enable_plugin_coverage': None, 'cover_packages': None, 'cover_erase': None, 'cover_tests': None, 'cover_min_percentage': None, 'cover_inclusive': None, 'cover_html': None, 'cover_html_dir': 'cover', 'cover_branches': None, 'cover_xml': None, 'cover_xml_file': 'coverage.xml', 'debugBoth': False, 'debugFailures': False, 'debugErrors': False, 'noDeprecated': False, 'enable_plugin_doctest': None, 'doctest_tests': None, 'doctestExtension': None, 'doctest_result_var': None, 'doctestFixtures': None, 'doctestOptions': None, 'enable_plugin_isolation': None, 'detailedErrors': None, 'noSkip': False, 'enable_plugin_id': None, 'testIdFile': '.noseids', 'failed': False, 'multiprocess_workers': 0, 'multiprocess_timeout': 10, 'multiprocess_restartworker': False, 'enable_plugin_xunit': None, 'xunit_file': 'nosetests.xml', 'xunit_testsuite_name': 'nosetests', 'enable_plugin_allmodules': None, 'collect_only': True}>, parser=<optparse.OptionParser object at 0x7f32cb7eb5c0>, parserClass=<class 'optparse.OptionParser'>, plugins=<nose.plugins.manager.DefaultPluginManager object at 0x7f32cb8bf8d0>, py3where=(), runOnInit=True, srcDirs=('lib', 'src'), stopOnError=False, stream=<_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>, testMatch=re.compile('(?:^|[\\b_\\./-])[Tt]est'), testMatchPat='(?:^|[\\b_\\./-])[Tt]est', testNames=['='], traverseNamespace=False, verbosity=4, where=(), worker=False, workingDir='/home/gal1le0/development/native/ndaragisha')
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha
+nose.plugins.collect: DEBUG: Preparing test loader
+nose.core: DEBUG: test loader is <nose.loader.TestLoader object at 0x7f32cac51cc0>
+nose.core: DEBUG: defaultTest .
+nose.core: DEBUG: Test names are ['=']
+nose.core: DEBUG: createTests called with None
+nose.loader: DEBUG: load from = (None)
+nose.selector: DEBUG: Test name = resolved to file =, module None, call None
+nose.selector: DEBUG: Final resolution of test name =: file /home/gal1le0/development/native/ndaragisha/= module None call None
+nose.plugins.collect: DEBUG: TestSuite([<nose.suite.LazySuite tests=generator (139856126607600)>])
+nose.plugins.collect: DEBUG: Add test <nose.suite.LazySuite tests=generator (139856126607600)>
+nose.core: DEBUG: runTests called
+nose.suite: DEBUG: precache is []
+nose.loader: DEBUG: load from dir /home/gal1le0/development/native/ndaragisha/=
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha/=
+nose.importer: DEBUG: insert /home/gal1le0/development/native/ndaragisha/= into sys.path
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/Backups? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/Cache? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/CachedData? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/CachedExtensions? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Cookies? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Cookies-journal? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/GPUCache? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Network Persistent State? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/User? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/blob_storage? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/home? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/languagepacks.json? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/logs? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/machineid? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/rapid_render.json? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/storage.json? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/webrtc_event_logs? False
+nose.importer: DEBUG: Remove path /home/gal1le0/development/native/ndaragisha/=
+nose.suite: DEBUG: precache is []
+
+----------------------------------------------------------------------
+Ran 0 tests in 0.003s
+
+OK
+nose.config: INFO: Ignoring files matching ['^\\.', '^_', '^setup\\.py$']
+nose.plugins.manager: DEBUG: Configuring plugins
+nose.plugins.manager: DEBUG: Plugins enabled: [<nose.plugins.capture.Capture object at 0x7fa85b493eb8>, <nose.plugins.logcapture.LogCapture object at 0x7fa85b4a56d8>, <nose.plugins.deprecated.Deprecated object at 0x7fa85b43a630>, <nose.plugins.skip.Skip object at 0x7fa85b401d68>, <nose.plugins.collect.CollectOnly object at 0x7fa85b401f98>]
+nose.core: DEBUG: configured Config(addPaths=True, args=(), configSection='nosetests', debug=None, debugLog=None, env={}, exclude=None, files=[], firstPackageWins=False, getTestCaseNamesCompat=False, ignoreFiles=[re.compile('^\\.'), re.compile('^_'), re.compile('^setup\\.py$')], ignoreFilesDefaultStrings=['^\\.', '^_', '^setup\\.py$'], include=None, includeExe=False, logStream=<_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>, loggingConfig=None, options=<Values at 0x7fa85b392ba8: {'version': False, 'showPlugins': False, 'verbosity': 4, 'files': None, 'where': None, 'py3where': None, 'testMatch': '(?:^|[\\b_\\./-])[Tt]est', 'testNames': None, 'debug': None, 'debugLog': None, 'loggingConfig': None, 'ignoreFiles': [], 'exclude': [], 'include': [], 'stopOnError': False, 'addPaths': True, 'includeExe': False, 'traverseNamespace': False, 'firstPackageWins': False, 'byteCompile': True, 'attr': None, 'eval_attr': None, 'capture': True, 'logcapture': True, 'logcapture_format': '%(name)s: %(levelname)s: %(message)s', 'logcapture_datefmt': None, 'logcapture_filters': None, 'logcapture_clear': False, 'logcapture_level': 'NOTSET', 'enable_plugin_coverage': None, 'cover_packages': None, 'cover_erase': None, 'cover_tests': None, 'cover_min_percentage': None, 'cover_inclusive': None, 'cover_html': None, 'cover_html_dir': 'cover', 'cover_branches': None, 'cover_xml': None, 'cover_xml_file': 'coverage.xml', 'debugBoth': False, 'debugFailures': False, 'debugErrors': False, 'noDeprecated': False, 'enable_plugin_doctest': None, 'doctest_tests': None, 'doctestExtension': None, 'doctest_result_var': None, 'doctestFixtures': None, 'doctestOptions': None, 'enable_plugin_isolation': None, 'detailedErrors': None, 'noSkip': False, 'enable_plugin_id': None, 'testIdFile': '.noseids', 'failed': False, 'multiprocess_workers': 0, 'multiprocess_timeout': 10, 'multiprocess_restartworker': False, 'enable_plugin_xunit': None, 'xunit_file': 'nosetests.xml', 'xunit_testsuite_name': 'nosetests', 'enable_plugin_allmodules': None, 'collect_only': True}>, parser=<optparse.OptionParser object at 0x7fa85bf6c5c0>, parserClass=<class 'optparse.OptionParser'>, plugins=<nose.plugins.manager.DefaultPluginManager object at 0x7fa85c0408d0>, py3where=(), runOnInit=True, srcDirs=('lib', 'src'), stopOnError=False, stream=<_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>, testMatch=re.compile('(?:^|[\\b_\\./-])[Tt]est'), testMatchPat='(?:^|[\\b_\\./-])[Tt]est', testNames=['='], traverseNamespace=False, verbosity=4, where=(), worker=False, workingDir='/home/gal1le0/development/native/ndaragisha')
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha
+nose.plugins.collect: DEBUG: Preparing test loader
+nose.core: DEBUG: test loader is <nose.loader.TestLoader object at 0x7fa85b392be0>
+nose.core: DEBUG: defaultTest .
+nose.core: DEBUG: Test names are ['=']
+nose.core: DEBUG: createTests called with None
+nose.loader: DEBUG: load from = (None)
+nose.selector: DEBUG: Test name = resolved to file =, module None, call None
+nose.selector: DEBUG: Final resolution of test name =: file /home/gal1le0/development/native/ndaragisha/= module None call None
+nose.plugins.collect: DEBUG: TestSuite([<nose.suite.LazySuite tests=generator (140361061306608)>])
+nose.plugins.collect: DEBUG: Add test <nose.suite.LazySuite tests=generator (140361061306608)>
+nose.core: DEBUG: runTests called
+nose.suite: DEBUG: precache is []
+nose.loader: DEBUG: load from dir /home/gal1le0/development/native/ndaragisha/=
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha/=
+nose.importer: DEBUG: insert /home/gal1le0/development/native/ndaragisha/= into sys.path
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/Backups? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/Cache? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/CachedData? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/CachedExtensions? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Cookies? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Cookies-journal? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/GPUCache? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Network Persistent State? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/User? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/blob_storage? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/home? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/languagepacks.json? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/logs? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/machineid? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/rapid_render.json? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/storage.json? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/webrtc_event_logs? False
+nose.importer: DEBUG: Remove path /home/gal1le0/development/native/ndaragisha/=
+nose.suite: DEBUG: precache is []
+
+----------------------------------------------------------------------
+Ran 0 tests in 0.003s
+
+OK
+nose.config: INFO: Ignoring files matching ['^\\.', '^_', '^setup\\.py$']
+nose.plugins.manager: DEBUG: Configuring plugins
+nose.plugins.manager: DEBUG: Plugins enabled: [<nose.plugins.capture.Capture object at 0x7f154bf73f28>, <nose.plugins.logcapture.LogCapture object at 0x7f154bf85748>, <nose.plugins.deprecated.Deprecated object at 0x7f154bf1a630>, <nose.plugins.skip.Skip object at 0x7f154bee1d68>, <nose.plugins.collect.CollectOnly object at 0x7f154bee1f98>]
+nose.core: DEBUG: configured Config(addPaths=True, args=(), configSection='nosetests', debug=None, debugLog=None, env={}, exclude=None, files=[], firstPackageWins=False, getTestCaseNamesCompat=False, ignoreFiles=[re.compile('^\\.'), re.compile('^_'), re.compile('^setup\\.py$')], ignoreFilesDefaultStrings=['^\\.', '^_', '^setup\\.py$'], include=None, includeExe=False, logStream=<_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>, loggingConfig=None, options=<Values at 0x7f154be72c50: {'version': False, 'showPlugins': False, 'verbosity': 4, 'files': None, 'where': None, 'py3where': None, 'testMatch': '(?:^|[\\b_\\./-])[Tt]est', 'testNames': None, 'debug': None, 'debugLog': None, 'loggingConfig': None, 'ignoreFiles': [], 'exclude': [], 'include': [], 'stopOnError': False, 'addPaths': True, 'includeExe': False, 'traverseNamespace': False, 'firstPackageWins': False, 'byteCompile': True, 'attr': None, 'eval_attr': None, 'capture': True, 'logcapture': True, 'logcapture_format': '%(name)s: %(levelname)s: %(message)s', 'logcapture_datefmt': None, 'logcapture_filters': None, 'logcapture_clear': False, 'logcapture_level': 'NOTSET', 'enable_plugin_coverage': None, 'cover_packages': None, 'cover_erase': None, 'cover_tests': None, 'cover_min_percentage': None, 'cover_inclusive': None, 'cover_html': None, 'cover_html_dir': 'cover', 'cover_branches': None, 'cover_xml': None, 'cover_xml_file': 'coverage.xml', 'debugBoth': False, 'debugFailures': False, 'debugErrors': False, 'noDeprecated': False, 'enable_plugin_doctest': None, 'doctest_tests': None, 'doctestExtension': None, 'doctest_result_var': None, 'doctestFixtures': None, 'doctestOptions': None, 'enable_plugin_isolation': None, 'detailedErrors': None, 'noSkip': False, 'enable_plugin_id': None, 'testIdFile': '.noseids', 'failed': False, 'multiprocess_workers': 0, 'multiprocess_timeout': 10, 'multiprocess_restartworker': False, 'enable_plugin_xunit': None, 'xunit_file': 'nosetests.xml', 'xunit_testsuite_name': 'nosetests', 'enable_plugin_allmodules': None, 'collect_only': True}>, parser=<optparse.OptionParser object at 0x7f154ca4c5c0>, parserClass=<class 'optparse.OptionParser'>, plugins=<nose.plugins.manager.DefaultPluginManager object at 0x7f154cb208d0>, py3where=(), runOnInit=True, srcDirs=('lib', 'src'), stopOnError=False, stream=<_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>, testMatch=re.compile('(?:^|[\\b_\\./-])[Tt]est'), testMatchPat='(?:^|[\\b_\\./-])[Tt]est', testNames=['='], traverseNamespace=False, verbosity=4, where=(), worker=False, workingDir='/home/gal1le0/development/native/ndaragisha')
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha
+nose.plugins.collect: DEBUG: Preparing test loader
+nose.core: DEBUG: test loader is <nose.loader.TestLoader object at 0x7f154be72da0>
+nose.core: DEBUG: defaultTest .
+nose.core: DEBUG: Test names are ['=']
+nose.core: DEBUG: createTests called with None
+nose.loader: DEBUG: load from = (None)
+nose.selector: DEBUG: Test name = resolved to file =, module None, call None
+nose.selector: DEBUG: Final resolution of test name =: file /home/gal1le0/development/native/ndaragisha/= module None call None
+nose.plugins.collect: DEBUG: TestSuite([<nose.suite.LazySuite tests=generator (139729444061648)>])
+nose.plugins.collect: DEBUG: Add test <nose.suite.LazySuite tests=generator (139729444061648)>
+nose.core: DEBUG: runTests called
+nose.suite: DEBUG: precache is []
+nose.loader: DEBUG: load from dir /home/gal1le0/development/native/ndaragisha/=
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha/=
+nose.importer: DEBUG: insert /home/gal1le0/development/native/ndaragisha/= into sys.path
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/Backups? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/Cache? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/CachedData? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/CachedExtensions? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Cookies? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Cookies-journal? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/GPUCache? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/Network Persistent State? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/User? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/blob_storage? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/home? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/languagepacks.json? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/logs? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/machineid? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/rapid_render.json? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/=/storage.json? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=/webrtc_event_logs? False
+nose.importer: DEBUG: Remove path /home/gal1le0/development/native/ndaragisha/=
+nose.suite: DEBUG: precache is []
+
+----------------------------------------------------------------------
+Ran 0 tests in 0.003s
+
+OK

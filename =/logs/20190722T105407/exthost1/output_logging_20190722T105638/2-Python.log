@@ -1,0 +1,41 @@
+User belongs to experiment group 'AlwaysDisplayTestExplorer - experiment'
+Starting Jedi Python language engine.
+##########Linting Output - pylint##########
+************* Module api.views
+36,11,error,no-member:Class 'LostItems' has no 'objects' member
+63,11,error,no-member:Class 'LostItems' has no 'objects' member
+73,11,error,no-member:Class 'LostItems' has no 'objects' member
+86,11,error,no-member:Class 'LostItems' has no 'objects' member
+7,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+7,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+7,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 6.93/10 (previous run: 6.93/10, +0.00)
+
+##########Linting Output - pylint##########
+************* Module api.views
+36,11,error,no-member:Class 'LostItems' has no 'objects' member
+63,11,error,no-member:Class 'LostItems' has no 'objects' member
+73,11,error,no-member:Class 'LostItems' has no 'objects' member
+86,11,error,no-member:Class 'LostItems' has no 'objects' member
+7,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+7,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+7,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 6.97/10 (previous run: 6.93/10, +0.04)
+
+##########Linting Output - pylint##########
+************* Module api.views
+36,11,error,no-member:Class 'LostItems' has no 'objects' member
+63,11,error,no-member:Class 'LostItems' has no 'objects' member
+73,11,error,no-member:Class 'LostItems' has no 'objects' member
+86,11,error,no-member:Class 'LostItems' has no 'objects' member
+7,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+7,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+7,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 6.97/10 (previous run: 6.97/10, +0.00)
+
