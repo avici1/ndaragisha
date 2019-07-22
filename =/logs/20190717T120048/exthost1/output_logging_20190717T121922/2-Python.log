@@ -1,0 +1,81 @@
+Starting Jedi Python language engine.
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+************* Module api.views
+36,11,error,no-member:Class 'LostItems' has no 'objects' member
+62,11,error,no-member:Class 'LostItems' has no 'objects' member
+72,11,error,no-member:Class 'LostItems' has no 'objects' member
+85,11,error,no-member:Class 'LostItems' has no 'objects' member
+7,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+7,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+7,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 6.89/10 (previous run: 6.89/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+************* Module api.views
+36,11,error,no-member:Class 'LostItems' has no 'objects' member
+62,11,error,no-member:Class 'LostItems' has no 'objects' member
+72,11,error,no-member:Class 'LostItems' has no 'objects' member
+85,11,error,no-member:Class 'LostItems' has no 'objects' member
+7,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+7,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+7,0,warning,unused-wildcard-import:Unused import models from wildcard import
+##########Linting Output - pylint##########
+************* Module api.views
+36,11,error,no-member:Class 'LostItems' has no 'objects' member
+62,11,error,no-member:Class 'LostItems' has no 'objects' member
+72,11,error,no-member:Class 'LostItems' has no 'objects' member
+85,11,error,no-member:Class 'LostItems' has no 'objects' member
+7,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+7,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+7,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 6.89/10 (previous run: 6.89/10, +0.00)
+
+##########Linting Output - pylint##########
+************* Module authentications.views
+59,16,error,no-member:Class 'ClientUsers' has no 'objects' member
+61,4,warning,unused-variable:Unused variable 'e'
+6,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 8.06/10 (previous run: 8.06/10, +0.00)
+
+##########Linting Output - pylint##########
+
+------------------------------------
+Your code has been rated at 10.00/10
+
+##########Linting Output - pylint##########
+************* Module ndaragisha.urls
+23,0,warning,unused-wildcard-import:Unused import json from wildcard import
+23,0,warning,unused-wildcard-import:Unused import handle_found_items_model_forms from wildcard import
+23,0,warning,unused-wildcard-import:Unused import FileSystemStorage from wildcard import
+23,0,warning,unused-wildcard-import:Unused import HttpResponse from wildcard import
+23,0,warning,unused-wildcard-import:Unused import redirect from wildcard import
+23,0,warning,unused-wildcard-import:Unused import render from wildcard import
+23,0,warning,unused-wildcard-import:Unused import FoundItemsForms from wildcard import
+23,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+23,0,warning,unused-wildcard-import:Unused import LostItems from wildcard import
+23,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+23,0,warning,unused-wildcard-import:Unused import IncomingMessage from wildcard import
+23,0,warning,unused-wildcard-import:Unused import models from wildcard import
+24,0,warning,unused-wildcard-import:Unused import hashlib from wildcard import
+24,0,warning,unused-wildcard-import:Unused import ObjectDoesNotExist from wildcard import
+24,0,warning,unused-wildcard-import:Unused import ClientUsers from wildcard import
+
+--------------------------------------------------------------------
+Your code has been rated at -3.64/10 (previous run: -3.64/10, +0.00)
+

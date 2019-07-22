@@ -18,6 +18,10 @@ def handle_lost_request(request):
         lost.owner_name = request.POST.get("names")
         lost.owner_phone = request.POST.get("phone")
         lost.found_desc = request.POST.get("desc")
+        lost.owner_cell = request.POST.get("cell")
+        lost.owner_umudugudu = request.POST.get("umudugudu")
+        lost.owner_district = request.POST.get("district")
+        lost.owner_sector = request.POST.get("sector")
         lost.doc_name = doc_name
         lost.real_doc_id = doc_id
         lost.desc = request.POST.get("desc")
@@ -35,6 +39,10 @@ def handle_found_items(request):
         lost.found_person_name = request.POST.get('name')
         lost.found_person_phone = request.POST.get('phone')
         lost.found_desc = request.POST.get('desc')
+        lost.found_cell = request.POST.get("cell")
+        lost.found_umudugudu = request.POST.get("umudugudu")
+        lost.found_district = request.POST.get("district")
+        lost.found_sector = request.POST.get("sector")
         lost.fake_doc_id = doc_id
         lost.status = "Found"
         item_name = request.FILES['image']

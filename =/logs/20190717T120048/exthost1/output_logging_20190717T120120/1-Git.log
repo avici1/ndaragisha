@@ -1,0 +1,68 @@
+Looking for git in: git
+Using git 2.20.1 from git
+> git rev-parse --show-toplevel
+> git config --get commit.template
+Open repository: /home/gal1le0/development/native/ndaragisha
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :templates/registration/login.html
+> git check-ignore -v -z --stdin
+> git show :templates/dashboard.html
+> git show :templates/registration/login.html
+> git show :templates/dashboard.html
+> git check-ignore -v -z --stdin
+> git show :templates/registration/login.html
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :api/models.py
+> git show :api/views.py
+> git show :templates/registration/login.html
+> git show :api/models.py
+> git show :api/views.py
+> git show :templates/registration/login.html
+> git show :api/views.py
+> git show :api/models.py
+> git show :authentications/views.py
+> git show :api/models.py
+> git show :authentications/models.py
+> git show :api/models.py
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :ndaragisha/urls.py
+> git show :templates/users.html
+> git show :ndaragisha/urls.py
+> git show :templates/registration/login.html
+> git show :templates/users.html
+> git show :templates/registration/login.html
+> git show :templates/users.html
+> git show :templates/registration/login.html
+> git show :templates/users.html
+> git show :templates/registration/login.html
+> git show :templates/users.html
+> git show :templates/registration/login.html
+> git show :templates/users.html
+> git show :templates/registration/login.html
+> git show :templates/users.html
+> git show :templates/registration/login.html
+> git show :templates/users.html
+> git check-ignore -v -z --stdin
+> git show :api/views.py
+> git show :templates/registration/login.html
+> git show :templates/users.html
+> git show :templates/registration/login.html
+> git show :templates/dashboard.html
+> git show :authentications/views.py
+> git show :templates/registration/login.html
+> git show :templates/dashboard.html
+> git show :templates/registration/login.html
+> git show :templates/dashboard.html
+> git show :templates/registration/login.html

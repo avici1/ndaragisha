@@ -1,0 +1,3 @@
+[2019-07-16 04:51:08.784] [renderer1] [error] net::ERR_INTERNET_DISCONNECTED: {1}
+[2019-07-16 04:51:14.372] [renderer1] [error] Error: [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[2019-07-16 04:51:14.868] [renderer1] [warning] UNRESPONSIVE extension host, 'AllenLawrence.auto-mongodb' took 97% of 2347.902ms, saved PROFILE here: '/tmp/exthost-beb291.cpuprofile' [{"id":"AllenLawrence.auto-mongodb","total":2271219,"percentage":97},{"id":"gc","total":28113,"percentage":1},{"id":"PKief.material-icon-theme","total":4448,"percentage":0},{"id":"program","total":4903,"percentage":0},{"id":"self","total":36888,"percentage":2}]

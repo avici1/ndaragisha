@@ -829,8 +829,7 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal",
-                        "enabled": false
+                        "label": "&&Split Terminal"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1380,7 +1379,7 @@
         }
     },
     "theme": "vs-dark",
-    "themeBackground": "#1e1e1e",
+    "themeBackground": "#272822",
     "windowsState": {
         "lastActiveWindow": {
             "folder": "file:///home/gal1le0/development/native/ndaragisha",

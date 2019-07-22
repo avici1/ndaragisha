@@ -4,6 +4,10 @@ from django.db import models
 # Create your models here.
 
 class LostItems(models.Model):
+    owner_district = models.CharField(default="empty",max_length=40)
+    owner_sector = models.CharField(default="empty",max_length=40)
+    owner_cell = models.CharField(default="empty",max_length=40)
+    owner_umudugudu = models.CharField(default="empty",max_length=40)
     owner_name = models.CharField(default="empty", max_length=120)
     owner_phone = models.CharField(default="empty", max_length=20)
     doc_name = models.CharField(default="empty", max_length=120)
@@ -15,7 +19,10 @@ class LostItems(models.Model):
     found_desc = models.TextField(default="Empty", null=True)
     found_person_name = models.CharField(default="empty", max_length=120)
     found_person_phone = models.CharField(default="empty", max_length=120)
-
+    found_district = models.CharField(default="empty",max_length=40)
+    found_sector = models.CharField(default="empty",max_length=40)
+    found_cell = models.CharField(default="empty",max_length=40)
+    found_umudugudu = models.CharField(default="empty",max_length=40)
 
 class FoundItems(models.Model):
     img_path = models.ImageField(upload_to='image/%Y/%m/%d')

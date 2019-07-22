@@ -1,0 +1,2 @@
+[2019-07-17 12:01:15.329] [renderer1] [error] Error: [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[2019-07-17 16:55:30.281] [renderer1] [warning] UNRESPONSIVE extension host, 'ms-python.python' took 97% of 3592.349ms, saved PROFILE here: '/tmp/exthost-3b0e37.cpuprofile' [{"id":"gc","total":17541,"percentage":0},{"id":"ms-python.python","total":3471019,"percentage":97},{"id":"self","total":99098,"percentage":3}]
