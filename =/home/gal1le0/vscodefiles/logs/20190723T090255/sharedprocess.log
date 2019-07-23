@@ -1,0 +1,63 @@
+[2019-07-23 09:03:01.906] [sharedprocess] [info] main {"machineId":"8537f086b8002f1a83c73b358c38f62ce5b7a083124369640c769ea9af545c59"}
+[2019-07-23 09:03:02.167] [sharedprocess] [info] Scanned user extensions: 6
+[2019-07-23 09:03:02.539] [sharedprocess] [info] Scanned user extensions: 6
+[2019-07-23 09:03:02.720] [sharedprocess] [info] Scanned user extensions: 6
+[2019-07-23 09:03:02.928] [sharedprocess] [info] Scanned system extensions: 72
+[2019-07-23 09:03:02.928] [sharedprocess] [info] Scanned system extensions: 72
+[2019-07-23 09:03:03.220] [sharedprocess] [info] Scanned user extensions: 6
+[2019-07-23 09:03:03.262] [sharedprocess] [info] Scanned system extensions: 72
+[2019-07-23 09:03:41.859] [sharedprocess] [info] Starting to clean up unused language packs.
+[2019-07-23 09:04:17.377] [sharedprocess] [info] Scanned user extensions: 6
+[2019-07-23 09:04:17.384] [sharedprocess] [info] Scanned user extensions: 6
+[2019-07-23 09:04:17.390] [sharedprocess] [info] Scanned user extensions: 6
+[2019-07-23 09:04:17.396] [sharedprocess] [info] Scanned user extensions: 6
+[2019-07-23 09:04:17.489] [sharedprocess] [info] Scanned system extensions: 72
+[2019-07-23 09:04:17.495] [sharedprocess] [info] Scanned system extensions: 72
+[2019-07-23 09:04:17.501] [sharedprocess] [info] Scanned system extensions: 72
+[2019-07-23 09:04:17.557] [sharedprocess] [info] Scanned user extensions: 6
+[2019-07-23 09:04:17.613] [sharedprocess] [info] Scanned user extensions: 6
+[2019-07-23 09:04:17.656] [sharedprocess] [info] Scanned system extensions: 72
+[2019-07-23 09:04:17.665] [sharedprocess] [info] Scanned user extensions: 6
+[2019-07-23 09:04:17.700] [sharedprocess] [info] Scanned system extensions: 72
+[2019-07-23 09:04:17.714] [sharedprocess] [info] Scanned system extensions: 72
+[2019-07-23 09:04:29.396] [sharedprocess] [info] Scanned user extensions: 6
+[2019-07-23 09:06:26.071] [sharedprocess] [info] Installing extension: dbaeumer.vscode-eslint
+[2019-07-23 09:06:26.089] [sharedprocess] [info] Scanned user extensions: 6
+[2019-07-23 09:06:29.127] [sharedprocess] [info] Downloaded extension: dbaeumer.vscode-eslint /tmp/6c94807a-220d-499b-a79d-b0710472fbfb
+[2019-07-23 09:06:29.169] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.dbaeumer.vscode-eslint-1.9.0: dbaeumer.vscode-eslint
+[2019-07-23 09:06:29.170] [sharedprocess] [info] Renamed to /root/.vscode/extensions/dbaeumer.vscode-eslint-1.9.0
+[2019-07-23 09:06:29.171] [sharedprocess] [info] Installation completed. dbaeumer.vscode-eslint
+[2019-07-23 09:06:29.205] [sharedprocess] [info] Extensions installed successfully: dbaeumer.vscode-eslint
+[2019-07-23 09:08:04.896] [sharedprocess] [info] Scanned user extensions: 7
+[2019-07-23 09:08:32.965] [sharedprocess] [info] Scanned user extensions: 7
+[2019-07-23 09:08:33.063] [sharedprocess] [info] Scanned system extensions: 72
+[2019-07-23 09:08:33.183] [sharedprocess] [info] Scanned user extensions: 7
+[2019-07-23 09:08:33.218] [sharedprocess] [info] Scanned system extensions: 72
+[2019-07-23 09:13:04.918] [sharedprocess] [info] Scanned user extensions: 7
+[2019-07-23 09:18:04.944] [sharedprocess] [info] Scanned user extensions: 7
+[2019-07-23 09:23:04.969] [sharedprocess] [info] Scanned user extensions: 7
+[2019-07-23 09:28:04.995] [sharedprocess] [info] Scanned user extensions: 7
+[2019-07-23 09:33:05.014] [sharedprocess] [info] Scanned user extensions: 7
+[2019-07-23 09:38:05.034] [sharedprocess] [info] Scanned user extensions: 7
+[2019-07-23 09:43:05.054] [sharedprocess] [info] Scanned user extensions: 7
+[2019-07-23 09:48:05.073] [sharedprocess] [info] Scanned user extensions: 7
+[2019-07-23 09:53:05.091] [sharedprocess] [info] Scanned user extensions: 7
+[2019-07-23 09:58:05.120] [sharedprocess] [info] Scanned user extensions: 7
+[2019-07-23 10:03:05.149] [sharedprocess] [info] Scanned user extensions: 7
+[2019-07-23 10:08:06.328] [sharedprocess] [info] Scanned user extensions: 7
+[2019-07-23 10:13:06.360] [sharedprocess] [info] Scanned user extensions: 7
+[2019-07-23 10:18:06.403] [sharedprocess] [info] Scanned user extensions: 7
+[2019-07-23 10:23:06.427] [sharedprocess] [info] Scanned user extensions: 7
+[2019-07-23 10:28:06.469] [sharedprocess] [info] Scanned user extensions: 7
+[2019-07-23 10:33:06.486] [sharedprocess] [info] Scanned user extensions: 7
+[2019-07-23 10:38:06.505] [sharedprocess] [info] Scanned user extensions: 7
+[2019-07-23 10:43:06.524] [sharedprocess] [info] Scanned user extensions: 7
+[2019-07-23 10:48:06.547] [sharedprocess] [info] Scanned user extensions: 7
+[2019-07-23 10:53:06.596] [sharedprocess] [info] Scanned user extensions: 7
+[2019-07-23 10:58:06.654] [sharedprocess] [info] Scanned user extensions: 7
+[2019-07-23 11:03:06.737] [sharedprocess] [info] Scanned user extensions: 7
+[2019-07-23 11:08:16.947] [sharedprocess] [info] Scanned user extensions: 7
+[2019-07-23 11:13:16.996] [sharedprocess] [info] Scanned user extensions: 7
+[2019-07-23 11:18:17.046] [sharedprocess] [info] Scanned user extensions: 7
+[2019-07-23 11:23:17.089] [sharedprocess] [info] Scanned user extensions: 7
+[2019-07-23 11:28:17.130] [sharedprocess] [info] Scanned user extensions: 7

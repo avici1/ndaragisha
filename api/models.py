@@ -5,11 +5,13 @@ from django.db import models
 
 class LostItems(models.Model):
     owner_district = models.CharField(default="empty",max_length=40)
+    owner_id = models.CharField(default="empty",max_length=40)
     owner_sector = models.CharField(default="empty",max_length=40)
     owner_cell = models.CharField(default="empty",max_length=40)
     owner_umudugudu = models.CharField(default="empty",max_length=40)
     owner_name = models.CharField(default="empty", max_length=120)
     owner_phone = models.CharField(default="empty", max_length=20)
+    owner_email = models.CharField(default="empty",max_length=40)
     doc_name = models.CharField(default="empty", max_length=120)
     real_doc_id = models.CharField(default="empty", max_length=120)
     fake_doc_id = models.CharField(default="empty", max_length=120)
@@ -45,3 +47,8 @@ class FoundButNotAssigned(models.Model):
     found_doc_type = models.CharField(default="empty",max_length=40)
     found_person_phone = models.CharField(default="empty",max_length=50)
     found_doc_img = models.CharField(default="empty",max_length=120)
+    status = models.CharField(default="Not Found",max_length=40)
+    owner_name = models.CharField(default="empty",max_length=30)
+    owner_phone = models.CharField(default="empty",max_length=30)
+    owner_id = models.CharField(default="empty",max_length=30)
+    owner_email = models.CharField(default="empty",max_length=30)

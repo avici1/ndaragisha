@@ -4,19 +4,36 @@ from django.core.files.storage import FileSystemStorage
 from django.http import HttpResponse
 from django.shortcuts import redirect, render
 from django.core.exceptions import ObjectDoesNotExist
-from django.core.mail import send_mail, send_mass_mail
+from django.core.mail import EmailMessage
 from .forms import *
 from .models import *
 
 
 # Create your views here.
 
+def send_email(rec):
+    email = EmailMessage("Ndarangisha","Murakoze gukoresha gahunda yacu yitwa Ndarangisha. La Fraternite Tech Ltd irabamenyesha ko ibyo mwarangishije byabonetse 0788902758",to=[rec])
+    return email.send()
+
 def handle_lost_request(request):
     lost = LostItems()
-    if request.method == "POST":
+    try:
+        qs = FoundButNotAssigned.objects.get(found_doc_id=request.POST.get("item_id"))
+        qs.status = "Found"
+        qs.owner_name = request.POST.get("names")
+        qs.owner_phone = request.POST.get("phone")
+        qs.owner_id = request.POST.get("natId")
+        qs.owner_email = request.POST.get("email")
+        qs.save()
+        send_email(request.POST.get("email"))
+        return redirect('/auth/users/')
+    except ObjectDoesNotExist:
+     if request.method == "POST":
         doc_name = request.POST.get("doc_name")
         doc_id = request.POST.get("item_id")
         lost.owner_name = request.POST.get("names")
+        lost.owner_email = request.POST.get("email")
+        lost.owner_id = request.POST.get("natId")
         lost.owner_phone = request.POST.get("phone")
         lost.found_desc = request.POST.get("desc")
         lost.owner_cell = request.POST.get("cell")
@@ -46,8 +63,9 @@ def handle_found_items(request):
             except ObjectDoesNotExist:
                 fd = FoundButNotAssigned()
                 fd.found_person = request.POST.get('name')
-                fd.found_person_id = request.POST.get('natId')
+                # fd.found_person_id = request.POST.get('natId')
                 fd.found_doc_id = request.POST.get('id')
+                fd.owner_id = request.POST.get('natId')
                 fd.found_doc_type = request.POST.get('doc_name')
                 fd.found_person_phone = request.POST.get("phone")
                 doc_img = request.FILES['image']
@@ -59,6 +77,7 @@ def handle_found_items(request):
                 return redirect('http://127.0.0.1:8000/auth/users/')
 
             doc_id = request.POST.get("id")
+            send_email(lost.owner_email)
             lost.found_person_name = request.POST.get('name')
             lost.found_person_phone = request.POST.get('phone')
             lost.found_desc = request.POST.get('desc')
@@ -75,6 +94,7 @@ def handle_found_items(request):
             image_url = fs.url(file_name)
             lost.img_path = image_url
             lost.save()
+            return redirect ('/auth/users/')
         else:
             return render(request, '500.html', {'message': 'Post request forgery', 'url': 'http://127.0.0.1:8000'})
 
@@ -140,14 +160,16 @@ def handle_sent_messages(request):
     else:
         return redirect('/auth/error/')
 def load_found_not_assined(request):
-    fd = FoundButNotAssigned.objects.all()
+    fd = FoundButNotAssigned.objects.filter(status='Not Found')
     data = json.dumps([{
         'found_person': fd_data.found_person,
         'found_person_id':fd_data.found_person_id,
         'found_doc_id':fd_data.found_doc_id,
         'found_doc_type':fd_data.found_doc_type,
-        'found_person':fd_data.found_person,
+      
         'found_person_phone':fd_data.found_person_phone,
         'found_doc_img':fd_data.found_doc_img
     } for fd_data in fd])
     return HttpResponse(data)
+
+    # def handle_found_but_ass(request):

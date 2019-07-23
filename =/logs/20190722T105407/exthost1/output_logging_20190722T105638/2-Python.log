@@ -858,3 +858,139 @@ Your code has been rated at 6.53/10 (previous run: 6.63/10, -0.10)
 ------------------------------------------------------------------
 Your code has been rated at 6.53/10 (previous run: 6.53/10, +0.00)
 
+##########Linting Output - pylint##########
+************* Module api.views
+10,0,error,import-error:Unable to import 'twilio.rest'
+37,13,error,no-member:Class 'LostItems' has no 'objects' member
+44,23,error,no-member:Class 'LostItems' has no 'objects' member
+83,11,error,no-member:Class 'LostItems' has no 'objects' member
+93,11,error,no-member:Class 'LostItems' has no 'objects' member
+107,11,error,no-member:Class 'LostItems' has no 'objects' member
+143,9,error,no-member:Class 'FoundButNotAssigned' has no 'objects' member
+144,23,warning,duplicate-key:Duplicate key 'found_person' in dictionary
+8,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+8,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+8,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 6.06/10 (previous run: 6.53/10, -0.47)
+
+##########Linting Output - pylint##########
+************* Module api.views
+10,0,error,import-error:Unable to import 'twilio.rest'
+45,13,error,no-member:Class 'LostItems' has no 'objects' member
+52,23,error,no-member:Class 'LostItems' has no 'objects' member
+91,11,error,no-member:Class 'LostItems' has no 'objects' member
+101,11,error,no-member:Class 'LostItems' has no 'objects' member
+115,11,error,no-member:Class 'LostItems' has no 'objects' member
+151,9,error,no-member:Class 'FoundButNotAssigned' has no 'objects' member
+152,23,warning,duplicate-key:Duplicate key 'found_person' in dictionary
+8,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+8,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+8,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 6.06/10 (previous run: 6.06/10, +0.00)
+
+##########Linting Output - pylint##########
+************* Module api.views
+14,0,error,syntax-error:invalid syntax (<unknown>, line 14)
+##########Linting Output - pylint##########
+************* Module api.views
+10,0,error,import-error:Unable to import 'twilio.rest'
+15,13,error,undefined-variable:Undefined variable 'ACb056fa416d99f0642c4ad4f6346d7df1'
+15,4,warning,unused-variable:Unused variable 'acc_id'
+46,13,error,no-member:Class 'LostItems' has no 'objects' member
+53,23,error,no-member:Class 'LostItems' has no 'objects' member
+92,11,error,no-member:Class 'LostItems' has no 'objects' member
+102,11,error,no-member:Class 'LostItems' has no 'objects' member
+116,11,error,no-member:Class 'LostItems' has no 'objects' member
+152,9,error,no-member:Class 'FoundButNotAssigned' has no 'objects' member
+153,23,warning,duplicate-key:Duplicate key 'found_person' in dictionary
+8,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+8,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+8,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 5.54/10 (previous run: 6.06/10, -0.52)
+
+##########Linting Output - pylint##########
+************* Module api.views
+10,0,error,import-error:Unable to import 'twilio.rest'
+15,4,warning,unused-variable:Unused variable 'acc_id'
+16,4,warning,unused-variable:Unused variable 'auth_token'
+47,13,error,no-member:Class 'LostItems' has no 'objects' member
+54,23,error,no-member:Class 'LostItems' has no 'objects' member
+93,11,error,no-member:Class 'LostItems' has no 'objects' member
+103,11,error,no-member:Class 'LostItems' has no 'objects' member
+117,11,error,no-member:Class 'LostItems' has no 'objects' member
+153,9,error,no-member:Class 'FoundButNotAssigned' has no 'objects' member
+154,23,warning,duplicate-key:Duplicate key 'found_person' in dictionary
+8,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+8,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+8,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 5.98/10 (previous run: 5.54/10, +0.44)
+
+##########Linting Output - pylint##########
+************* Module api.views
+17,0,error,syntax-error:invalid syntax (<unknown>, line 17)
+##########Linting Output - pylint##########
+************* Module api.views
+10,0,error,import-error:Unable to import 'twilio.rest'
+15,4,warning,unused-variable:Unused variable 'acc_id'
+16,4,warning,unused-variable:Unused variable 'auth_token'
+17,4,warning,unused-variable:Unused variable 'send'
+50,13,error,no-member:Class 'LostItems' has no 'objects' member
+57,23,error,no-member:Class 'LostItems' has no 'objects' member
+96,11,error,no-member:Class 'LostItems' has no 'objects' member
+106,11,error,no-member:Class 'LostItems' has no 'objects' member
+120,11,error,no-member:Class 'LostItems' has no 'objects' member
+156,9,error,no-member:Class 'FoundButNotAssigned' has no 'objects' member
+157,23,warning,duplicate-key:Duplicate key 'found_person' in dictionary
+8,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+8,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+8,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 5.92/10 (previous run: 5.98/10, -0.06)
+
+##########Linting Output - pylint##########
+************* Module api.views
+10,0,error,import-error:Unable to import 'twilio.rest'
+15,4,warning,unused-variable:Unused variable 'acc_id'
+16,4,warning,unused-variable:Unused variable 'auth_token'
+17,4,warning,unused-variable:Unused variable 'send'
+50,13,error,no-member:Class 'LostItems' has no 'objects' member
+57,23,error,no-member:Class 'LostItems' has no 'objects' member
+96,11,error,no-member:Class 'LostItems' has no 'objects' member
+106,11,error,no-member:Class 'LostItems' has no 'objects' member
+120,11,error,no-member:Class 'LostItems' has no 'objects' member
+156,9,error,no-member:Class 'FoundButNotAssigned' has no 'objects' member
+157,23,warning,duplicate-key:Duplicate key 'found_person' in dictionary
+8,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+8,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+8,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 5.92/10 (previous run: 5.92/10, +0.00)
+
+##########Linting Output - pylint##########
+************* Module api.views
+23,0,error,syntax-error:invalid syntax (<unknown>, line 23)
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
