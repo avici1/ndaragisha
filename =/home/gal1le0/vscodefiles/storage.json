@@ -4,7 +4,9 @@
         "workspaces3": [
             "file:///home/gal1le0/development/native/ndaragisha"
         ],
-        "files2": []
+        "files2": [
+            "file:///media/gal1le0/D/users.html"
+        ]
     },
     "lastKnownMenubarData": {
         "menus": {
@@ -56,6 +58,20 @@
                                     },
                                     "enabled": true,
                                     "label": "/home/gal1le0/development/native/ndaragisha"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///media/gal1le0/D/users.html",
+                                        "path": "/media/gal1le0/D/users.html",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/media/gal1le0/D/users.html"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"

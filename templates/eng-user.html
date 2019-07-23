@@ -39,9 +39,9 @@
                                 <li><a href="http://127.0.0.1:8000/home/#home-section"
                                         class="nav-link has-warning">Home</a>
                                 </li>
-                                <li><a href="http://127.0.0.1:8000/home/#nataye-section" class="nav-link">Nataye</a>
+                                <li><a href="http://127.0.0.1:8000/home/#nataye-section" class="nav-link has-warning">I lost</a>
                                 </li>
-                                <li><a href="http://127.0.0.1:8000/home/#natoye-section" class="nav-link">Natoraguye</a>
+                                <li><a href="http://127.0.0.1:8000/home/#natoye-section" class="nav-link">I found</a>
                                 </li>
 
 
@@ -56,9 +56,9 @@
                                 <li data-aos="fade-up" data-aos-delay="300"><a href="#contact-section"
                                         class="btn btn-warning py-2 px-3 btn-pill"><span style="color: #d9edf7">Contact
                                             Us</span></a></li>
-                                            <li data-aos="fade-up" data-aos-delay="300" style="margin-left: 20px;"><a href="http://127.0.0.1:8000/api/users/eng/"
+                                            <li data-aos="fade-up" data-aos-delay="300" style="margin-left: 20px;"><a href="http://127.0.0.1:8000/auth/users/"
                                                 class="btn btn-warning py-2 px-3 btn-pill"><span
-                                                    style="color: white">ENG</span></a></li>
+                                                    style="color: #ffffff">KIN</span></a></li>
                             </ul>
                         </nav>
                         <a href="#"
@@ -82,11 +82,11 @@
                             <div class="col-lg-6">
 
 
-                                <h1 data-aos="fade-up" data-aos-delay="100">Koresha
-                                    Ndarangisha, maze ubone ibyo wataye
-                                    ndetse n' ibyatoraguwe</h1>
-                                <strong style="color: white" class="mb-4 text-light" data-aos="fade-up" data-aos-delay="200">Ndarangisha ni
-                                    urubuga rufasha abantu kubona ibyo bataye n' ibyatoraguwe byarangishijwe.</strong>
+                                <h1 data-aos="fade-up" data-aos-delay="100">Use
+                                    Ndarangisha, And Get What You Lost And What is Found
+                                    </h1>
+                                <strong style="color: white" class="mb-4 text-light" data-aos="fade-up" data-aos-delay="200">Ndarangisha Is
+                                    Web Application Which Helps In Finding What was lost and what is found.</strong>
 
                             </div>
 
@@ -94,20 +94,20 @@
 
                                 <form class="form-box" method="post" action="/api/handle_lost/" data-aos="fade"
                                     enctype="multipart/form-data">
-                                    <h3>Nataye</h3>
-                                    <p class="text-black">Injizamo ibisabwa maze tuzakumenyesha byabonetse </p>
+                                    <h3>Lost</h3>
+                                    <p class="text-black">Fill In The Required Data </p>
                                     {%csrf_token%}
                                     <div class="row">
                                         <div class="col-md-6 form-group">
                                             <div class="mb-3 mb-lg-0">
                                                 <input name="names" type="text" class="form-control"
-                                                    placeholder="Amazina">
+                                                    placeholder="Names">
                                             </div>
                                         </div>
                                         <div class="col-md-6 form-group">
                                             <div>
                                                 <input name="phone" type="number" class="form-control"
-                                                    placeholder="telefone">
+                                                    placeholder="Phone Number">
                                             </div>
                                         </div>
                                     </div>
@@ -115,13 +115,13 @@
                                         <div class="col-md-6 form-group">
                                             <div class="mb-3 mb-lg-0">
                                                 <input name="district" type="text" class="form-control"
-                                                    placeholder="Akarere">
+                                                    placeholder="District">
                                             </div>
                                         </div>
                                         <div class="col-md-6 form-group">
                                             <div class="mb-3 mb-lg-0">
                                                 <input name="sector" type="text" class="form-control"
-                                                    placeholder="Umurenge">
+                                                    placeholder="Sector">
                                             </div>
                                         </div>
                                     </div>
@@ -130,13 +130,13 @@
                                         <div class="col-md-6 form-group">
                                             <div class="mb-3 mb-lg-0">
                                                 <input name="cell" type="text" class="form-control"
-                                                    placeholder="Akagari">
+                                                    placeholder="Cell">
                                             </div>
                                         </div>
                                         <div class="col-md-6 form-group">
                                             <div class="mb-3 mb-lg-0">
                                                 <input name="umudugudu" type="text" class="form-control"
-                                                    placeholder="Umudugudu">
+                                                    placeholder="Village">
                                             </div>
                                         </div>
 
@@ -145,16 +145,15 @@
 
                                         <div class="col-md-6 form-group">
                                             <select class=" form-control" name="doc_name" id="options">
-                                                <option value="">Ubwoko bw'icyangobwa</option>
-                                                <option value="icyangobwa cy'ubutaka">icyangobwa cy'ubutaka</option>
-                                                <option value="icyangobwa cyo kubaka">icyangobwa cyo kubaka</option>
-                                                <option value="icyangobwa cy'ururugendo(Passport)">icyangobwa
-                                                    cy'ururugendo(Passport)</option>
-                                                <option value="icyangobwa cy'ubwishingizi">icyangobwa cy'ubwishingizi
+                                                <option value="">Type Of Document</option>
+                                                <option value="icyangobwa cy'ubutaka">Land Document</option>
+                                                <option value="icyangobwa cyo kubaka">Construction Permit</option>
+                                                <option value="icyangobwa cy'ururugendo(Passport)">Passport</option>
+                                                <option value="icyangobwa cy'ubwishingizi">Insurance Card
                                                 </option>
-                                                <option value="icyangobwa cy'umunyeshuri">icyangobwa cy'umunyeshuri
+                                                <option value="icyangobwa cy'umunyeshuri">Student Card
                                                 </option>
-                                                <option value="icyangobwa cy'akazi">icyangobwa cy'akazi</option>
+                                                <option value="icyangobwa cy'akazi">Employer Card</option>
                                             </select>
                                         </div>
 
@@ -162,13 +161,13 @@
                                         <div class="col-md-6 form-group">
                                             <div>
                                                 <input name="item_id" type="text" class="form-control"
-                                                    placeholder="Nomero y'icyangobwa">
+                                                    placeholder="Document Number">
                                             </div>
                                         </div>
                                         <div class="col-md-6 form-group">
                                             <div>
                                                 <input name="nat_id" type="text" class="form-control"
-                                                    placeholder="Nomero y'indangamuntu">
+                                                    placeholder="National ID Number">
                                             </div>
                                         </div>
                                         <div class="col-md-6 form-group">
@@ -180,7 +179,7 @@
 
                                     </div>
                                     <input type="submit" class="btn btn-warning py-2 px-5 btn-block btn-pill"
-                                        value="Ohereza">
+                                        value="Submit">
                                 </form>
 
 
@@ -207,24 +206,24 @@
                     <div class="col-md-7" id='tiles_found'>
 
 
-                        <h2 class="section-title mb-3">Ibyabonetse</h2>
-                        <p class="mb-5">urutonde rw'ibyabonetse </p>
+                        <h2 class="section-title mb-3">Founded Documents</h2>
+                        <p class="mb-5">List Of Founded Documents </p>
 
 
                     </div>
                     <div class="col-md-7" id='tiles_lost'>
 
 
-                        <h2 class="section-title mb-3">Ibyatakaye</h2>
-                        <p class="mb-5">urutonde rw'Ibyatakaye </p>
+                        <h2 class="section-title mb-3">Lost Documents</h2>
+                        <p class="mb-5">List Of Lost Documents </p>
 
 
                     </div>
                     <div class="col-md-7" id='tiles_found_but_not_ass'>
 
 
-                        <h2 class="section-title mb-3">Ibyonetse</h2>
-                        <p class="mb-5">Ibyabonetse bidafite nyirabyo </p>
+                        <h2 class="section-title mb-3">Founded Documents</h2>
+                        <p class="mb-5">Founded Documents with no Owner </p>
 
 
                     </div>

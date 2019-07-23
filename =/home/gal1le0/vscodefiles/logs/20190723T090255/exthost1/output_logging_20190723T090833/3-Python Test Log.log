@@ -33004,3 +33004,367 @@ nose.suite: DEBUG: precache is []
 Ran 0 tests in 0.176s
 
 OK
+nose.config: INFO: Ignoring files matching ['^\\.', '^_', '^setup\\.py$']
+nose.plugins.manager: DEBUG: Configuring plugins
+nose.plugins.manager: DEBUG: Plugins enabled: [<nose.plugins.capture.Capture object at 0x7f3b3bb512b0>, <nose.plugins.logcapture.LogCapture object at 0x7f3b3bb5bbe0>, <nose.plugins.deprecated.Deprecated object at 0x7f3b3baecb38>, <nose.plugins.skip.Skip object at 0x7f3b3babe400>, <nose.plugins.collect.CollectOnly object at 0x7f3b3ba3d780>]
+nose.core: DEBUG: configured Config(addPaths=True, args=(), configSection='nosetests', debug=None, debugLog=None, env={}, exclude=None, files=[], firstPackageWins=False, getTestCaseNamesCompat=False, ignoreFiles=[re.compile('^\\.'), re.compile('^_'), re.compile('^setup\\.py$')], ignoreFilesDefaultStrings=['^\\.', '^_', '^setup\\.py$'], include=None, includeExe=False, logStream=<_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>, loggingConfig=None, options=<Values at 0x7f3b3b9d61d0: {'version': False, 'showPlugins': False, 'verbosity': 4, 'files': None, 'where': None, 'py3where': None, 'testMatch': '(?:^|[\\b_\\./-])[Tt]est', 'testNames': None, 'debug': None, 'debugLog': None, 'loggingConfig': None, 'ignoreFiles': [], 'exclude': [], 'include': [], 'stopOnError': False, 'addPaths': True, 'includeExe': False, 'traverseNamespace': False, 'firstPackageWins': False, 'byteCompile': True, 'attr': None, 'eval_attr': None, 'capture': True, 'logcapture': True, 'logcapture_format': '%(name)s: %(levelname)s: %(message)s', 'logcapture_datefmt': None, 'logcapture_filters': None, 'logcapture_clear': False, 'logcapture_level': 'NOTSET', 'enable_plugin_coverage': None, 'cover_packages': None, 'cover_erase': None, 'cover_tests': None, 'cover_min_percentage': None, 'cover_inclusive': None, 'cover_html': None, 'cover_html_dir': 'cover', 'cover_branches': None, 'cover_xml': None, 'cover_xml_file': 'coverage.xml', 'debugBoth': False, 'debugFailures': False, 'debugErrors': False, 'noDeprecated': False, 'enable_plugin_doctest': None, 'doctest_tests': None, 'doctestExtension': None, 'doctest_result_var': None, 'doctestFixtures': None, 'doctestOptions': None, 'enable_plugin_isolation': None, 'detailedErrors': None, 'noSkip': False, 'enable_plugin_id': None, 'testIdFile': '.noseids', 'failed': False, 'multiprocess_workers': 0, 'multiprocess_timeout': 10, 'multiprocess_restartworker': False, 'enable_plugin_xunit': None, 'xunit_file': 'nosetests.xml', 'xunit_testsuite_name': 'nosetests', 'enable_plugin_allmodules': None, 'collect_only': True}>, parser=<optparse.OptionParser object at 0x7f3b3c0a7400>, parserClass=<class 'optparse.OptionParser'>, plugins=<nose.plugins.manager.DefaultPluginManager object at 0x7f3b3c6ebd30>, py3where=(), runOnInit=True, srcDirs=('lib', 'src'), stopOnError=False, stream=<_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>, testMatch=re.compile('(?:^|[\\b_\\./-])[Tt]est'), testMatchPat='(?:^|[\\b_\\./-])[Tt]est', testNames=['.'], traverseNamespace=False, verbosity=4, where=(), worker=False, workingDir='/home/gal1le0/development/native/ndaragisha')
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha
+nose.plugins.collect: DEBUG: Preparing test loader
+nose.core: DEBUG: test loader is <nose.loader.TestLoader object at 0x7f3b3b9d62e8>
+nose.core: DEBUG: defaultTest .
+nose.core: DEBUG: Test names are ['.']
+nose.core: DEBUG: createTests called with None
+nose.loader: DEBUG: load from . (None)
+nose.selector: DEBUG: Test name . resolved to file ., module None, call None
+nose.selector: DEBUG: Final resolution of test name .: file /home/gal1le0/development/native/ndaragisha module None call None
+nose.plugins.collect: DEBUG: TestSuite([<nose.suite.LazySuite tests=generator (139892379969072)>])
+nose.plugins.collect: DEBUG: Add test <nose.suite.LazySuite tests=generator (139892379969072)>
+nose.core: DEBUG: runTests called
+nose.suite: DEBUG: precache is []
+nose.loader: DEBUG: load from dir /home/gal1le0/development/native/ndaragisha
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/=? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/api? True
+nose.loader: DEBUG: load from /home/gal1le0/development/native/ndaragisha/api (None)
+nose.selector: DEBUG: Test name /home/gal1le0/development/native/ndaragisha/api resolved to file /home/gal1le0/development/native/ndaragisha/api, module None, call None
+nose.selector: DEBUG: Final resolution of test name /home/gal1le0/development/native/ndaragisha/api: file /home/gal1le0/development/native/ndaragisha/api module api call None
+nose.importer: DEBUG: Import api from /home/gal1le0/development/native/ndaragisha
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha
+nose.importer: DEBUG: find module part api (api) in ['/home/gal1le0/development/native/ndaragisha']
+nose.loader: DEBUG: Load from module <module 'api' from '/home/gal1le0/development/native/ndaragisha/api/__init__.py'>
+nose.selector: DEBUG: wantModule <module 'api' from '/home/gal1le0/development/native/ndaragisha/api/__init__.py'>? False
+nose.loader: DEBUG: Load tests from module path /home/gal1le0/development/native/ndaragisha/api?
+nose.loader: DEBUG: path: /home/gal1le0/development/native/ndaragisha/api os.path.realpath(/home/gal1le0/development/native/ndaragisha/api): /home/gal1le0/development/native/ndaragisha/api
+nose.loader: DEBUG: load from dir /home/gal1le0/development/native/ndaragisha/api
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha/api
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha
+nose.selector: DEBUG: __init__.py matches ignoreFiles pattern; skipped
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/api/admin.py? None
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/api/apps.py? None
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/api/forms.py? None
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/api/migrations? True
+nose.loader: DEBUG: load from /home/gal1le0/development/native/ndaragisha/api/migrations (None)
+nose.selector: DEBUG: Test name /home/gal1le0/development/native/ndaragisha/api/migrations resolved to file /home/gal1le0/development/native/ndaragisha/api/migrations, module None, call None
+nose.selector: DEBUG: Final resolution of test name /home/gal1le0/development/native/ndaragisha/api/migrations: file /home/gal1le0/development/native/ndaragisha/api/migrations module api.migrations call None
+nose.importer: DEBUG: Import api.migrations from /home/gal1le0/development/native/ndaragisha
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha
+nose.importer: DEBUG: find module part api (api) in ['/home/gal1le0/development/native/ndaragisha']
+nose.importer: DEBUG: sys.modules has api as <module 'api' from '/home/gal1le0/development/native/ndaragisha/api/__init__.py'>
+nose.importer: DEBUG: module already loaded? mod: /home/gal1le0/development/native/ndaragisha/api new: /home/gal1le0/development/native/ndaragisha/api
+nose.importer: DEBUG: find module part migrations (api.migrations) in ['/home/gal1le0/development/native/ndaragisha/api']
+nose.loader: DEBUG: Load from module <module 'api.migrations' from '/home/gal1le0/development/native/ndaragisha/api/migrations/__init__.py'>
+nose.selector: DEBUG: wantModule <module 'api.migrations' from '/home/gal1le0/development/native/ndaragisha/api/migrations/__init__.py'>? False
+nose.loader: DEBUG: Load tests from module path /home/gal1le0/development/native/ndaragisha/api/migrations?
+nose.loader: DEBUG: path: /home/gal1le0/development/native/ndaragisha/api/migrations os.path.realpath(/home/gal1le0/development/native/ndaragisha/api/migrations): /home/gal1le0/development/native/ndaragisha/api/migrations
+nose.loader: DEBUG: load from dir /home/gal1le0/development/native/ndaragisha/api/migrations
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha/api/migrations
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha/api
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/api/migrations/0001_initial.py? None
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/api/migrations/0002_auto_20190604_0824.py? None
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/api/migrations/0003_auto_20190604_1750.py? None
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/api/migrations/0004_auto_20190604_1753.py? None
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/api/migrations/0005_auto_20190604_1816.py? None
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/api/migrations/0006_founditems.py? None
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/api/migrations/0007_auto_20190609_0602.py? None
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/api/migrations/0008_auto_20190609_0611.py? None
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/api/migrations/0009_incommingmessage.py? None
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/api/migrations/0010_auto_20190610_1801.py? None
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/api/migrations/0011_auto_20190610_1803.py? None
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/api/migrations/0012_auto_20190716_0259.py? None
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/api/migrations/0013_auto_20190716_0304.py? None
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/api/migrations/0014_auto_20190716_0313.py? None
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/api/migrations/0015_lostitems_found_person_id.py? None
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/api/migrations/0016_foundbutnotassigned.py? None
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/api/migrations/0017_foundbutnotassigned_found_doc_img.py? None
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/api/migrations/0018_auto_20190723_0749.py? None
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/api/migrations/0019_auto_20190723_0806.py? None
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/api/migrations/0020_auto_20190723_0846.py? None
+nose.selector: DEBUG: __init__.py matches ignoreFiles pattern; skipped
+nose.plugins.collect: DEBUG: TestSuite(<nose.suite.ContextList object at 0x7f3b3b9d6d68>)
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/api/models.py? None
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/api/views.py? None
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/api/tests.py? True
+nose.loader: DEBUG: load from /home/gal1le0/development/native/ndaragisha/api/tests.py (None)
+nose.selector: DEBUG: Test name /home/gal1le0/development/native/ndaragisha/api/tests.py resolved to file /home/gal1le0/development/native/ndaragisha/api/tests.py, module None, call None
+nose.selector: DEBUG: Final resolution of test name /home/gal1le0/development/native/ndaragisha/api/tests.py: file /home/gal1le0/development/native/ndaragisha/api/tests.py module api.tests call None
+nose.importer: DEBUG: Import api.tests from /home/gal1le0/development/native/ndaragisha
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha
+nose.importer: DEBUG: find module part api (api) in ['/home/gal1le0/development/native/ndaragisha']
+nose.importer: DEBUG: sys.modules has api as <module 'api' from '/home/gal1le0/development/native/ndaragisha/api/__init__.py'>
+nose.importer: DEBUG: module already loaded? mod: /home/gal1le0/development/native/ndaragisha/api new: /home/gal1le0/development/native/ndaragisha/api
+nose.importer: DEBUG: find module part tests (api.tests) in ['/home/gal1le0/development/native/ndaragisha/api']
+nose.loader: DEBUG: Load from module <module 'api.tests' from '/home/gal1le0/development/native/ndaragisha/api/tests.py'>
+nose.selector: DEBUG: wantModule <module 'api.tests' from '/home/gal1le0/development/native/ndaragisha/api/tests.py'>? True
+nose.selector: DEBUG: wantClass <class 'django.test.testcases.TestCase'>? True
+nose.selector: DEBUG: wantMethod <unbound method TestCase.addCleanup>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.addTypeEqualityFunc>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertAlmostEqual>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.deprecated_func>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertContains>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertCountEqual>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertDictContainsSubset>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertDictEqual>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertEqual>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.deprecated_func>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertFalse>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertFieldOutput>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertFormError>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertFormsetError>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertGreater>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertGreaterEqual>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertHTMLEqual>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertHTMLNotEqual>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertIn>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertInHTML>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertIs>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertIsInstance>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertIsNone>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertIsNot>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertIsNotNone>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertJSONEqual>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertJSONNotEqual>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertLess>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertLessEqual>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertListEqual>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertLogs>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertMultiLineEqual>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertNotAlmostEqual>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.deprecated_func>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertNotContains>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertNotEqual>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.deprecated_func>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertNotIn>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertNotIsInstance>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertNotRegex>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.deprecated_func>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertNumQueries>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertQuerysetEqual>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertRaises>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertRaisesMessage>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertRaisesRegex>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.deprecated_func>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertRedirects>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertRegex>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.deprecated_func>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertSequenceEqual>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertSetEqual>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertTemplateNotUsed>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertTemplateUsed>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertTrue>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertTupleEqual>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertURLEqual>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertWarns>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertWarnsMessage>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertWarnsRegex>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertXMLEqual>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertXMLNotEqual>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.deprecated_func>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.countTestCases>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.debug>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.defaultTestResult>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.doCleanups>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.fail>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.deprecated_func>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.deprecated_func>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.deprecated_func>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.deprecated_func>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.deprecated_func>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.deprecated_func>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.deprecated_func>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.id>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.modify_settings>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.run>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.setUp>? None
+nose.selector: DEBUG: wantMethod <bound method TestCase.setUpClass of <class 'api.tests.transplant_class.<locals>.C'>>? None
+nose.selector: DEBUG: wantMethod <bound method TestCase.setUpTestData of <class 'api.tests.transplant_class.<locals>.C'>>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.settings>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.shortDescription>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.skipTest>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.subTest>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.tearDown>? None
+nose.selector: DEBUG: wantMethod <bound method TestCase.tearDownClass of <class 'api.tests.transplant_class.<locals>.C'>>? None
+nose.plugins.collect: DEBUG: TestSuite(<map object at 0x7f3b3b9f3048>)
+nose.plugins.collect: DEBUG: TestSuite(<nose.suite.ContextList object at 0x7f3b3b9d6c88>)
+nose.plugins.collect: DEBUG: Add test <nose.plugins.collect.TestSuite tests=[]>
+nose.plugins.collect: DEBUG: TestSuite(<nose.suite.ContextList object at 0x7f3b3b9d6ba8>)
+nose.plugins.collect: DEBUG: Add test <nose.plugins.collect.TestSuite tests=[]>
+nose.plugins.collect: DEBUG: Add test <nose.plugins.collect.TestSuite tests=[<nose.plugins.collect.TestSuite tests=[]>]>
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/authentications? True
+nose.loader: DEBUG: load from /home/gal1le0/development/native/ndaragisha/authentications (None)
+nose.selector: DEBUG: Test name /home/gal1le0/development/native/ndaragisha/authentications resolved to file /home/gal1le0/development/native/ndaragisha/authentications, module None, call None
+nose.selector: DEBUG: Final resolution of test name /home/gal1le0/development/native/ndaragisha/authentications: file /home/gal1le0/development/native/ndaragisha/authentications module authentications call None
+nose.importer: DEBUG: Import authentications from /home/gal1le0/development/native/ndaragisha
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha
+nose.importer: DEBUG: find module part authentications (authentications) in ['/home/gal1le0/development/native/ndaragisha']
+nose.loader: DEBUG: Load from module <module 'authentications' from '/home/gal1le0/development/native/ndaragisha/authentications/__init__.py'>
+nose.selector: DEBUG: wantModule <module 'authentications' from '/home/gal1le0/development/native/ndaragisha/authentications/__init__.py'>? False
+nose.loader: DEBUG: Load tests from module path /home/gal1le0/development/native/ndaragisha/authentications?
+nose.loader: DEBUG: path: /home/gal1le0/development/native/ndaragisha/authentications os.path.realpath(/home/gal1le0/development/native/ndaragisha/authentications): /home/gal1le0/development/native/ndaragisha/authentications
+nose.loader: DEBUG: load from dir /home/gal1le0/development/native/ndaragisha/authentications
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha/authentications
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha
+nose.selector: DEBUG: __init__.py matches ignoreFiles pattern; skipped
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/authentications/admin.py? None
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/authentications/apps.py? None
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/authentications/migrations? True
+nose.loader: DEBUG: load from /home/gal1le0/development/native/ndaragisha/authentications/migrations (None)
+nose.selector: DEBUG: Test name /home/gal1le0/development/native/ndaragisha/authentications/migrations resolved to file /home/gal1le0/development/native/ndaragisha/authentications/migrations, module None, call None
+nose.selector: DEBUG: Final resolution of test name /home/gal1le0/development/native/ndaragisha/authentications/migrations: file /home/gal1le0/development/native/ndaragisha/authentications/migrations module authentications.migrations call None
+nose.importer: DEBUG: Import authentications.migrations from /home/gal1le0/development/native/ndaragisha
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha
+nose.importer: DEBUG: find module part authentications (authentications) in ['/home/gal1le0/development/native/ndaragisha']
+nose.importer: DEBUG: sys.modules has authentications as <module 'authentications' from '/home/gal1le0/development/native/ndaragisha/authentications/__init__.py'>
+nose.importer: DEBUG: module already loaded? mod: /home/gal1le0/development/native/ndaragisha/authentications new: /home/gal1le0/development/native/ndaragisha/authentications
+nose.importer: DEBUG: find module part migrations (authentications.migrations) in ['/home/gal1le0/development/native/ndaragisha/authentications']
+nose.loader: DEBUG: Load from module <module 'authentications.migrations' from '/home/gal1le0/development/native/ndaragisha/authentications/migrations/__init__.py'>
+nose.selector: DEBUG: wantModule <module 'authentications.migrations' from '/home/gal1le0/development/native/ndaragisha/authentications/migrations/__init__.py'>? False
+nose.loader: DEBUG: Load tests from module path /home/gal1le0/development/native/ndaragisha/authentications/migrations?
+nose.loader: DEBUG: path: /home/gal1le0/development/native/ndaragisha/authentications/migrations os.path.realpath(/home/gal1le0/development/native/ndaragisha/authentications/migrations): /home/gal1le0/development/native/ndaragisha/authentications/migrations
+nose.loader: DEBUG: load from dir /home/gal1le0/development/native/ndaragisha/authentications/migrations
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha/authentications/migrations
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha/authentications
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/authentications/migrations/0001_initial.py? None
+nose.selector: DEBUG: __init__.py matches ignoreFiles pattern; skipped
+nose.plugins.collect: DEBUG: TestSuite(<nose.suite.ContextList object at 0x7f3b3b9f3160>)
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/authentications/models.py? None
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/authentications/views.py? None
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/authentications/tests.py? True
+nose.loader: DEBUG: load from /home/gal1le0/development/native/ndaragisha/authentications/tests.py (None)
+nose.selector: DEBUG: Test name /home/gal1le0/development/native/ndaragisha/authentications/tests.py resolved to file /home/gal1le0/development/native/ndaragisha/authentications/tests.py, module None, call None
+nose.selector: DEBUG: Final resolution of test name /home/gal1le0/development/native/ndaragisha/authentications/tests.py: file /home/gal1le0/development/native/ndaragisha/authentications/tests.py module authentications.tests call None
+nose.importer: DEBUG: Import authentications.tests from /home/gal1le0/development/native/ndaragisha
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha
+nose.importer: DEBUG: find module part authentications (authentications) in ['/home/gal1le0/development/native/ndaragisha']
+nose.importer: DEBUG: sys.modules has authentications as <module 'authentications' from '/home/gal1le0/development/native/ndaragisha/authentications/__init__.py'>
+nose.importer: DEBUG: module already loaded? mod: /home/gal1le0/development/native/ndaragisha/authentications new: /home/gal1le0/development/native/ndaragisha/authentications
+nose.importer: DEBUG: find module part tests (authentications.tests) in ['/home/gal1le0/development/native/ndaragisha/authentications']
+nose.loader: DEBUG: Load from module <module 'authentications.tests' from '/home/gal1le0/development/native/ndaragisha/authentications/tests.py'>
+nose.selector: DEBUG: wantModule <module 'authentications.tests' from '/home/gal1le0/development/native/ndaragisha/authentications/tests.py'>? True
+nose.selector: DEBUG: wantClass <class 'django.test.testcases.TestCase'>? True
+nose.selector: DEBUG: wantMethod <unbound method TestCase.addCleanup>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.addTypeEqualityFunc>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertAlmostEqual>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.deprecated_func>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertContains>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertCountEqual>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertDictContainsSubset>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertDictEqual>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertEqual>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.deprecated_func>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertFalse>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertFieldOutput>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertFormError>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertFormsetError>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertGreater>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertGreaterEqual>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertHTMLEqual>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertHTMLNotEqual>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertIn>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertInHTML>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertIs>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertIsInstance>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertIsNone>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertIsNot>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertIsNotNone>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertJSONEqual>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertJSONNotEqual>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertLess>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertLessEqual>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertListEqual>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertLogs>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertMultiLineEqual>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertNotAlmostEqual>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.deprecated_func>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertNotContains>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertNotEqual>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.deprecated_func>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertNotIn>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertNotIsInstance>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertNotRegex>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.deprecated_func>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertNumQueries>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertQuerysetEqual>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertRaises>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertRaisesMessage>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertRaisesRegex>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.deprecated_func>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertRedirects>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertRegex>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.deprecated_func>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertSequenceEqual>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertSetEqual>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertTemplateNotUsed>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertTemplateUsed>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertTrue>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertTupleEqual>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertURLEqual>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertWarns>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertWarnsMessage>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertWarnsRegex>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertXMLEqual>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.assertXMLNotEqual>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.deprecated_func>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.countTestCases>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.debug>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.defaultTestResult>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.doCleanups>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.fail>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.deprecated_func>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.deprecated_func>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.deprecated_func>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.deprecated_func>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.deprecated_func>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.deprecated_func>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.deprecated_func>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.id>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.modify_settings>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.run>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.setUp>? None
+nose.selector: DEBUG: wantMethod <bound method TestCase.setUpClass of <class 'authentications.tests.transplant_class.<locals>.C'>>? None
+nose.selector: DEBUG: wantMethod <bound method TestCase.setUpTestData of <class 'authentications.tests.transplant_class.<locals>.C'>>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.settings>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.shortDescription>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.skipTest>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.subTest>? None
+nose.selector: DEBUG: wantMethod <unbound method TestCase.tearDown>? None
+nose.selector: DEBUG: wantMethod <bound method TestCase.tearDownClass of <class 'authentications.tests.transplant_class.<locals>.C'>>? None
+nose.plugins.collect: DEBUG: TestSuite(<map object at 0x7f3b3b9f3160>)
+nose.plugins.collect: DEBUG: TestSuite(<nose.suite.ContextList object at 0x7f3b3b9f3160>)
+nose.plugins.collect: DEBUG: Add test <nose.plugins.collect.TestSuite tests=[]>
+nose.plugins.collect: DEBUG: TestSuite(<nose.suite.ContextList object at 0x7f3b3b9d6c88>)
+nose.plugins.collect: DEBUG: Add test <nose.plugins.collect.TestSuite tests=[]>
+nose.plugins.collect: DEBUG: Add test <nose.plugins.collect.TestSuite tests=[<nose.plugins.collect.TestSuite tests=[]>]>
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/db.sqlite3? False
+nose.selector: INFO: /home/gal1le0/development/native/ndaragisha/manage.py is executable; skipped
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/ndaragisha? True
+nose.loader: DEBUG: load from /home/gal1le0/development/native/ndaragisha/ndaragisha (None)
+nose.selector: DEBUG: Test name /home/gal1le0/development/native/ndaragisha/ndaragisha resolved to file /home/gal1le0/development/native/ndaragisha/ndaragisha, module None, call None
+nose.selector: DEBUG: Final resolution of test name /home/gal1le0/development/native/ndaragisha/ndaragisha: file /home/gal1le0/development/native/ndaragisha/ndaragisha module ndaragisha call None
+nose.importer: DEBUG: Import ndaragisha from /home/gal1le0/development/native/ndaragisha
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha
+nose.importer: DEBUG: find module part ndaragisha (ndaragisha) in ['/home/gal1le0/development/native/ndaragisha']
+nose.loader: DEBUG: Load from module <module 'ndaragisha' from '/home/gal1le0/development/native/ndaragisha/ndaragisha/__init__.py'>
+nose.selector: DEBUG: wantModule <module 'ndaragisha' from '/home/gal1le0/development/native/ndaragisha/ndaragisha/__init__.py'>? False
+nose.loader: DEBUG: Load tests from module path /home/gal1le0/development/native/ndaragisha/ndaragisha?
+nose.loader: DEBUG: path: /home/gal1le0/development/native/ndaragisha/ndaragisha os.path.realpath(/home/gal1le0/development/native/ndaragisha/ndaragisha): /home/gal1le0/development/native/ndaragisha/ndaragisha
+nose.loader: DEBUG: load from dir /home/gal1le0/development/native/ndaragisha/ndaragisha
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha/ndaragisha
+nose.importer: DEBUG: Add path /home/gal1le0/development/native/ndaragisha
+nose.selector: DEBUG: __init__.py matches ignoreFiles pattern; skipped
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/ndaragisha/settings.py? None
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/ndaragisha/static? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/ndaragisha/static.zip? False
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/ndaragisha/urls.py? None
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/ndaragisha/wsgi.py? None
+nose.plugins.collect: DEBUG: TestSuite(<nose.suite.ContextList object at 0x7f3b3b9d6c50>)
+nose.selector: DEBUG: wantFile /home/gal1le0/development/native/ndaragisha/requirements.txt? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/templates? False
+nose.selector: DEBUG: wantDirectory /home/gal1le0/development/native/ndaragisha/venv? False
+nose.suite: DEBUG: precache is []
+
+----------------------------------------------------------------------
+Ran 0 tests in 0.468s
+
+OK

@@ -39,6 +39,8 @@ urlpatterns = [
     path('api/load/lost/', get_all_items_lost),
     path('api/contact_us/', handle_sent_messages),
     path('api/auth/signup/', signup_view),
+    path('api/en/',eng_home),
+    path('api/users/eng/',eng_users),
     path('api/auth/process/signup/', custom_signup),
     path('api/auth/process/login/', custom_login),
     path('api/fd_not_as/',load_found_not_assined)

@@ -40,9 +40,9 @@
                     <div class="mx-auto text-center">
                         <nav class="site-navigation position-relative text-right" role="navigation">
                             <ul class="site-menu main-menu js-clone-nav mx-auto d-none d-lg-block  m-0 p-0">
-                                <li><a href="#nataye-section" class="nav-link">Nataye</a></li>
-                                <li><a href="#Natoraguye-section" class="nav-link">Natoraguye</a></li>
-                                <li><a href="#contact-section" class="nav-link">Tuvugishe</a></li>
+                                <li><a href="#nataye-section" class="nav-link has-warning">I lost</a></li>
+                                <li><a href="#Natoraguye-section" class="nav-link">I found</a></li>
+                                <li><a href="#contact-section" class="nav-link">Contact us</a></li>
 
 
                             </ul>
@@ -53,12 +53,12 @@
                         <nav class="site-navigation position-relative text-right" role="navigation">
                             <ul
                                 class="site-menu main-menu site-menu-dark js-clone-nav mr-auto d-none d-lg-block m-0 p-0">
-                                <li data-aos="fade-up" data-aos-delay="300" style="margin-right: 20px;"><a href="#contact-section"
+                                <li data-aos="fade-up" data-aos-delay="300"><a href="#contact-section"
                                         class="btn btn-warning py-2 px-3 btn-pill"><span
                                             style="color: #d9edf7">Tuvugishe</span></a></li>
-                                            <li data-aos="fade-up" data-aos-delay="300" style="margin-left: 20px;"><a href="http://127.0.0.1:8000/api/en/"
+                                            <li data-aos="fade-up" data-aos-delay="300" style="margin-left: 20px;"><a href="http://127.0.0.1:8000/"
                                                 class="btn btn-warning py-2 px-3 btn-pill"><span
-                                                    style="color: #d9edf7;">EN</span></a></li>
+                                                    style="color: white;">KIN</span></a></li>
                             </ul>
                         </nav>
                         <a href="#"
@@ -83,11 +83,8 @@
                             <div class="col-lg-6">
 
 
-                                <h1 data-aos="fade-up" data-aos-delay="100">Koresha
-                                    Ndarangisha, maze ubone ibyo wataye
-                                    ndetse n' ibyatoraguwe</h1>
-                                <strong class="mb-4 text-light" style="color: white" data-aos="fade-up" data-aos-delay="200">Ndarangisha ni
-                                    urubuga rufasha abantu kubona ibyo bataye n' ibyatoraguwe byarangishijwe.</strong>
+                                <h1 data-aos="fade-up" data-aos-delay="100">Use Ndarangisha and find your long lost documents in just one click</h1>
+                                <strong class="mb-4 text-light" style="color: white" data-aos="fade-up" data-aos-delay="200">Ndarangisha is a platform deployed on the Web and android OS used to locate documents lost and lookup for found docs</strong>
 
                             </div>
 
@@ -95,21 +92,21 @@
 
                                 <form class="form-box" method="post" action="/api/handle_lost/" data-aos="fade"
                                     enctype="multipart/form-data">
-                                    <h3>Nataye</h3>
-                                    <p class="text-black">Injizamo ibisabwa maze tuzakumenyesha byabonetse </p>
+                                    <h3>I lost</h3>
+                                    <p class="text-black">Enter required info and we will notify you when your docs are available </p>
                                     {%csrf_token%}
                                     <div class="row">
                                         <div class="col-md-6 form-group">
                                             <div class="mb-3 mb-lg-0">
                                                 <input required="true" name="names" type="text" class="form-control"
-                                                    placeholder="Amazina">
+                                                    placeholder="Names">
                                             </div>
                                         </div>
                                         
                                         <div class="col-md-6 form-group">
                                             <div>
                                                 <input required="true" name="phone" type="number" class="form-control"
-                                                    placeholder="telefone">
+                                                    placeholder="Telephone">
                                             </div>
                                         </div>
                                       
@@ -118,14 +115,14 @@
                                         <div class="col-md-6 form-group">
                                             <div class="mb-3 mb-lg-0">
                                                 <input required="true" name="district" type="text" class="form-control"
-                                                    placeholder="Akarere">
+                                                    placeholder="District">
                                             </div>
                                         </div>
                                         
                                         <div class="col-md-6 form-group">
                                             <div class="mb-3 mb-lg-0">
                                                 <input required="true" name="sector" type="text" class="form-control"
-                                                    placeholder="Umurenge">
+                                                    placeholder="Sector">
                                             </div>
                                         </div>
                                     </div>
@@ -134,13 +131,13 @@
                                         <div class="col-md-6 form-group">
                                             <div class="mb-3 mb-lg-0">
                                                 <input required="true" name="cell" type="text" class="form-control"
-                                                    placeholder="Akagari">
+                                                    placeholder="Cell">
                                             </div>
                                         </div>
                                         <div class="col-md-6 form-group">
                                             <div class="mb-3 mb-lg-0">
                                                 <input required="true" name="umudugudu" type="text" class="form-control"
-                                                    placeholder="Umudugudu">
+                                                    placeholder="Village">
                                             </div>
                                         </div>
 
@@ -149,29 +146,28 @@
 
                                         <div class="col-md-6 form-group">
                                             <select required="true" class=" form-control" name="doc_name" id="options">
-                                                <option value="">Ubwoko bw'icyangobwa</option>
-                                                <option value="icyangobwa cy'ubutaka">icyangobwa cy'ubutaka</option>
-                                                <option value="icyangobwa cyo kubaka">icyangobwa cyo kubaka</option>
-                                                <option value="icyangobwa cy'ururugendo(Passport)">icyangobwa
-                                                    cy'ururugendo(Passport)</option>
-                                                <option value="icyangobwa cy'ubwishingizi">icyangobwa cy'ubwishingizi
+                                                <option value="">Type</option>
+                                                <option value="land document">land document</option>
+                                                <option value="Construction permit">Construction permit</option>
+                                                <option value="Passport">Passort</option>
+                                                <option value="insurance card">Insurance card
                                                 </option>
-                                                <option value="icyangobwa cy'umunyeshuri">icyangobwa cy'umunyeshuri
+                                                <option value="Student card">Student card
                                                 </option>
-                                                <option value="icyangobwa cy'akazi">icyangobwa cy'akazi</option>
+                                                <option value="Employee card">Employee card</option>
                                             </select>
                                         </div>
 
                                         <div class="col-md-6 form-group">
                                             <div class="mb-3 mb-lg-0">
                                                 <input required="true" name="natId" type="text" class="form-control"
-                                                    placeholder="Indangamuntu">
+                                                    placeholder="National Id">
                                             </div>
                                         </div>
                                         <div class="col-md-6 form-group">
                                             <div>
                                                 <input required="true" name="item_id" type="text" class="form-control"
-                                                    placeholder="Nomero y'icyangobwa">
+                                                    placeholder="Document Id">
                                             </div>
                                         </div>
                                       
@@ -184,7 +180,7 @@
                                         </div>
                                     </div>
                                     <input type="submit" class="btn btn-warning py-2 px-5 btn-block btn-pill"
-                                        value="Ohereza">
+                                        value="Sebd">
                                 </form>
 
 
@@ -208,9 +204,7 @@
                             class="img-fluid w-25 mb-4 rounded-circle">
                         <h3 class="mb-4">RUGWIZANGOGA Fraterne</h3>
                         <blockquote>
-                            <p>&ldquo; Waba ukoresheje Ndarangisha( Yo Kurubuga cyangwa Kuri telefone Igendanwa). kubura
-                                kwibuntu ntikuzongera kuguhangayikisha
-                                ukundi &ldquo;</p>
+                            <p>&ldquo; Whenever You loose a document you can use Ndarangisha on Android or Web to find your docs easily&ldquo;</p>
                         </blockquote>
                     </div>
                 </div>
@@ -228,86 +222,85 @@
                     <div class="col-lg-6">
 
 
-                        <h2 class="section-title mb-3">Natoraguye</h2>
-                        <p class="mb-5">Injiza amakuru yibyo watoye </p>
+                        <h2 class="section-title mb-3">I found</h2>
+                        <p class="mb-5">Provide releveant info</p>
 
                         <form method="post" action="/api/handle_found/" data-aos="fade" enctype="multipart/form-data">
                             {%csrf_token%}
                             <div class="form-group row">
                                 <div class="col-md-8 mb-3 mb-lg-0">
                                     <input required="true" name="name" type="text" class="form-control"
-                                        placeholder="Amazina">
+                                        placeholder="Names">
                                 </div>
 
                             </div>
                             <div class="form-group row">
                                 <div class="col-md-8 mb-3 mb-lg-0">
                                     <input required="true" name="natId" type="text" class="form-control"
-                                        placeholder="Nomero y'indangamuntu">
+                                        placeholder="National Id/Passport">
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <div class="col-md-8 mb-3 mb-lg-0">
                                     <input required="true" name="district" type="text" class="form-control"
-                                        placeholder="Akarere">
+                                        placeholder="District">
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <div class="col-md-8 mb-3 mb-lg-0">
                                     <input required="true" name="sector" type="text" class="form-control"
-                                        placeholder="Umurenge">
+                                        placeholder="Sector">
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <div class="col-md-8 mb-3 mb-lg-0">
                                     <input required="true" name="cell" type="text" class="form-control"
-                                        placeholder="Akagari">
+                                        placeholder="Cell">
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <div class="col-md-8 mb-3 mb-lg-0">
                                     <input required="true" name="umudugudu" type="text" class="form-control"
-                                        placeholder="Umudugudu">
+                                        placeholder="Village">
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <div class="col-md-8 mb-3 mb-lg-0">
                                     <select required="true" class=" form-control" name="doc_name" id="options">
-                                        <option value="">Hitamo ubwoko bw'icyangobwa</option>
-                                        <option value="icyangobwa cy'ubutaka">icyangobwa cy'ubutaka</option>
-                                        <option value="icyangobwa cyo kubaka">icyangobwa cyo kubaka</option>
-                                        <option value="icyangobwa cy'ururugendo(Passport)">icyangobwa
-                                            cy'ururugendo(Passport)</option>
-                                        <option value="icyangobwa cy'ubwishingizi">icyangobwa cy'ubwishingizi</option>
-                                        <option value="icyangobwa cy'umunyeshuri">icyangobwa cy'umunyeshuri</option>
-                                        <option value="icyangobwa cy'akazi">icyangobwa cy'akazi</option>
-                                        <option value="Icyemezo">Icyemezo</option>
-                                        <option value="Ipuracye">Ipuracye</option>
+                                        <option value="">Type</option>
+                                        <option value="land document">land document</option>
+                                        <option value="Construction permit">Construction permit</option>
+                                        <option value="Passport">Passort</option>
+                                        <option value="insurance card">Insurance card
+                                        </option>
+                                        <option value="Student card">Student card
+                                        </option>
+                                        <option value="Employee card">Employee card</option>
                                     </select>
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <div class="col-md-8">
                                     <input required="true" name="image" type="file" class="form-control" required=" "
-                                        placeholder="ifoto">
+                                        placeholder="Picture">
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <div class="col-md-8">
                                     <input required="true" name="phone" id="phone" type="number" class="form-control"
-                                        placeholder="Nimero Ya telefone">
+                                        placeholder="Telephone">
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <div class="col-md-8 mb-3 mb-lg-0">
                                     <input required="true" name="id" id="Id" type="text" class="form-control"
-                                    placeholder="Nomero y'icyatoraguwe">
+                                    placeholder="Document Id">
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <div class="col-md-8">
                                     <textarea required="true" name="desc" class="form-control" id="xsx" cols="30"
-                                        rows="5" placeholder="Ubusobanuro." style="resize: none;"></textarea>
+                                        rows="5" placeholder="Description" style="resize: none;"></textarea>
                                 </div>
                             </div>
 
@@ -315,7 +308,7 @@
                                 <div class="col-md-6">
 
                                     <input type="submit" class="btn btn-warning py-3 px-5 btn-block btn-pill"
-                                        value="Ohereza">
+                                        value="Send">
                                 </div>
                             </div>
 
@@ -325,8 +318,8 @@
                     <div class="d-lg-none col-lg-6">
 
 
-                        <h2 class="section-title mb-3">Nataye</h2>
-                        <p class="mb-5">Injizamo ibisabwa maze tuzakumenyesha byabonetse </p>
+                        <h2 class="section-title mb-3">I lost</h2>
+                        <p class="mb-5">Please provide details so we can help you</p>
 
                         <form method="post" action="/api/handle_lost/" data-aos="fade" enctype="multipart/form-data">
                             {%csrf_token%}
@@ -334,31 +327,31 @@
                             <div class="form-group row">
                                 <div class="col-md-8 mb-3 mb-lg-0">
                                     <input required="true" name="names" type="text" class="form-control"
-                                        placeholder="Amazina">
+                                        placeholder="Names">
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <div class="col-md-8 mb-3 mb-lg-0">
                                     <input required="true" name="natId" type="text" class="form-control"
-                                        placeholder="Nomero y'indangamuntu">
+                                        placeholder="National Id">
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <div class="col-md-8 mb-3 mb-lg-0">
                                     <input required="true" name="sector" type="text" class="form-control"
-                                        placeholder="Umurenge">
+                                        placeholder="Sector">
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <div class="col-md-8 mb-3 mb-lg-0">
                                     <input required="true" name="cell" type="text" class="form-control"
-                                        placeholder="Akagari">
+                                        placeholder="Cell">
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <div class="col-md-8 mb-3 mb-lg-0">
                                     <input required="true" name="umudugudu" type="text" class="form-control"
-                                        placeholder="Umudugudu">
+                                        placeholder="Village">
                                 </div>
                             </div>
 
@@ -366,17 +359,16 @@
 
                             <div class="form-group row">
                                 <div class="col-md-8 mb-3 mb-lg-0">
-                                    <select required="true" class=" form-control" name="doc_name">
-                                        <option value="">Hitamo ubwoko bw'icyangobwa</option>
-                                        <option value="icyangobwa cy'ubutaka">icyangobwa cy'ubutaka</option>
-                                        <option value="icyangobwa cyo kubaka">icyangobwa cyo kubaka</option>
-                                        <option value="icyangobwa cy'ururugendo(Passport)">icyangobwa
-                                            cy'ururugendo(Passport)</option>
-                                        <option value="icyangobwa cy'ubwishingizi">icyangobwa cy'ubwishingizi</option>
-                                        <option value="icyangobwa cy'umunyeshuri">icyangobwa cy'umunyeshuri</option>
-                                        <option value="icyangobwa cy'akazi">icyangobwa cy'akazi</option>
-                                        <option value="Icyemezo">Icyemezo</option>
-                                        <option value="Ipuracye">Ipuracye</option>
+                                    <select required="true" class=" form-control" name="doc_name" id="options">
+                                        <option value="">Type</option>
+                                        <option value="land document">land document</option>
+                                        <option value="Construction permit">Construction permit</option>
+                                        <option value="Passport">Passort</option>
+                                        <option value="insurance card">Insurance card
+                                        </option>
+                                        <option value="Student card">Student card
+                                        </option>
+                                        <option value="Employee card">Employee card</option>
                                     </select>
                                 </div>
                             </div>
@@ -384,14 +376,14 @@
                             <div class="form-group row">
                                 <div class="col-md-8">
                                     <input required="true" name="item_id" type="text" class="form-control"
-                                        placeholder="Nomero y'icyangobwa">
+                                        placeholder="Document Id">
                                 </div>
                             </div>
 
                             <div class="form-group row">
                                 <div class="col-md-8">
                                     <input required="true" name="phone" type="number" class="form-control"
-                                        placeholder="telefone">
+                                        placeholder="telephone">
                                 </div>
                             </div>
 
@@ -399,7 +391,7 @@
                                 <div class="col-md-6">
 
                                     <input type="submit" class="btn btn-warning py-3 px-5 btn-block btn-pill"
-                                        value="Ahoreza">
+                                        value="Send">
                                 </div>
                             </div>
 
@@ -409,8 +401,8 @@
                     <div class="col-lg-6">
 
 
-                        <h2 class="section-title mb-3">Tuvugishe</h2>
-                        <p class="mb-5">Ufite ikibazo cyangwa igiterezo twandikire hano cyangwa uduhamagare kuri
+                        <h2 class="section-title mb-3">Contact</h2>
+                        <p class="mb-5">If you have any issue you can contact us here
                             0788902758 </p>
 
                         <form method="post" action="api/contact_us/" data-aos="fade">
@@ -418,14 +410,14 @@
                             <div class="form-group row">
                                 <div class="col-md-6 mb-3 mb-lg-0">
                                     <input name="names" id="names" required="" type="text" class="form-control"
-                                        placeholder="Amazina">
+                                        placeholder="Names">
                                 </div>
                             </div>
 
                             <div class="form-group row">
                                 <div class="col-md-12">
                                     <input name="subject" id="subject" required="" type="text" class="form-control"
-                                        placeholder="Icyo Mushaka">
+                                        placeholder="Subject">
                                 </div>
                             </div>
 
@@ -438,7 +430,7 @@
                             <div class="form-group row">
                                 <div class="col-md-12">
                                     <textarea name="message" class="form-control" id="message" cols="30" rows="10"
-                                        placeholder="Andika mu buryo burambuye."></textarea>
+                                        placeholder="Body."></textarea>
                                 </div>
                             </div>
 
@@ -446,7 +438,7 @@
                                 <div class="col-md-6">
 
                                     <input type="submit" class="btn btn-warning py-3 px-5 btn-block btn-pill"
-                                        value="Ohereza">
+                                        value="Send">
                                 </div>
                             </div>
 

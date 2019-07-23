@@ -22,6 +22,11 @@ def home_view(request):
 def user_view(request):
     return render(request, 'users.html')
 
+def eng_home(request):
+    return render(request, 'eng.html')
+
+def eng_users(request):
+    return render(request,'eng-user.html')    
 
 def signup_view(request):
     return render(request, 'signup.html')
