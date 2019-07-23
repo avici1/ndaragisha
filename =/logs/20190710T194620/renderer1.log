@@ -1,0 +1,2 @@
+[2019-07-10 19:46:28.369] [renderer1] [error] Error: [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[2019-07-10 19:50:20.373] [renderer1] [error] An unknown error occurred. Please consult the log for more details.

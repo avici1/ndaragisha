@@ -1,0 +1,29 @@
+[2019-07-10 19:46:24.905] [sharedprocess] [info] main {"machineId":"8537f086b8002f1a83c73b358c38f62ce5b7a083124369640c769ea9af545c59"}
+[2019-07-10 19:46:24.979] [sharedprocess] [info] Scanned user extensions: 1
+[2019-07-10 19:46:25.012] [sharedprocess] [info] Scanned user extensions: 1
+[2019-07-10 19:46:25.065] [sharedprocess] [info] Scanned system extensions: 72
+[2019-07-10 19:46:25.070] [sharedprocess] [info] Scanned system extensions: 72
+[2019-07-10 19:46:25.131] [sharedprocess] [info] Scanned user extensions: 1
+[2019-07-10 19:46:25.168] [sharedprocess] [info] Scanned system extensions: 72
+[2019-07-10 19:46:44.700] [sharedprocess] [info] Scanned user extensions: 1
+[2019-07-10 19:46:56.312] [sharedprocess] [info] Installing extension: ms-python.python
+[2019-07-10 19:46:56.325] [sharedprocess] [info] Scanned user extensions: 1
+[2019-07-10 19:47:04.768] [sharedprocess] [info] Starting to clean up unused language packs.
+[2019-07-10 19:47:57.504] [sharedprocess] [info] Scanned user extensions: 1
+[2019-07-10 19:47:57.560] [sharedprocess] [info] Scanned system extensions: 72
+[2019-07-10 19:47:57.663] [sharedprocess] [info] Scanned user extensions: 1
+[2019-07-10 19:47:57.721] [sharedprocess] [info] Scanned system extensions: 72
+[2019-07-10 19:50:20.352] [sharedprocess] [error] Failed to install extension: ms-python.python 
+[2019-07-10 19:51:44.711] [sharedprocess] [info] Scanned user extensions: 1
+[2019-07-10 19:56:44.732] [sharedprocess] [info] Scanned user extensions: 1
+[2019-07-10 20:01:44.751] [sharedprocess] [info] Scanned user extensions: 1
+[2019-07-10 20:06:44.769] [sharedprocess] [info] Scanned user extensions: 1
+[2019-07-10 20:11:44.785] [sharedprocess] [info] Scanned user extensions: 1
+[2019-07-10 20:16:44.805] [sharedprocess] [info] Scanned user extensions: 1
+[2019-07-10 20:21:44.821] [sharedprocess] [info] Scanned user extensions: 1
+[2019-07-10 20:26:44.837] [sharedprocess] [info] Scanned user extensions: 1
+[2019-07-10 20:31:44.854] [sharedprocess] [info] Scanned user extensions: 1
+[2019-07-10 20:36:44.869] [sharedprocess] [info] Scanned user extensions: 1
+[2019-07-10 20:41:44.886] [sharedprocess] [info] Scanned user extensions: 1
+[2019-07-10 20:47:04.406] [sharedprocess] [info] Scanned user extensions: 1
+[2019-07-10 20:52:04.426] [sharedprocess] [info] Scanned user extensions: 1

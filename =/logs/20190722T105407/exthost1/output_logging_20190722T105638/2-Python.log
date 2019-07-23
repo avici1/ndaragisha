@@ -1,0 +1,996 @@
+User belongs to experiment group 'AlwaysDisplayTestExplorer - experiment'
+Starting Jedi Python language engine.
+##########Linting Output - pylint##########
+************* Module api.views
+36,11,error,no-member:Class 'LostItems' has no 'objects' member
+63,11,error,no-member:Class 'LostItems' has no 'objects' member
+73,11,error,no-member:Class 'LostItems' has no 'objects' member
+86,11,error,no-member:Class 'LostItems' has no 'objects' member
+7,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+7,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+7,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 6.93/10 (previous run: 6.93/10, +0.00)
+
+##########Linting Output - pylint##########
+************* Module api.views
+36,11,error,no-member:Class 'LostItems' has no 'objects' member
+63,11,error,no-member:Class 'LostItems' has no 'objects' member
+73,11,error,no-member:Class 'LostItems' has no 'objects' member
+86,11,error,no-member:Class 'LostItems' has no 'objects' member
+7,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+7,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+7,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 6.97/10 (previous run: 6.93/10, +0.04)
+
+##########Linting Output - pylint##########
+************* Module api.views
+36,11,error,no-member:Class 'LostItems' has no 'objects' member
+63,11,error,no-member:Class 'LostItems' has no 'objects' member
+73,11,error,no-member:Class 'LostItems' has no 'objects' member
+86,11,error,no-member:Class 'LostItems' has no 'objects' member
+7,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+7,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+7,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 6.97/10 (previous run: 6.97/10, +0.00)
+
+##########Linting Output - pylint##########
+************* Module api.views
+36,11,error,no-member:Class 'LostItems' has no 'objects' member
+63,11,error,no-member:Class 'LostItems' has no 'objects' member
+73,11,error,no-member:Class 'LostItems' has no 'objects' member
+86,11,error,no-member:Class 'LostItems' has no 'objects' member
+7,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+7,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+7,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 6.97/10 (previous run: 6.97/10, +0.00)
+
+##########Linting Output - pylint##########
+************* Module api.views
+36,13,error,no-member:Class 'LostItems' has no 'objects' member
+39,8,error,undefined-variable:Undefined variable 'lost'
+40,8,error,undefined-variable:Undefined variable 'lost'
+41,8,error,undefined-variable:Undefined variable 'lost'
+42,8,error,undefined-variable:Undefined variable 'lost'
+43,8,error,undefined-variable:Undefined variable 'lost'
+44,8,error,undefined-variable:Undefined variable 'lost'
+45,8,error,undefined-variable:Undefined variable 'lost'
+46,8,error,undefined-variable:Undefined variable 'lost'
+47,8,error,undefined-variable:Undefined variable 'lost'
+48,8,error,undefined-variable:Undefined variable 'lost'
+53,8,error,undefined-variable:Undefined variable 'lost'
+54,8,error,undefined-variable:Undefined variable 'lost'
+36,4,warning,unused-variable:Unused variable 'lost_1'
+63,11,error,no-member:Class 'LostItems' has no 'objects' member
+73,11,error,no-member:Class 'LostItems' has no 'objects' member
+86,11,error,no-member:Class 'LostItems' has no 'objects' member
+7,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+7,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+7,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+-------------------------------------------------------------------
+Your code has been rated at -1.05/10 (previous run: 6.97/10, -8.03)
+
+##########Linting Output - pylint##########
+************* Module ndaragisha.urls
+23,0,warning,unused-wildcard-import:Unused import json from wildcard import
+23,0,warning,unused-wildcard-import:Unused import handle_found_items_model_forms from wildcard import
+23,0,warning,unused-wildcard-import:Unused import FileSystemStorage from wildcard import
+23,0,warning,unused-wildcard-import:Unused import HttpResponse from wildcard import
+23,0,warning,unused-wildcard-import:Unused import redirect from wildcard import
+23,0,warning,unused-wildcard-import:Unused import render from wildcard import
+23,0,warning,unused-wildcard-import:Unused import send_mail from wildcard import
+23,0,warning,unused-wildcard-import:Unused import send_mass_mail from wildcard import
+23,0,warning,unused-wildcard-import:Unused import FoundItemsForms from wildcard import
+23,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+23,0,warning,unused-wildcard-import:Unused import LostItems from wildcard import
+23,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+23,0,warning,unused-wildcard-import:Unused import IncomingMessage from wildcard import
+23,0,warning,unused-wildcard-import:Unused import models from wildcard import
+24,0,warning,unused-wildcard-import:Unused import hashlib from wildcard import
+24,0,warning,unused-wildcard-import:Unused import ObjectDoesNotExist from wildcard import
+24,0,warning,unused-wildcard-import:Unused import ClientUsers from wildcard import
+
+--------------------------------------------------------------------
+Your code has been rated at -5.45/10 (previous run: -3.64/10, -1.82)
+
+##########Linting Output - pylint##########
+************* Module api.views
+36,13,error,no-member:Class 'LostItems' has no 'objects' member
+41,8,error,undefined-variable:Undefined variable 'lost'
+42,8,error,undefined-variable:Undefined variable 'lost'
+43,8,error,undefined-variable:Undefined variable 'lost'
+44,8,error,undefined-variable:Undefined variable 'lost'
+45,8,error,undefined-variable:Undefined variable 'lost'
+46,8,error,undefined-variable:Undefined variable 'lost'
+47,8,error,undefined-variable:Undefined variable 'lost'
+48,8,error,undefined-variable:Undefined variable 'lost'
+49,8,error,undefined-variable:Undefined variable 'lost'
+50,8,error,undefined-variable:Undefined variable 'lost'
+55,8,error,undefined-variable:Undefined variable 'lost'
+56,8,error,undefined-variable:Undefined variable 'lost'
+65,11,error,no-member:Class 'LostItems' has no 'objects' member
+75,11,error,no-member:Class 'LostItems' has no 'objects' member
+88,11,error,no-member:Class 'LostItems' has no 'objects' member
+7,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+7,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+7,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+--------------------------------------------------------------------
+Your code has been rated at -0.64/10 (previous run: -1.05/10, +0.41)
+
+##########Linting Output - pylint##########
+************* Module api.views
+36,13,error,no-member:Class 'LostItems' has no 'objects' member
+41,8,error,undefined-variable:Undefined variable 'lost'
+42,8,error,undefined-variable:Undefined variable 'lost'
+43,8,error,undefined-variable:Undefined variable 'lost'
+44,8,error,undefined-variable:Undefined variable 'lost'
+45,8,error,undefined-variable:Undefined variable 'lost'
+46,8,error,undefined-variable:Undefined variable 'lost'
+47,8,error,undefined-variable:Undefined variable 'lost'
+48,8,error,undefined-variable:Undefined variable 'lost'
+49,8,error,undefined-variable:Undefined variable 'lost'
+50,8,error,undefined-variable:Undefined variable 'lost'
+55,8,error,undefined-variable:Undefined variable 'lost'
+56,8,error,undefined-variable:Undefined variable 'lost'
+65,11,error,no-member:Class 'LostItems' has no 'objects' member
+75,11,error,no-member:Class 'LostItems' has no 'objects' member
+88,11,error,no-member:Class 'LostItems' has no 'objects' member
+7,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+7,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+7,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+--------------------------------------------------------------------
+Your code has been rated at -0.64/10 (previous run: -0.64/10, +0.00)
+
+##########Linting Output - pylint##########
+************* Module api.views
+36,13,error,no-member:Class 'LostItems' has no 'objects' member
+41,8,error,undefined-variable:Undefined variable 'lost'
+42,8,error,undefined-variable:Undefined variable 'lost'
+43,8,error,undefined-variable:Undefined variable 'lost'
+44,8,error,undefined-variable:Undefined variable 'lost'
+45,8,error,undefined-variable:Undefined variable 'lost'
+46,8,error,undefined-variable:Undefined variable 'lost'
+47,8,error,undefined-variable:Undefined variable 'lost'
+48,8,error,undefined-variable:Undefined variable 'lost'
+49,8,error,undefined-variable:Undefined variable 'lost'
+50,8,error,undefined-variable:Undefined variable 'lost'
+55,8,error,undefined-variable:Undefined variable 'lost'
+56,8,error,undefined-variable:Undefined variable 'lost'
+65,11,error,no-member:Class 'LostItems' has no 'objects' member
+75,11,error,no-member:Class 'LostItems' has no 'objects' member
+88,11,error,no-member:Class 'LostItems' has no 'objects' member
+7,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+7,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+7,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+--------------------------------------------------------------------
+Your code has been rated at -0.64/10 (previous run: -0.64/10, +0.00)
+
+##########Linting Output - pylint##########
+************* Module api.views
+39,0,error,syntax-error:unindent does not match any outer indentation level (<unknown>, line 39)
+##########Linting Output - pylint##########
+************* Module api.views
+39,0,error,syntax-error:unindent does not match any outer indentation level (<unknown>, line 39)
+##########Linting Output - pylint##########
+************* Module api.views
+39,0,error,syntax-error:unindent does not match any outer indentation level (<unknown>, line 39)
+##########Linting Output - pylint##########
+************* Module api.views
+43,0,error,syntax-error:unexpected unindent (<unknown>, line 43)
+##########Linting Output - pylint##########
+************* Module api.views
+44,0,error,syntax-error:unexpected unindent (<unknown>, line 44)
+##########Linting Output - pylint##########
+************* Module api.views
+44,0,error,syntax-error:unexpected unindent (<unknown>, line 44)
+##########Linting Output - pylint##########
+************* Module api.views
+43,0,error,syntax-error:unexpected indent (<unknown>, line 43)
+##########Linting Output - pylint##########
+************* Module api.views
+43,0,error,syntax-error:unexpected indent (<unknown>, line 43)
+##########Linting Output - pylint##########
+************* Module api.views
+36,13,error,no-member:Class 'LostItems' has no 'objects' member
+43,12,error,undefined-variable:Undefined variable 'lost'
+44,12,error,undefined-variable:Undefined variable 'lost'
+45,12,error,undefined-variable:Undefined variable 'lost'
+46,12,error,undefined-variable:Undefined variable 'lost'
+47,12,error,undefined-variable:Undefined variable 'lost'
+48,12,error,undefined-variable:Undefined variable 'lost'
+49,12,error,undefined-variable:Undefined variable 'lost'
+50,12,error,undefined-variable:Undefined variable 'lost'
+51,12,error,undefined-variable:Undefined variable 'lost'
+52,12,error,undefined-variable:Undefined variable 'lost'
+57,12,error,undefined-variable:Undefined variable 'lost'
+58,12,error,undefined-variable:Undefined variable 'lost'
+63,11,error,no-member:Class 'LostItems' has no 'objects' member
+73,11,error,no-member:Class 'LostItems' has no 'objects' member
+86,11,error,no-member:Class 'LostItems' has no 'objects' member
+7,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+7,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+7,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+--------------------------------------------------------------------
+Your code has been rated at -0.78/10 (previous run: -0.64/10, -0.14)
+
+##########Linting Output - pylint##########
+************* Module api.views
+36,13,error,no-member:Class 'LostItems' has no 'objects' member
+64,11,error,no-member:Class 'LostItems' has no 'objects' member
+74,11,error,no-member:Class 'LostItems' has no 'objects' member
+87,11,error,no-member:Class 'LostItems' has no 'objects' member
+7,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+7,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+7,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+-------------------------------------------------------------------
+Your code has been rated at 7.05/10 (previous run: -0.78/10, +7.83)
+
+##########Linting Output - pylint##########
+************* Module api.views
+36,13,error,no-member:Class 'LostItems' has no 'objects' member
+64,11,error,no-member:Class 'LostItems' has no 'objects' member
+74,11,error,no-member:Class 'LostItems' has no 'objects' member
+87,11,error,no-member:Class 'LostItems' has no 'objects' member
+7,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+7,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+7,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 7.05/10 (previous run: 7.05/10, +0.00)
+
+##########Linting Output - pylint##########
+************* Module api.views
+36,13,error,no-member:Class 'LostItems' has no 'objects' member
+42,19,error,no-member:Class 'LostItems' has no 'objects' member
+64,11,error,no-member:Class 'LostItems' has no 'objects' member
+74,11,error,no-member:Class 'LostItems' has no 'objects' member
+87,11,error,no-member:Class 'LostItems' has no 'objects' member
+7,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+7,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+7,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 6.41/10 (previous run: 7.05/10, -0.64)
+
+##########Linting Output - pylint##########
+************* Module api.views
+6,0,error,syntax-error:invalid syntax (<unknown>, line 6)
+##########Linting Output - pylint##########
+************* Module api.views
+37,13,error,no-member:Class 'LostItems' has no 'objects' member
+43,19,error,no-member:Class 'LostItems' has no 'objects' member
+65,11,error,no-member:Class 'LostItems' has no 'objects' member
+75,11,error,no-member:Class 'LostItems' has no 'objects' member
+88,11,error,no-member:Class 'LostItems' has no 'objects' member
+8,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+8,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+8,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 6.46/10 (previous run: 6.41/10, +0.05)
+
+##########Linting Output - pylint##########
+************* Module api.views
+37,13,error,no-member:Class 'LostItems' has no 'objects' member
+44,23,error,no-member:Class 'LostItems' has no 'objects' member
+45,19,error,undefined-variable:Undefined variable 'expression'
+45,12,warning,unused-variable:Unused variable 'identifier'
+69,11,error,no-member:Class 'LostItems' has no 'objects' member
+79,11,error,no-member:Class 'LostItems' has no 'objects' member
+92,11,error,no-member:Class 'LostItems' has no 'objects' member
+8,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+8,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+8,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 5.85/10 (previous run: 6.46/10, -0.60)
+
+##########Linting Output - pylint##########
+************* Module api.views
+37,13,error,no-member:Class 'LostItems' has no 'objects' member
+44,23,error,no-member:Class 'LostItems' has no 'objects' member
+45,12,warning,unused-variable:Unused variable 'ob'
+69,11,error,no-member:Class 'LostItems' has no 'objects' member
+79,11,error,no-member:Class 'LostItems' has no 'objects' member
+92,11,error,no-member:Class 'LostItems' has no 'objects' member
+8,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+8,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+8,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 6.46/10 (previous run: 5.85/10, +0.61)
+
+##########Linting Output - pylint##########
+************* Module api.views
+48,0,error,syntax-error:invalid syntax (<unknown>, line 48)
+##########Linting Output - pylint##########
+************* Module api.views
+37,13,error,no-member:Class 'LostItems' has no 'objects' member
+44,23,error,no-member:Class 'LostItems' has no 'objects' member
+45,12,warning,unused-variable:Unused variable 'ob'
+69,11,error,no-member:Class 'LostItems' has no 'objects' member
+79,11,error,no-member:Class 'LostItems' has no 'objects' member
+92,11,error,no-member:Class 'LostItems' has no 'objects' member
+8,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+8,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+8,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 6.46/10 (previous run: 6.46/10, +0.00)
+
+##########Linting Output - pylint##########
+************* Module api.views
+37,13,error,no-member:Class 'LostItems' has no 'objects' member
+44,23,error,no-member:Class 'LostItems' has no 'objects' member
+69,11,error,no-member:Class 'LostItems' has no 'objects' member
+79,11,error,no-member:Class 'LostItems' has no 'objects' member
+92,11,error,no-member:Class 'LostItems' has no 'objects' member
+8,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+8,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+8,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 6.59/10 (previous run: 6.46/10, +0.12)
+
+
+Formatting with autopep8 failed.
+You could either install the 'autopep8' formatter, turn it off or use another formatter.
+Error: Module 'autopep8' not installed.
+##########Linting Output - pylint##########
+************* Module api.views
+37,13,error,no-member:Class 'LostItems' has no 'objects' member
+44,23,error,no-member:Class 'LostItems' has no 'objects' member
+69,11,error,no-member:Class 'LostItems' has no 'objects' member
+79,11,error,no-member:Class 'LostItems' has no 'objects' member
+92,11,error,no-member:Class 'LostItems' has no 'objects' member
+8,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+8,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+8,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 6.59/10 (previous run: 6.59/10, +0.00)
+
+##########Linting Output - pylint##########
+************* Module api.views
+37,13,error,no-member:Class 'LostItems' has no 'objects' member
+44,23,error,no-member:Class 'LostItems' has no 'objects' member
+71,11,error,no-member:Class 'LostItems' has no 'objects' member
+81,11,error,no-member:Class 'LostItems' has no 'objects' member
+95,11,error,no-member:Class 'LostItems' has no 'objects' member
+8,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+8,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+8,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 6.59/10 (previous run: 6.59/10, +0.00)
+
+##########Linting Output - pylint##########
+************* Module api.views
+37,13,error,no-member:Class 'LostItems' has no 'objects' member
+43,17,error,no-member:Class 'LostItems' has no 'objects' member
+##########Linting Output - pylint##########
+************* Module api.views
+37,13,error,no-member:Class 'LostItems' has no 'objects' member
+43,19,error,no-member:Class 'LostItems' has no 'objects' member
+66,11,error,no-member:Class 'LostItems' has no 'objects' member
+76,11,error,no-member:Class 'LostItems' has no 'objects' member
+90,11,error,no-member:Class 'LostItems' has no 'objects' member
+8,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+8,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+8,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 6.46/10 (previous run: 6.59/10, -0.13)
+
+##########Linting Output - pylint##########
+************* Module api.views
+37,13,error,no-member:Class 'LostItems' has no 'objects' member
+43,19,error,no-member:Class 'LostItems' has no 'objects' member
+66,11,error,no-member:Class 'LostItems' has no 'objects' member
+76,11,error,no-member:Class 'LostItems' has no 'objects' member
+90,11,error,no-member:Class 'LostItems' has no 'objects' member
+8,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+8,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+8,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 6.46/10 (previous run: 6.46/10, +0.00)
+
+##########Linting Output - pylint##########
+************* Module api.views
+37,13,error,no-member:Class 'LostItems' has no 'objects' member
+43,19,error,no-member:Class 'LostItems' has no 'objects' member
+66,11,error,no-member:Class 'LostItems' has no 'objects' member
+76,11,error,no-member:Class 'LostItems' has no 'objects' member
+90,11,error,no-member:Class 'LostItems' has no 'objects' member
+8,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+8,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+8,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 6.46/10 (previous run: 6.46/10, +0.00)
+
+##########Linting Output - pylint##########
+************* Module api.views
+37,13,error,no-member:Class 'LostItems' has no 'objects' member
+44,23,error,no-member:Class 'LostItems' has no 'objects' member
+69,11,error,no-member:Class 'LostItems' has no 'objects' member
+79,11,error,no-member:Class 'LostItems' has no 'objects' member
+92,11,error,no-member:Class 'LostItems' has no 'objects' member
+8,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+8,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+8,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 6.59/10 (previous run: 6.46/10, +0.13)
+
+##########Linting Output - pylint##########
+************* Module api.views
+37,13,error,no-member:Class 'LostItems' has no 'objects' member
+44,23,error,no-member:Class 'LostItems' has no 'objects' member
+69,11,error,no-member:Class 'LostItems' has no 'objects' member
+79,11,error,no-member:Class 'LostItems' has no 'objects' member
+92,11,error,no-member:Class 'LostItems' has no 'objects' member
+8,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+8,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+8,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 6.59/10 (previous run: 6.59/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+************* Module api.views
+37,13,error,no-member:Class 'LostItems' has no 'objects' member
+44,23,error,no-member:Class 'LostItems' has no 'objects' member
+46,16,warning,unused-variable:Unused variable 'fd'
+69,11,error,no-member:Class 'LostItems' has no 'objects' member
+79,11,error,no-member:Class 'LostItems' has no 'objects' member
+92,11,error,no-member:Class 'LostItems' has no 'objects' member
+8,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+8,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+8,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 6.46/10 (previous run: 6.59/10, -0.12)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+************* Module api.views
+37,13,error,no-member:Class 'LostItems' has no 'objects' member
+44,23,error,no-member:Class 'LostItems' has no 'objects' member
+73,11,error,no-member:Class 'LostItems' has no 'objects' member
+83,11,error,no-member:Class 'LostItems' has no 'objects' member
+96,11,error,no-member:Class 'LostItems' has no 'objects' member
+8,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+8,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+8,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 6.74/10 (previous run: 6.46/10, +0.28)
+
+##########Linting Output - pylint##########
+************* Module api.views
+37,13,error,no-member:Class 'LostItems' has no 'objects' member
+44,23,error,no-member:Class 'LostItems' has no 'objects' member
+74,11,error,no-member:Class 'LostItems' has no 'objects' member
+84,11,error,no-member:Class 'LostItems' has no 'objects' member
+97,11,error,no-member:Class 'LostItems' has no 'objects' member
+8,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+8,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+8,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 6.78/10 (previous run: 6.74/10, +0.04)
+
+##########Linting Output - pylint##########
+************* Module api.views
+37,13,error,no-member:Class 'LostItems' has no 'objects' member
+44,23,error,no-member:Class 'LostItems' has no 'objects' member
+75,11,error,no-member:Class 'LostItems' has no 'objects' member
+85,11,error,no-member:Class 'LostItems' has no 'objects' member
+98,11,error,no-member:Class 'LostItems' has no 'objects' member
+8,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+8,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+8,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 6.82/10 (previous run: 6.78/10, +0.04)
+
+##########Linting Output - pylint##########
+************* Module api.views
+37,13,error,no-member:Class 'LostItems' has no 'objects' member
+44,23,error,no-member:Class 'LostItems' has no 'objects' member
+77,11,error,no-member:Class 'LostItems' has no 'objects' member
+87,11,error,no-member:Class 'LostItems' has no 'objects' member
+101,11,error,no-member:Class 'LostItems' has no 'objects' member
+8,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+8,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+8,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 6.82/10 (previous run: 6.82/10, +0.00)
+
+##########Linting Output - pylint##########
+************* Module api.views
+37,13,error,no-member:Class 'LostItems' has no 'objects' member
+44,23,error,no-member:Class 'LostItems' has no 'objects' member
+77,11,error,no-member:Class 'LostItems' has no 'objects' member
+87,11,error,no-member:Class 'LostItems' has no 'objects' member
+101,11,error,no-member:Class 'LostItems' has no 'objects' member
+8,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+8,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+8,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 6.82/10 (previous run: 6.82/10, +0.00)
+
+##########Linting Output - pylint##########
+************* Module api.views
+37,13,error,no-member:Class 'LostItems' has no 'objects' member
+44,23,error,no-member:Class 'LostItems' has no 'objects' member
+78,11,error,no-member:Class 'LostItems' has no 'objects' member
+88,11,error,no-member:Class 'LostItems' has no 'objects' member
+102,11,error,no-member:Class 'LostItems' has no 'objects' member
+8,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+8,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+8,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 6.85/10 (previous run: 6.82/10, +0.04)
+
+##########Linting Output - pylint##########
+************* Module api.admin
+2,0,warning,unused-wildcard-import:Unused import FoundButNotAssigned from wildcard import
+2,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+-----------------------------------
+Your code has been rated at 6.00/10
+
+##########Linting Output - pylint##########
+************* Module api.admin
+2,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 8.33/10 (previous run: 6.00/10, +2.33)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+************* Module api.views
+37,13,error,no-member:Class 'LostItems' has no 'objects' member
+44,23,error,no-member:Class 'LostItems' has no 'objects' member
+79,11,error,no-member:Class 'LostItems' has no 'objects' member
+89,11,error,no-member:Class 'LostItems' has no 'objects' member
+103,11,error,no-member:Class 'LostItems' has no 'objects' member
+8,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+8,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+8,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 6.89/10 (previous run: 6.85/10, +0.03)
+
+##########Linting Output - pylint##########
+************* Module api.views
+37,13,error,no-member:Class 'LostItems' has no 'objects' member
+44,23,error,no-member:Class 'LostItems' has no 'objects' member
+53,16,warning,unused-variable:Unused variable 'doc_img'
+79,11,error,no-member:Class 'LostItems' has no 'objects' member
+89,11,error,no-member:Class 'LostItems' has no 'objects' member
+103,11,error,no-member:Class 'LostItems' has no 'objects' member
+8,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+8,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+8,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 6.78/10 (previous run: 6.89/10, -0.11)
+
+##########Linting Output - pylint##########
+************* Module api.views
+37,13,error,no-member:Class 'LostItems' has no 'objects' member
+44,23,error,no-member:Class 'LostItems' has no 'objects' member
+81,11,error,no-member:Class 'LostItems' has no 'objects' member
+91,11,error,no-member:Class 'LostItems' has no 'objects' member
+105,11,error,no-member:Class 'LostItems' has no 'objects' member
+8,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+8,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+8,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 6.96/10 (previous run: 6.78/10, +0.18)
+
+##########Linting Output - pylint##########
+************* Module api.views
+37,13,error,no-member:Class 'LostItems' has no 'objects' member
+44,23,error,no-member:Class 'LostItems' has no 'objects' member
+82,11,error,no-member:Class 'LostItems' has no 'objects' member
+92,11,error,no-member:Class 'LostItems' has no 'objects' member
+106,11,error,no-member:Class 'LostItems' has no 'objects' member
+8,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+8,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+8,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 6.99/10 (previous run: 6.96/10, +0.03)
+
+##########Linting Output - pylint##########
+************* Module api.views
+57,0,error,syntax-error:invalid syntax (<unknown>, line 57)
+##########Linting Output - pylint##########
+************* Module api.views
+37,13,error,no-member:Class 'LostItems' has no 'objects' member
+44,23,error,no-member:Class 'LostItems' has no 'objects' member
+83,11,error,no-member:Class 'LostItems' has no 'objects' member
+93,11,error,no-member:Class 'LostItems' has no 'objects' member
+107,11,error,no-member:Class 'LostItems' has no 'objects' member
+8,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+8,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+8,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 7.02/10 (previous run: 6.99/10, +0.03)
+
+##########Linting Output - pylint##########
+************* Module api.views
+37,13,error,no-member:Class 'LostItems' has no 'objects' member
+44,23,error,no-member:Class 'LostItems' has no 'objects' member
+83,11,error,no-member:Class 'LostItems' has no 'objects' member
+93,11,error,no-member:Class 'LostItems' has no 'objects' member
+107,11,error,no-member:Class 'LostItems' has no 'objects' member
+8,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+8,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+8,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 7.02/10 (previous run: 7.02/10, +0.00)
+
+##########Linting Output - pylint##########
+##########Linting Output - pylint##########
+************* Module api.views
+37,13,error,no-member:Class 'LostItems' has no 'objects' member
+44,23,error,no-member:Class 'LostItems' has no 'objects' member
+83,11,error,no-member:Class 'LostItems' has no 'objects' member
+93,11,error,no-member:Class 'LostItems' has no 'objects' member
+107,11,error,no-member:Class 'LostItems' has no 'objects' member
+8,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+8,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+8,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 7.02/10 (previous run: 7.02/10, +0.00)
+
+##########Linting Output - pylint##########
+************* Module api.views
+37,13,error,no-member:Class 'LostItems' has no 'objects' member
+44,23,error,no-member:Class 'LostItems' has no 'objects' member
+83,11,error,no-member:Class 'LostItems' has no 'objects' member
+93,11,error,no-member:Class 'LostItems' has no 'objects' member
+107,11,error,no-member:Class 'LostItems' has no 'objects' member
+143,9,error,no-member:Class 'FoundButNotAssigned' has no 'objects' member
+143,4,warning,unused-variable:Unused variable 'fd'
+8,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+8,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+8,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 6.46/10 (previous run: 7.02/10, -0.56)
+
+##########Linting Output - pylint##########
+************* Module api.views
+37,13,error,no-member:Class 'LostItems' has no 'objects' member
+44,23,error,no-member:Class 'LostItems' has no 'objects' member
+83,11,error,no-member:Class 'LostItems' has no 'objects' member
+93,11,error,no-member:Class 'LostItems' has no 'objects' member
+107,11,error,no-member:Class 'LostItems' has no 'objects' member
+143,9,error,no-member:Class 'FoundButNotAssigned' has no 'objects' member
+143,4,warning,unused-variable:Unused variable 'fd'
+8,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+8,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+8,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 6.46/10 (previous run: 6.46/10, +0.00)
+
+##########Linting Output - pylint##########
+************* Module api.views
+37,13,error,no-member:Class 'LostItems' has no 'objects' member
+44,23,error,no-member:Class 'LostItems' has no 'objects' member
+83,11,error,no-member:Class 'LostItems' has no 'objects' member
+93,11,error,no-member:Class 'LostItems' has no 'objects' member
+107,11,error,no-member:Class 'LostItems' has no 'objects' member
+143,9,error,no-member:Class 'FoundButNotAssigned' has no 'objects' member
+145,24,error,undefined-variable:Undefined variable 'fd_data'
+146,26,error,undefined-variable:Undefined variable 'fd_data'
+147,23,error,undefined-variable:Undefined variable 'fd_data'
+148,25,error,undefined-variable:Undefined variable 'fd_data'
+149,28,error,undefined-variable:Undefined variable 'fd_data'
+150,24,error,undefined-variable:Undefined variable 'fd_data'
+143,4,warning,unused-variable:Unused variable 'fd'
+144,4,warning,unused-variable:Unused variable 'data'
+8,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+8,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+8,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 3.30/10 (previous run: 6.46/10, -3.16)
+
+##########Linting Output - pylint##########
+************* Module api.views
+37,13,error,no-member:Class 'LostItems' has no 'objects' member
+44,23,error,no-member:Class 'LostItems' has no 'objects' member
+83,11,error,no-member:Class 'LostItems' has no 'objects' member
+93,11,error,no-member:Class 'LostItems' has no 'objects' member
+107,11,error,no-member:Class 'LostItems' has no 'objects' member
+143,9,error,no-member:Class 'FoundButNotAssigned' has no 'objects' member
+144,4,warning,unused-variable:Unused variable 'data'
+8,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+8,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+8,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 6.49/10 (previous run: 3.30/10, +3.20)
+
+##########Linting Output - pylint##########
+************* Module api.views
+37,13,error,no-member:Class 'LostItems' has no 'objects' member
+44,23,error,no-member:Class 'LostItems' has no 'objects' member
+83,11,error,no-member:Class 'LostItems' has no 'objects' member
+93,11,error,no-member:Class 'LostItems' has no 'objects' member
+107,11,error,no-member:Class 'LostItems' has no 'objects' member
+143,9,error,no-member:Class 'FoundButNotAssigned' has no 'objects' member
+8,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+8,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+8,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 6.63/10 (previous run: 6.49/10, +0.14)
+
+##########Linting Output - pylint##########
+************* Module ndaragisha.urls
+23,0,warning,unused-wildcard-import:Unused import json from wildcard import
+23,0,warning,unused-wildcard-import:Unused import handle_found_items_model_forms from wildcard import
+23,0,warning,unused-wildcard-import:Unused import FileSystemStorage from wildcard import
+23,0,warning,unused-wildcard-import:Unused import HttpResponse from wildcard import
+23,0,warning,unused-wildcard-import:Unused import redirect from wildcard import
+23,0,warning,unused-wildcard-import:Unused import render from wildcard import
+23,0,warning,unused-wildcard-import:Unused import ObjectDoesNotExist from wildcard import
+23,0,warning,unused-wildcard-import:Unused import send_mail from wildcard import
+23,0,warning,unused-wildcard-import:Unused import send_mass_mail from wildcard import
+23,0,warning,unused-wildcard-import:Unused import FoundItemsForms from wildcard import
+23,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+23,0,warning,unused-wildcard-import:Unused import LostItems from wildcard import
+23,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+23,0,warning,unused-wildcard-import:Unused import IncomingMessage from wildcard import
+23,0,warning,unused-wildcard-import:Unused import FoundButNotAssigned from wildcard import
+23,0,warning,unused-wildcard-import:Unused import models from wildcard import
+24,0,warning,unused-wildcard-import:Unused import hashlib from wildcard import
+24,0,warning,unused-wildcard-import:Unused import ClientUsers from wildcard import
+
+--------------------------------------------------------------------
+Your code has been rated at -6.36/10 (previous run: -5.45/10, -0.91)
+
+##########Linting Output - pylint##########
+##########Linting Output - pylint##########
+##########Linting Output - pylint##########
+************* Module api.views
+37,13,error,no-member:Class 'LostItems' has no 'objects' member
+44,23,error,no-member:Class 'LostItems' has no 'objects' member
+83,11,error,no-member:Class 'LostItems' has no 'objects' member
+93,11,error,no-member:Class 'LostItems' has no 'objects' member
+107,11,error,no-member:Class 'LostItems' has no 'objects' member
+143,9,error,no-member:Class 'FoundButNotAssigned' has no 'objects' member
+144,23,warning,duplicate-key:Duplicate key 'found_person' in dictionary
+8,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+8,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+8,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 6.53/10 (previous run: 6.63/10, -0.10)
+
+##########Linting Output - pylint##########
+##########Linting Output - pylint##########
+************* Module api.views
+37,13,error,no-member:Class 'LostItems' has no 'objects' member
+44,23,error,no-member:Class 'LostItems' has no 'objects' member
+83,11,error,no-member:Class 'LostItems' has no 'objects' member
+93,11,error,no-member:Class 'LostItems' has no 'objects' member
+107,11,error,no-member:Class 'LostItems' has no 'objects' member
+143,9,error,no-member:Class 'FoundButNotAssigned' has no 'objects' member
+144,23,warning,duplicate-key:Duplicate key 'found_person' in dictionary
+8,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+8,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+8,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 6.53/10 (previous run: 6.53/10, +0.00)
+
+##########Linting Output - pylint##########
+************* Module api.views
+10,0,error,import-error:Unable to import 'twilio.rest'
+37,13,error,no-member:Class 'LostItems' has no 'objects' member
+44,23,error,no-member:Class 'LostItems' has no 'objects' member
+83,11,error,no-member:Class 'LostItems' has no 'objects' member
+93,11,error,no-member:Class 'LostItems' has no 'objects' member
+107,11,error,no-member:Class 'LostItems' has no 'objects' member
+143,9,error,no-member:Class 'FoundButNotAssigned' has no 'objects' member
+144,23,warning,duplicate-key:Duplicate key 'found_person' in dictionary
+8,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+8,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+8,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 6.06/10 (previous run: 6.53/10, -0.47)
+
+##########Linting Output - pylint##########
+************* Module api.views
+10,0,error,import-error:Unable to import 'twilio.rest'
+45,13,error,no-member:Class 'LostItems' has no 'objects' member
+52,23,error,no-member:Class 'LostItems' has no 'objects' member
+91,11,error,no-member:Class 'LostItems' has no 'objects' member
+101,11,error,no-member:Class 'LostItems' has no 'objects' member
+115,11,error,no-member:Class 'LostItems' has no 'objects' member
+151,9,error,no-member:Class 'FoundButNotAssigned' has no 'objects' member
+152,23,warning,duplicate-key:Duplicate key 'found_person' in dictionary
+8,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+8,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+8,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 6.06/10 (previous run: 6.06/10, +0.00)
+
+##########Linting Output - pylint##########
+************* Module api.views
+14,0,error,syntax-error:invalid syntax (<unknown>, line 14)
+##########Linting Output - pylint##########
+************* Module api.views
+10,0,error,import-error:Unable to import 'twilio.rest'
+15,13,error,undefined-variable:Undefined variable 'ACb056fa416d99f0642c4ad4f6346d7df1'
+15,4,warning,unused-variable:Unused variable 'acc_id'
+46,13,error,no-member:Class 'LostItems' has no 'objects' member
+53,23,error,no-member:Class 'LostItems' has no 'objects' member
+92,11,error,no-member:Class 'LostItems' has no 'objects' member
+102,11,error,no-member:Class 'LostItems' has no 'objects' member
+116,11,error,no-member:Class 'LostItems' has no 'objects' member
+152,9,error,no-member:Class 'FoundButNotAssigned' has no 'objects' member
+153,23,warning,duplicate-key:Duplicate key 'found_person' in dictionary
+8,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+8,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+8,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 5.54/10 (previous run: 6.06/10, -0.52)
+
+##########Linting Output - pylint##########
+************* Module api.views
+10,0,error,import-error:Unable to import 'twilio.rest'
+15,4,warning,unused-variable:Unused variable 'acc_id'
+16,4,warning,unused-variable:Unused variable 'auth_token'
+47,13,error,no-member:Class 'LostItems' has no 'objects' member
+54,23,error,no-member:Class 'LostItems' has no 'objects' member
+93,11,error,no-member:Class 'LostItems' has no 'objects' member
+103,11,error,no-member:Class 'LostItems' has no 'objects' member
+117,11,error,no-member:Class 'LostItems' has no 'objects' member
+153,9,error,no-member:Class 'FoundButNotAssigned' has no 'objects' member
+154,23,warning,duplicate-key:Duplicate key 'found_person' in dictionary
+8,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+8,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+8,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 5.98/10 (previous run: 5.54/10, +0.44)
+
+##########Linting Output - pylint##########
+************* Module api.views
+17,0,error,syntax-error:invalid syntax (<unknown>, line 17)
+##########Linting Output - pylint##########
+************* Module api.views
+10,0,error,import-error:Unable to import 'twilio.rest'
+15,4,warning,unused-variable:Unused variable 'acc_id'
+16,4,warning,unused-variable:Unused variable 'auth_token'
+17,4,warning,unused-variable:Unused variable 'send'
+50,13,error,no-member:Class 'LostItems' has no 'objects' member
+57,23,error,no-member:Class 'LostItems' has no 'objects' member
+96,11,error,no-member:Class 'LostItems' has no 'objects' member
+106,11,error,no-member:Class 'LostItems' has no 'objects' member
+120,11,error,no-member:Class 'LostItems' has no 'objects' member
+156,9,error,no-member:Class 'FoundButNotAssigned' has no 'objects' member
+157,23,warning,duplicate-key:Duplicate key 'found_person' in dictionary
+8,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+8,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+8,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 5.92/10 (previous run: 5.98/10, -0.06)
+
+##########Linting Output - pylint##########
+************* Module api.views
+10,0,error,import-error:Unable to import 'twilio.rest'
+15,4,warning,unused-variable:Unused variable 'acc_id'
+16,4,warning,unused-variable:Unused variable 'auth_token'
+17,4,warning,unused-variable:Unused variable 'send'
+50,13,error,no-member:Class 'LostItems' has no 'objects' member
+57,23,error,no-member:Class 'LostItems' has no 'objects' member
+96,11,error,no-member:Class 'LostItems' has no 'objects' member
+106,11,error,no-member:Class 'LostItems' has no 'objects' member
+120,11,error,no-member:Class 'LostItems' has no 'objects' member
+156,9,error,no-member:Class 'FoundButNotAssigned' has no 'objects' member
+157,23,warning,duplicate-key:Duplicate key 'found_person' in dictionary
+8,0,warning,unused-wildcard-import:Unused import forms from wildcard import
+8,0,warning,unused-wildcard-import:Unused import FoundItems from wildcard import
+8,0,warning,unused-wildcard-import:Unused import models from wildcard import
+
+------------------------------------------------------------------
+Your code has been rated at 5.92/10 (previous run: 5.92/10, +0.00)
+
+##########Linting Output - pylint##########
+************* Module api.views
+23,0,error,syntax-error:invalid syntax (<unknown>, line 23)
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
