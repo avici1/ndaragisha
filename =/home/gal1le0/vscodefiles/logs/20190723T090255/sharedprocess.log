@@ -67,6 +67,7 @@
 [2019-07-23 11:48:17.239] [sharedprocess] [info] Scanned user extensions: 7
 [2019-07-23 11:53:17.259] [sharedprocess] [info] Scanned user extensions: 7
 [2019-07-23 11:58:17.282] [sharedprocess] [info] Scanned user extensions: 7
+<<<<<<< HEAD
 [2019-07-23 12:03:17.305] [sharedprocess] [info] Scanned user extensions: 7
 [2019-07-23 12:08:18.365] [sharedprocess] [info] Scanned user extensions: 7
 [2019-07-23 12:13:18.424] [sharedprocess] [info] Scanned user extensions: 7
@@ -92,3 +93,5 @@
 [2019-07-23 13:53:26.061] [sharedprocess] [info] Scanned user extensions: 7
 [2019-07-23 13:58:26.120] [sharedprocess] [info] Scanned user extensions: 7
 [2019-07-23 14:03:26.162] [sharedprocess] [info] Scanned user extensions: 7
+=======
+>>>>>>> 0324e2221f55e6f5b3b43456e5055f1fd1ad4f76

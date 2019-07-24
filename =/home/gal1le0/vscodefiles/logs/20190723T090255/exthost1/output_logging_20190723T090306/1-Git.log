@@ -10569,6 +10569,7 @@ fatal: no upstream configured for branch 'master'
 > git for-each-ref --format %(refname) %(objectname) --sort -committerdate
 > git remote --verbose
 > git status -z -u
+<<<<<<< HEAD
 > git symbolic-ref --short HEAD
 > git rev-parse master
 > git rev-parse --symbolic-full-name master@{u}
@@ -11586,3 +11587,5 @@ fatal: no upstream configured for branch 'master'
 fatal: no upstream configured for branch 'master'
 > git for-each-ref --format %(refname) %(objectname) --sort -committerdate
 > git remote --verbose
+=======
+>>>>>>> 0324e2221f55e6f5b3b43456e5055f1fd1ad4f76

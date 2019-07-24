@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"id":"monaco-parts-splash","colorInfo":{"foreground":"#cccccc","editorBackground":"#272822","titleBarBackground":"#1e1f1c","activityBarBackground":"#272822","sideBarBackground":"#1e1f1c","statusBarBackground":"#414339","statusBarNoFolderBackground":"#414339"},"layoutInfo":{"sideBarSide":"left","editorPartMinWidth":220,"titleBarHeight":0,"activityBarWidth":50,"sideBarWidth":0,"statusBarHeight":22},"baseTheme":"vs-dark"}
+=======
+{"id":"monaco-parts-splash","colorInfo":{"foreground":"#cccccc","editorBackground":"#272822","titleBarBackground":"#1e1f1c","activityBarBackground":"#272822","sideBarBackground":"#1e1f1c","statusBarBackground":"#414339","statusBarNoFolderBackground":"#414339"},"layoutInfo":{"sideBarSide":"left","editorPartMinWidth":220,"titleBarHeight":0,"activityBarWidth":50,"sideBarWidth":170,"statusBarHeight":22},"baseTheme":"vs-dark"}
+>>>>>>> 0324e2221f55e6f5b3b43456e5055f1fd1ad4f76

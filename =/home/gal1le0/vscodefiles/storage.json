@@ -4,9 +4,13 @@
         "workspaces3": [
             "file:///home/gal1le0/development/native/ndaragisha"
         ],
+<<<<<<< HEAD
         "files2": [
             "file:///media/gal1le0/D/users.html"
         ]
+=======
+        "files2": []
+>>>>>>> 0324e2221f55e6f5b3b43456e5055f1fd1ad4f76
     },
     "lastKnownMenubarData": {
         "menus": {
@@ -63,6 +67,7 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
+<<<<<<< HEAD
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
@@ -77,6 +82,8 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
+=======
+>>>>>>> 0324e2221f55e6f5b3b43456e5055f1fd1ad4f76
                                     "id": "workbench.action.openRecent",
                                     "label": "&&More..."
                                 },

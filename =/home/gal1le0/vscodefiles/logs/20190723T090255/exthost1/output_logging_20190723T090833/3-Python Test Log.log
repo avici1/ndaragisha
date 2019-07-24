@@ -30456,6 +30456,7 @@ nose.suite: DEBUG: precache is []
 Ran 0 tests in 0.173s
 
 OK
+<<<<<<< HEAD
 nose.config: INFO: Ignoring files matching ['^\\.', '^_', '^setup\\.py$']
 nose.plugins.manager: DEBUG: Configuring plugins
 nose.plugins.manager: DEBUG: Plugins enabled: [<nose.plugins.capture.Capture object at 0x7f92fdcb62e8>, <nose.plugins.logcapture.LogCapture object at 0x7f92fdcc1c18>, <nose.plugins.deprecated.Deprecated object at 0x7f92fdc52b38>, <nose.plugins.skip.Skip object at 0x7f92fdc23400>, <nose.plugins.collect.CollectOnly object at 0x7f92fdba37b8>]
@@ -33368,3 +33369,5 @@ nose.suite: DEBUG: precache is []
 Ran 0 tests in 0.468s
 
 OK
+=======
+>>>>>>> 0324e2221f55e6f5b3b43456e5055f1fd1ad4f76
